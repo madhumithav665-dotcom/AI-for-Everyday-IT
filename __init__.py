@@ -1,62 +1,51 @@
-# -*- coding: utf-8 -*-
 #
-#  SelfTest/Hash/__init__.py: Self-test for hash modules
-#
-# Written in 2008 by Dwayne C. Litzenberger <dlitz@dlitz.net>
+#  SelfTest/Math/__init__.py: Self-test for math module
 #
 # ===================================================================
-# The contents of this file are dedicated to the public domain.  To
-# the extent that dedication to the public domain is not available,
-# everyone is granted a worldwide, perpetual, royalty-free,
-# non-exclusive license to exercise all rights associated with the
-# contents of this file for any purpose whatsoever.
-# No rights are reserved.
 #
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-# NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
-# BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
-# ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-# CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-# SOFTWARE.
+# Copyright (c) 2014, Legrandin <helderijs@gmail.com>
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions
+# are met:
+#
+# 1. Redistributions of source code must retain the above copyright
+#    notice, this list of conditions and the following disclaimer.
+# 2. Redistributions in binary form must reproduce the above copyright
+#    notice, this list of conditions and the following disclaimer in
+#    the documentation and/or other materials provided with the
+#    distribution.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+# "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+# FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+# COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+# INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+# BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+# LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+# CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+# LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+# ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+# POSSIBILITY OF SUCH DAMAGE.
 # ===================================================================
 
-"""Self-test for hash modules"""
-
-__revision__ = "$Id$"
+"""Self-test for Math"""
 
 def get_tests(config={}):
     tests = []
-    from Cryptodome.SelfTest.Hash import test_HMAC;       tests += test_HMAC.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_CMAC;       tests += test_CMAC.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_MD2;        tests += test_MD2.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_MD4;        tests += test_MD4.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_MD5;        tests += test_MD5.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_RIPEMD160;  tests += test_RIPEMD160.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_SHA1;       tests += test_SHA1.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_SHA224;     tests += test_SHA224.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_SHA256;     tests += test_SHA256.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_SHA384;     tests += test_SHA384.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_SHA512;     tests += test_SHA512.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_SHA3_224;   tests += test_SHA3_224.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_SHA3_256;   tests += test_SHA3_256.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_SHA3_384;   tests += test_SHA3_384.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_SHA3_512;   tests += test_SHA3_512.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_keccak;     tests += test_keccak.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_SHAKE;      tests += test_SHAKE.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_BLAKE2;     tests += test_BLAKE2.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_Poly1305;   tests += test_Poly1305.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_cSHAKE;     tests += test_cSHAKE.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_KMAC;       tests += test_KMAC.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_TupleHash;  tests += test_TupleHash.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_KangarooTwelve;  tests += test_KangarooTwelve.get_tests(config=config)
-    from Cryptodome.SelfTest.Hash import test_TurboSHAKE; tests += test_TurboSHAKE.get_tests(config=config)
+    from Cryptodome.SelfTest.Math import test_Numbers
+    from Cryptodome.SelfTest.Math import test_Primality
+    from Cryptodome.SelfTest.Math import test_modexp
+    from Cryptodome.SelfTest.Math import test_modmult
+    tests += test_Numbers.get_tests(config=config)
+    tests += test_Primality.get_tests(config=config)
+    tests += test_modexp.get_tests(config=config)
+    tests += test_modmult.get_tests(config=config)
     return tests
 
 if __name__ == '__main__':
     import unittest
     suite = lambda: unittest.TestSuite(get_tests())
     unittest.main(defaultTest='suite')
-
-# vim:set ts=4 sw=4 sts=4 expandtab:
