@@ -1,330 +1,331 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Alex Gaynor <inactive+Alex@transifex.com>, 2011-2012
+# André Bouatchidzé <a@anbz.net>, 2013-2015
+# David A. <avsd05@gmail.com>, 2019
+# David A. <avsd05@gmail.com>, 2011
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Meir Kriheli <mkriheli@gmail.com>, 2011-2015,2017,2019
-# אורי רודברג <uri@speedy.net>, 2020
+# Tornike Beradze <beradze@europe.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-27 22:40+0200\n"
-"PO-Revision-Date: 2020-01-19 11:47+0000\n"
-"Last-Translator: אורי רודברג <uri@speedy.net>\n"
-"Language-Team: Hebrew (http://www.transifex.com/django/django/language/he/)\n"
+"PO-Revision-Date: 2019-11-05 00:38+0000\n"
+"Last-Translator: Ramiro Morales\n"
+"Language-Team: Georgian (http://www.transifex.com/django/django/language/"
+"ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: he\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
-"1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
+"Language: ka\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 msgid "Afrikaans"
-msgstr "אפריקאנס"
+msgstr "აფრიკაანსი"
 
 msgid "Arabic"
-msgstr "ערבית"
+msgstr "არაბული"
 
 msgid "Asturian"
-msgstr "אסטורית"
+msgstr "ასტურიული"
 
 msgid "Azerbaijani"
-msgstr "אזרית"
+msgstr "აზერბაიჯანული"
 
 msgid "Bulgarian"
-msgstr "בולגרית"
+msgstr "ბულგარული"
 
 msgid "Belarusian"
-msgstr "בֶּלָרוּסִית"
+msgstr "ბელარუსული"
 
 msgid "Bengali"
-msgstr "בנגאלית"
+msgstr "ბენგალიური"
 
 msgid "Breton"
-msgstr "בְּרֶטוֹנִית"
+msgstr "ბრეტონული"
 
 msgid "Bosnian"
-msgstr "בוסנית"
+msgstr "ბოსნიური"
 
 msgid "Catalan"
-msgstr "קאטלונית"
+msgstr "კატალანური"
 
 msgid "Czech"
-msgstr "צ'כית"
+msgstr "ჩეხური"
 
 msgid "Welsh"
-msgstr "וולשית"
+msgstr "უელსური"
 
 msgid "Danish"
-msgstr "דנית"
+msgstr "დანიური"
 
 msgid "German"
-msgstr "גרמנית"
+msgstr "გერმანული"
 
 msgid "Lower Sorbian"
-msgstr "סורבית תחתונה"
+msgstr "ქვემო სორბული"
 
 msgid "Greek"
-msgstr "יוונית"
+msgstr "ბერძნული"
 
 msgid "English"
-msgstr "אנגלית"
+msgstr "ინგლისური"
 
 msgid "Australian English"
-msgstr "אנגלית אוסטרלית"
+msgstr "ავსტრალიური ინგლისური"
 
 msgid "British English"
-msgstr "אנגלית בריטית"
+msgstr "ბრიტანეთის ინგლისური"
 
 msgid "Esperanto"
-msgstr "אספרנטו"
+msgstr "ესპერანტო"
 
 msgid "Spanish"
-msgstr "ספרדית"
+msgstr "ესპანური"
 
 msgid "Argentinian Spanish"
-msgstr "ספרדית ארגנטינית"
+msgstr "არგენტინის ესპანური"
 
 msgid "Colombian Spanish"
-msgstr "ספרדית קולומביאנית"
+msgstr "კოლუმბიური ესპანური"
 
 msgid "Mexican Spanish"
-msgstr "ספרדית מקסיקנית"
+msgstr "მექსიკური ესპანური"
 
 msgid "Nicaraguan Spanish"
-msgstr "ספרדית ניקרגואה"
+msgstr "ნიკარაგუული ესპანური"
 
 msgid "Venezuelan Spanish"
-msgstr "ספרדית ונצואלית"
+msgstr "ვენესუელის ესპანური"
 
 msgid "Estonian"
-msgstr "אסטונית"
+msgstr "ესტონური"
 
 msgid "Basque"
-msgstr "בסקית"
+msgstr "ბასკური"
 
 msgid "Persian"
-msgstr "פרסית"
+msgstr "სპარსული"
 
 msgid "Finnish"
-msgstr "פינית"
+msgstr "ფინური"
 
 msgid "French"
-msgstr "צרפתית"
+msgstr "ფრანგული"
 
 msgid "Frisian"
-msgstr "פריזית"
+msgstr "ფრისიული"
 
 msgid "Irish"
-msgstr "אירית"
+msgstr "ირლანდიური"
 
 msgid "Scottish Gaelic"
-msgstr "גאלית סקוטית"
+msgstr "შოტლანდიური-გელური"
 
 msgid "Galician"
-msgstr "גאליציאנית"
+msgstr "გალიციური"
 
 msgid "Hebrew"
-msgstr "עברית"
+msgstr "ებრაული"
 
 msgid "Hindi"
-msgstr "הינדי"
+msgstr "ჰინდი"
 
 msgid "Croatian"
-msgstr "קרואטית"
+msgstr "ხორვატიული"
 
 msgid "Upper Sorbian"
-msgstr "סורבית עילית"
+msgstr "ზემო სორბიული"
 
 msgid "Hungarian"
-msgstr "הונגרית"
+msgstr "უნგრული"
 
 msgid "Armenian"
-msgstr "ארמנית"
+msgstr "სომხური"
 
 msgid "Interlingua"
-msgstr "אינטרלינגואה"
+msgstr "ინტერლინგუა"
 
 msgid "Indonesian"
-msgstr "אינדונזית"
+msgstr "ინდონეზიური"
 
 msgid "Ido"
-msgstr "אידו"
+msgstr "იდო"
 
 msgid "Icelandic"
-msgstr "איסלנדית"
+msgstr "ისლანდიური"
 
 msgid "Italian"
-msgstr "איטלקית"
+msgstr "იტალიური"
 
 msgid "Japanese"
-msgstr "יפנית"
+msgstr "იაპონური"
 
 msgid "Georgian"
-msgstr "גיאורגית"
+msgstr "ქართული"
 
 msgid "Kabyle"
-msgstr "קבילה"
+msgstr "კაბილური"
 
 msgid "Kazakh"
-msgstr "קזחית"
+msgstr "ყაზახური"
 
 msgid "Khmer"
-msgstr "חמר"
+msgstr "ხმერული"
 
 msgid "Kannada"
-msgstr "קאנאדה"
+msgstr "კანნადა"
 
 msgid "Korean"
-msgstr "קוריאנית"
+msgstr "კორეული"
 
 msgid "Luxembourgish"
-msgstr "לוקסמבורגית"
+msgstr "ლუქსემბურგული"
 
 msgid "Lithuanian"
-msgstr "ליטאית"
+msgstr "ლიტვური"
 
 msgid "Latvian"
-msgstr "לטבית"
+msgstr "ლატვიური"
 
 msgid "Macedonian"
-msgstr "מקדונית"
+msgstr "მაკედონიური"
 
 msgid "Malayalam"
-msgstr "מלאיאלאם"
+msgstr "მალაიზიური"
 
 msgid "Mongolian"
-msgstr "מונגולי"
+msgstr "მონღოლური"
 
 msgid "Marathi"
-msgstr "מראטהי"
+msgstr "მარათული"
 
 msgid "Burmese"
-msgstr "בּוּרְמֶזִית"
+msgstr "ბირმული"
 
 msgid "Norwegian Bokmål"
-msgstr "נורבגית ספרותית"
+msgstr "ნორვეგიული Bokmål"
 
 msgid "Nepali"
-msgstr "נפאלית"
+msgstr "ნეპალური"
 
 msgid "Dutch"
-msgstr "הולנדית"
+msgstr "ჰოლანდიური"
 
 msgid "Norwegian Nynorsk"
-msgstr "נורבגית חדשה"
+msgstr "ნორვეგიული-ნინორსკი"
 
 msgid "Ossetic"
-msgstr "אוסטית"
+msgstr "ოსური"
 
 msgid "Punjabi"
-msgstr "פנג'אבי"
+msgstr "პუნჯაბი"
 
 msgid "Polish"
-msgstr "פולנית"
+msgstr "პოლონური"
 
 msgid "Portuguese"
-msgstr "פורטוגזית"
+msgstr "პორტუგალიური"
 
 msgid "Brazilian Portuguese"
-msgstr "פורטוגזית ברזילאית"
+msgstr "ბრაზილიური პორტუგალიური"
 
 msgid "Romanian"
-msgstr "רומנית"
+msgstr "რუმინული"
 
 msgid "Russian"
-msgstr "רוסית"
+msgstr "რუსული"
 
 msgid "Slovak"
-msgstr "סלובקית"
+msgstr "სლოვაკური"
 
 msgid "Slovenian"
-msgstr "סלובנית"
+msgstr "სლოვენიური"
 
 msgid "Albanian"
-msgstr "אלבנית"
+msgstr "ალბანური"
 
 msgid "Serbian"
-msgstr "סרבית"
+msgstr "სერბული"
 
 msgid "Serbian Latin"
-msgstr "סרבית לטינית"
+msgstr "სერბული (ლათინური)"
 
 msgid "Swedish"
-msgstr "שוודית"
+msgstr "შვედური"
 
 msgid "Swahili"
-msgstr "סווהילי"
+msgstr "სუაჰილი"
 
 msgid "Tamil"
-msgstr "טמילית"
+msgstr "თამილური"
 
 msgid "Telugu"
-msgstr "טלגו"
+msgstr "ტელუგუ"
 
 msgid "Thai"
-msgstr "תאילנדית"
+msgstr "ტაი"
 
 msgid "Turkish"
-msgstr "טורקית"
+msgstr "თურქული"
 
 msgid "Tatar"
-msgstr "טטרית"
+msgstr "თათრული"
 
 msgid "Udmurt"
-msgstr "אודמורטית"
+msgstr "უდმურტული"
 
 msgid "Ukrainian"
-msgstr "אוקראינית"
+msgstr "უკრაინული"
 
 msgid "Urdu"
-msgstr "אורדו"
+msgstr "ურდუ"
 
 msgid "Uzbek"
 msgstr ""
 
 msgid "Vietnamese"
-msgstr "וייטנאמית"
+msgstr "ვიეტნამური"
 
 msgid "Simplified Chinese"
-msgstr "סינית פשוטה"
+msgstr "გამარტივებული ჩინური"
 
 msgid "Traditional Chinese"
-msgstr "סינית מסורתית"
+msgstr "ტრადიციული ჩინური"
 
 msgid "Messages"
-msgstr "הודעות"
+msgstr "შეტყობინებები"
 
 msgid "Site Maps"
-msgstr "מפות אתר"
+msgstr "საიტის რუკები"
 
 msgid "Static Files"
-msgstr "קבצים סטטיים"
+msgstr "სტატიკური ფაილები"
 
 msgid "Syndication"
-msgstr "הפצת תכנים"
+msgstr "სინდიკაცია"
 
 msgid "That page number is not an integer"
-msgstr "מספר העמוד אינו מספר שלם"
+msgstr "გვერდის ნომერი არ არის მთელი რიცხვი"
 
 msgid "That page number is less than 1"
-msgstr "מספר העמוד קטן מ־1"
+msgstr "გვერდის ნომერი ნაკლებია 1-ზე"
 
 msgid "That page contains no results"
-msgstr "עמוד זה אינו מכיל תוצאות"
+msgstr "გვერდი არ შეიცავს მონაცემებს"
 
 msgid "Enter a valid value."
-msgstr "יש להזין ערך חוקי."
+msgstr "შეიყვანეთ სწორი მნიშვნელობა."
 
 msgid "Enter a valid URL."
-msgstr "יש להזין URL חוקי."
+msgstr "შეიყვანეთ სწორი URL."
 
 msgid "Enter a valid integer."
-msgstr "יש להזין מספר שלם חוקי."
+msgstr "შეიყვანეთ სწორი მთელი რიცხვი."
 
 msgid "Enter a valid email address."
-msgstr "נא להזין כתובת דוא\"ל חוקית"
+msgstr "შეიყვანეთ მართებული ელფოსტის მისამართი."
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 msgid ""
@@ -337,28 +338,28 @@ msgid ""
 msgstr ""
 
 msgid "Enter a valid IPv4 address."
-msgstr "יש להזין כתובת IPv4 חוקית."
+msgstr "შეიყვანეთ სწორი IPv4 მისამართი."
 
 msgid "Enter a valid IPv6 address."
-msgstr "יש להזין כתובת IPv6 חוקית."
+msgstr "შეიყვანეთ მართებული IPv6 მისამართი."
 
 msgid "Enter a valid IPv4 or IPv6 address."
-msgstr "יש להזין כתובת IPv4 או IPv6 חוקית."
+msgstr "შეიყვანეთ მართებული IPv4 ან IPv6 მისამართი."
 
 msgid "Enter only digits separated by commas."
-msgstr "יש להזין רק ספרות מופרדות בפסיקים."
+msgstr "შეიყვანეთ მხოლოდ მძიმეებით გამოყოფილი ციფრები."
 
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr "יש לוודא שערך זה הינו %(limit_value)s (כרגע %(show_value)s)."
+msgstr "მნიშვნელობა უნდა იყოს %(limit_value)s (იგი არის %(show_value)s)."
 
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr "יש לוודא שערך זה פחות מ או שווה ל־%(limit_value)s ."
+msgstr "მნიშვნელობა უნდა იყოს %(limit_value)s-ზე ნაკლები ან ტოლი."
 
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr "יש לוודא שהערך גדול מ או שווה ל־%(limit_value)s."
+msgstr "მნიშვნელობა უნდა იყოს %(limit_value)s-ზე მეტი ან ტოლი."
 
 #, python-format
 msgid ""
@@ -368,13 +369,11 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"נא לוודא שערך זה מכיל תו %(limit_value)d לכל הפחות (מכיל %(show_value)d)."
+"მნიშვნელობას უნდა ჰქონდეს სულ ცოტა %(limit_value)d სიმბოლო (მას აქვს "
+"%(show_value)d)."
 msgstr[1] ""
-"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל הפחות (מכיל %(show_value)d)."
-msgstr[2] ""
-"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל הפחות (מכיל %(show_value)d)."
-msgstr[3] ""
-"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל הפחות (מכיל %(show_value)d)."
+"მნიშვნელობას უნდა ჰქონდეს სულ ცოტა %(limit_value)d სიმბოლო (მას აქვს "
+"%(show_value)d)."
 
 #, python-format
 msgid ""
@@ -384,42 +383,38 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"נא לוודא שערך זה מכיל תו %(limit_value)d לכל היותר (מכיל %(show_value)d)."
+"მნიშვნელობას უნდა ჰქონდეს არაუმეტეს %(limit_value)d სიმბოლოსი (მას აქვს "
+"%(show_value)d)."
 msgstr[1] ""
-"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל היותר (מכיל %(show_value)d)."
-msgstr[2] ""
-"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל היותר (מכיל %(show_value)d)."
-msgstr[3] ""
-"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל היותר (מכיל %(show_value)d)."
+"მნიშვნელობას უნდა ჰქონდეს არაუმეტეს %(limit_value)d სიმბოლოსი (მას აქვს "
+"%(show_value)d)."
 
 msgid "Enter a number."
-msgstr "נא להזין מספר."
+msgstr "შეიყვანეთ რიცხვი."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] "נא לוודא שאין יותר מספרה %(max)s בסה\"כ."
-msgstr[1] "נא לוודא שאין יותר מ־%(max)s ספרות בסה\"כ."
-msgstr[2] "נא לוודא שאין יותר מ־%(max)s ספרות בסה\"כ."
-msgstr[3] "נא לוודא שאין יותר מ־%(max)s ספרות בסה\"כ."
+msgstr[0] "ციფრების სრული რაოდენობა %(max)s-ს არ უნდა აღემატებოდეს."
+msgstr[1] "ციფრების სრული რაოდენობა %(max)s-ს არ უნდა აღემატებოდეს."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] "נא לוודא שאין יותר מספרה %(max)s אחרי הנקודה."
-msgstr[1] "נא לוודא שאין יותר מ־%(max)s ספרות אחרי הנקודה."
-msgstr[2] "נא לוודא שאין יותר מ־%(max)s ספרות אחרי הנקודה."
-msgstr[3] "נא לוודא שאין יותר מ־%(max)s ספרות אחרי הנקודה."
+msgstr[0] ""
+"ათობითი გამყოფის შემდეგ ციფრების რაოდენობა %(max)s-ს არ უნდა აღემატებოდეს."
+msgstr[1] ""
+"ათობითი გამყოფის შემდეგ ციფრების რაოდენობა %(max)s-ს არ უნდა აღემატებოდეს."
 
 #, python-format
 msgid ""
 "Ensure that there are no more than %(max)s digit before the decimal point."
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] "נא לוודא שאין יותר מספרה %(max)s לפני הנקודה העשרונית"
-msgstr[1] "נא לוודא שאין יותר מ־%(max)s ספרות לפני הנקודה העשרונית"
-msgstr[2] "נא לוודא שאין יותר מ־%(max)s ספרות לפני הנקודה העשרונית"
-msgstr[3] "נא לוודא שאין יותר מ־%(max)s ספרות לפני הנקודה העשרונית"
+msgstr[0] ""
+"ათობითი გამყოფის შემდეგ ციფრების რაოდენობა %(max)s-ს არ უნდა აღემატებოდეს."
+msgstr[1] ""
+"ათობითი გამყოფის წინ ციფრების რაოდენობა %(max)s-ს არ უნდა აღემატებოდეს."
 
 #, python-format
 msgid ""
@@ -428,28 +423,28 @@ msgid ""
 msgstr ""
 
 msgid "Null characters are not allowed."
-msgstr "תווי NULL אינם מותרים. "
+msgstr "Null მნიშვნელობები დაუშვებელია."
 
 msgid "and"
-msgstr "ו"
+msgstr "და"
 
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr "%(model_name)s·עם·%(field_labels)s·אלו קיימים כבר."
+msgstr "%(model_name)s ამ %(field_labels)s-ით უკვე არსებობს."
 
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr "ערך %(value)r אינו אפשרות חוקית."
+msgstr "მნიშვნელობა %(value)r არ არის დასაშვები."
 
 msgid "This field cannot be null."
-msgstr "שדה זה אינו יכול להיות ריק."
+msgstr "ეს ველი არ შეიძლება იყოს null."
 
 msgid "This field cannot be blank."
-msgstr "שדה זה אינו יכול להיות ריק."
+msgstr "ეს ველი არ შეიძლება იყოს ცარიელი."
 
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr "%(model_name)s·עם·%(field_label)s·זה קיימת כבר."
+msgstr "%(model_name)s მოცემული %(field_label)s-ით უკვე არსებობს."
 
 #. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
 #. Eg: "Title must be unique for pub_date year"
@@ -457,11 +452,12 @@ msgstr "%(model_name)s·עם·%(field_label)s·זה קיימת כבר."
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
-"%(field_label)s חייב להיות ייחודי עבור %(date_field_label)s %(lookup_type)s."
+"%(field_label)s უნდა იყოს უნიკალური %(date_field_label)s %(lookup_type)s-"
+"სთვის."
 
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "שדה מסוג: %(field_type)s"
+msgstr "ველის ტიპი: %(field_type)s"
 
 #, python-format
 msgid "“%(value)s” value must be either True or False."
@@ -472,14 +468,14 @@ msgid "“%(value)s” value must be either True, False, or None."
 msgstr ""
 
 msgid "Boolean (Either True or False)"
-msgstr "בוליאני (אמת או שקר)"
+msgstr "ლოგიკური (True ან False)"
 
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "מחרוזת (עד %(max_length)s תווים)"
+msgstr "სტრიქონი (%(max_length)s სიმბოლომდე)"
 
 msgid "Comma-separated integers"
-msgstr "מספרים שלמים מופרדים בפסיקים"
+msgstr "მძიმით გამოყოფილი მთელი რიცხვები"
 
 #, python-format
 msgid ""
@@ -494,7 +490,7 @@ msgid ""
 msgstr ""
 
 msgid "Date (without time)"
-msgstr "תאריך (ללא שעה)"
+msgstr "თარიღი (დროის გარეშე)"
 
 #, python-format
 msgid ""
@@ -509,14 +505,14 @@ msgid ""
 msgstr ""
 
 msgid "Date (with time)"
-msgstr "תאריך (כולל שעה)"
+msgstr "თარიღი (დროსთან ერთად)"
 
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
 msgstr ""
 
 msgid "Decimal number"
-msgstr "מספר עשרוני"
+msgstr "ათობითი რიცხვი"
 
 #, python-format
 msgid ""
@@ -525,59 +521,59 @@ msgid ""
 msgstr ""
 
 msgid "Duration"
-msgstr "משך"
+msgstr "ხანგრზლივობა"
 
 msgid "Email address"
-msgstr "כתובת דוא\"ל"
+msgstr "ელ. ფოსტის მისამართი"
 
 msgid "File path"
-msgstr "נתיב קובץ"
+msgstr "გზა ფაილისაკენ"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
 msgstr ""
 
 msgid "Floating point number"
-msgstr "מספר עשרוני"
+msgstr "რიცხვი მცოცავი წერტილით"
 
 #, python-format
 msgid "“%(value)s” value must be an integer."
-msgstr "הערך '%(value)s' חייב להיות מספר שלם."
+msgstr ""
 
 msgid "Integer"
-msgstr "מספר שלם"
+msgstr "მთელი"
 
 msgid "Big (8 byte) integer"
-msgstr "מספר שלם גדול (8 בתים)"
+msgstr "დიდი მთელი (8-ბაიტიანი)"
 
 msgid "IPv4 address"
-msgstr "כתובת IPv4"
+msgstr "IPv4 მისამართი"
 
 msgid "IP address"
-msgstr "כתובת IP"
+msgstr "IP-მისამართი"
 
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
 msgstr ""
 
 msgid "Boolean (Either True, False or None)"
-msgstr "בוליאני (אמת, שקר או כלום)"
+msgstr "ლოგიკური (True, False ან None)"
 
 msgid "Positive integer"
-msgstr "מספר שלם חיובי"
+msgstr "დადებითი მთელი რიცხვი"
 
 msgid "Positive small integer"
-msgstr "מספר שלם חיובי קטן"
+msgstr "დადებითი პატარა მთელი რიცხვი"
 
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr "Slug (עד %(max_length)s תווים)"
+msgstr "სლაგი (%(max_length)s-მდე)"
 
 msgid "Small integer"
-msgstr "מספר שלם קטן"
+msgstr "პატარა მთელი რიცხვი"
 
 msgid "Text"
-msgstr "טקסט"
+msgstr "ტექსტი"
 
 #, python-format
 msgid ""
@@ -592,179 +588,175 @@ msgid ""
 msgstr ""
 
 msgid "Time"
-msgstr "זמן"
+msgstr "დრო"
 
 msgid "URL"
 msgstr "URL"
 
 msgid "Raw binary data"
-msgstr "מידע בינארי גולמי"
+msgstr "დაუმუშავებელი ორობითი მონაცემები"
 
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
 msgstr ""
 
 msgid "Universally unique identifier"
-msgstr "מזהה ייחודי אוניברסלי"
+msgstr "უნივერსალური უნიკალური იდენტიფიკატორი."
 
 msgid "File"
-msgstr "קובץ"
+msgstr "ფაილი"
 
 msgid "Image"
-msgstr "תמונה"
+msgstr "გამოსახულება"
 
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr "פריט %(model)s עם %(field)s %(value)r אינו קיים."
+msgstr ""
 
 msgid "Foreign Key (type determined by related field)"
-msgstr "Foreign Key (הסוג נקבע לפי השדה המקושר)"
+msgstr "გარე გასაღები (ტიპი განისაზღვრება დაკავშირებული ველის ტიპით)"
 
 msgid "One-to-one relationship"
-msgstr "יחס של אחד לאחד"
+msgstr "კავშირი ერთი-ერთტან"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr "קשר %(from)s-%(to)s"
+msgstr ""
 
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr "קשרי %(from)s-%(to)s"
+msgstr ""
 
 msgid "Many-to-many relationship"
-msgstr "יחס של רבים לרבים"
+msgstr "კავშირი მრავალი-მრავალთან"
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the
 #. label
 msgid ":?.!"
-msgstr ":?.!"
+msgstr ""
 
 msgid "This field is required."
-msgstr "יש להזין תוכן בשדה זה."
+msgstr "ეს ველი აუცილებელია."
 
 msgid "Enter a whole number."
-msgstr "נא להזין מספר שלם."
+msgstr "შეიყვანეთ მთელი რიცხვი"
 
 msgid "Enter a valid date."
-msgstr "יש להזין תאריך חוקי."
+msgstr "შეიყვანეთ სწორი თარიღი."
 
 msgid "Enter a valid time."
-msgstr "יש להזין שעה חוקית."
+msgstr "შეიყვანეთ სწორი დრო."
 
 msgid "Enter a valid date/time."
-msgstr "יש להזין תאריך ושעה חוקיים."
+msgstr "შეიყვანეთ სწორი თარიღი და დრო."
 
 msgid "Enter a valid duration."
-msgstr "יש להזין משך חוקי."
+msgstr "შეიყვანეთ სწორი დროის პერიოდი."
 
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
-msgstr "מספר הימים חייב להיות בין {min_days} ל־{max_days}."
+msgstr ""
 
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr "לא נשלח שום קובץ. נא לבדוק את סוג הקידוד של הטופס."
+msgstr ""
+"ფაილი არ იყო გამოგზავნილი. შეამოწმეთ კოდირების ტიპი მოცემული ფორმისათვის."
 
 msgid "No file was submitted."
-msgstr "לא נשלח שום קובץ"
+msgstr "ფაილი არ იყო გამოგზავნილი."
 
 msgid "The submitted file is empty."
-msgstr "הקובץ שנשלח ריק."
+msgstr "გამოგზავნილი ფაილი ცარიელია."
 
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
-msgstr[0] "נא לוודא ששם קובץ זה מכיל תו %(max)d לכל היותר (מכיל %(length)d)."
+msgstr[0] ""
 msgstr[1] ""
-"נא לוודא ששם קובץ זה מכיל %(max)d תווים לכל היותר (מכיל %(length)d)."
-msgstr[2] ""
-"נא לוודא ששם קובץ זה מכיל %(max)d תווים לכל היותר (מכיל %(length)d)."
-msgstr[3] ""
-"נא לוודא ששם קובץ זה מכיל %(max)d תווים לכל היותר (מכיל %(length)d)."
 
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr "נא לשים קובץ או סימן את התיבה לניקוי, לא שניהם."
+msgstr "ან გამოგზავნეთ ფაილი, ან მონიშნეთ \"წაშლის\" დროშა."
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
-msgstr "נא להעלות תמונה חוקית. הקובץ שהעלת אינו תמונה או מכיל תמונה מקולקלת."
+msgstr ""
+"ატვირთეთ დასაშვები გამოსახულება. თქვენს მიერ გამოგზავნილი ფაილი ან არ არის "
+"გამოსახულება, ან დაზიანებულია."
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr "יש לבחור אפשרות חוקית. %(value)s אינו בין האפשרויות הזמינות."
+msgstr "აირჩიეთ დასაშვები მნიშვნელობა. %(value)s დასაშვები არ არის."
 
 msgid "Enter a list of values."
-msgstr "יש להזין רשימת ערכים"
+msgstr "შეიყვანეთ მნიშვნელობების სია."
 
 msgid "Enter a complete value."
-msgstr "יש להזין ערך שלם."
+msgstr "შეიყვანეთ სრული მნიშვნელობა."
 
 msgid "Enter a valid UUID."
-msgstr "יש להזין UUID חוקי."
+msgstr ""
 
 #. Translators: This is the default suffix added to form field labels
 msgid ":"
-msgstr ":"
+msgstr ""
 
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr "(שדה מוסתר %(name)s) %(error)s"
+msgstr "(დამალული ველი %(name)s) %(error)s"
 
 msgid "ManagementForm data is missing or has been tampered with"
-msgstr "מידע ManagementForm חסר או התעסקו איתו."
+msgstr ""
 
 #, python-format
 msgid "Please submit %d or fewer forms."
 msgid_plural "Please submit %d or fewer forms."
-msgstr[0] "נא לשלוח טופס %d לכל היותר."
-msgstr[1] "נא לשלוח %d טפסים לכל היותר."
-msgstr[2] "נא לשלוח %d טפסים לכל היותר."
-msgstr[3] "נא לשלוח %d טפסים לכל היותר."
+msgstr[0] ""
+msgstr[1] ""
 
 #, python-format
 msgid "Please submit %d or more forms."
 msgid_plural "Please submit %d or more forms."
-msgstr[0] "נא לשלוח טופס %d או יותר."
-msgstr[1] "נא לשלוח %d טפסים או יותר."
-msgstr[2] "נא לשלוח %d טפסים או יותר."
-msgstr[3] "נא לשלוח %d טפסים או יותר."
+msgstr[0] ""
+msgstr[1] ""
 
 msgid "Order"
-msgstr "מיון"
+msgstr "დალაგება"
 
 msgid "Delete"
-msgstr "מחיקה"
+msgstr "წავშალოთ"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "נא לתקן את הערכים הכפולים ל%(field)s."
+msgstr "გთხოვთ, შეასწოროთ დუბლირებული მონაცემები %(field)s-თვის."
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr "נא לתקן את הערכים הכפולים ל%(field)s, שערכים בו חייבים להיות ייחודיים."
+msgstr ""
+"გთხოვთ, შეასწოროთ დუბლირებული მნიშვნელობა %(field)s ველისთვის, რომელიც უნდა "
+"იყოს უნიკალური."
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
-"נא לתקן את הערכים הכפולים %(field_name)s, שחייבים להיות ייחודיים ל%(lookup)s "
-"של %(date_field)s."
+"გთხოვთ, შეასწოროთ დუბლირებული მნიშვნელობა %(field_name)s ველისთვის, რომელიც "
+"უნდა იყოს უნიკალური %(lookup)s-ზე, %(date_field)s-თვის."
 
 msgid "Please correct the duplicate values below."
-msgstr "נא לתקן את הערכים הכפולים למטה."
+msgstr "გთხოვთ, შეასწოროთ დუბლირებული მნიშვნელობები."
 
 msgid "The inline value did not match the parent instance."
-msgstr "הערך הפנימי אינו תואם לאב."
+msgstr ""
 
 msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr "יש לבחור אפשרות חוקית; אפשרות זו אינה אחת מהזמינות."
+msgstr "აირჩიეთ დასაშვები მნიშვნელობა. ეს არჩევანი დასაშვები არ არის."
 
 #, python-format
 msgid "“%(pk)s” is not a valid value."
-msgstr "\"%(pk)s\" אינו ערך חוקי."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -773,22 +765,22 @@ msgid ""
 msgstr ""
 
 msgid "Clear"
-msgstr "לסלק"
+msgstr "წაშლა"
 
 msgid "Currently"
-msgstr "עכשיו"
+msgstr "ამჟამად"
 
 msgid "Change"
-msgstr "שינוי"
+msgstr "შეცვლა"
 
 msgid "Unknown"
-msgstr "לא ידוע"
+msgstr "გაურკვეველი"
 
 msgid "Yes"
-msgstr "כן"
+msgstr "კი"
 
 msgid "No"
-msgstr "לא"
+msgstr "არა"
 
 msgid "Year"
 msgstr ""
@@ -800,274 +792,272 @@ msgid "Day"
 msgstr ""
 
 msgid "yes,no,maybe"
-msgstr "כן,לא,אולי"
+msgstr "კი,არა,შესაძლოა"
 
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] "בית %(size)d "
-msgstr[1] "%(size)d בתים"
-msgstr[2] "%(size)d בתים"
-msgstr[3] "%(size)d בתים"
+msgstr[0] "%(size)d ბაიტი"
+msgstr[1] "%(size)d ბაიტი"
 
 #, python-format
 msgid "%s KB"
-msgstr "%s ק\"ב"
+msgstr "%s კბ"
 
 #, python-format
 msgid "%s MB"
-msgstr "%s מ\"ב"
+msgstr "%s მბ"
 
 #, python-format
 msgid "%s GB"
-msgstr "%s ג\"ב"
+msgstr "%s გბ"
 
 #, python-format
 msgid "%s TB"
-msgstr "%s ט\"ב"
+msgstr "%s ტბ"
 
 #, python-format
 msgid "%s PB"
-msgstr "%s פ\"ב"
+msgstr "%s პბ"
 
 msgid "p.m."
-msgstr "אחר הצהריים"
+msgstr "p.m."
 
 msgid "a.m."
-msgstr "בבוקר"
+msgstr "a.m."
 
 msgid "PM"
-msgstr "אחר הצהריים"
+msgstr "PM"
 
 msgid "AM"
-msgstr "בבוקר"
+msgstr "AM"
 
 msgid "midnight"
-msgstr "חצות"
+msgstr "შუაღამე"
 
 msgid "noon"
-msgstr "12 בצהריים"
+msgstr "შუადღე"
 
 msgid "Monday"
-msgstr "שני"
+msgstr "ორშაბათი"
 
 msgid "Tuesday"
-msgstr "שלישי"
+msgstr "სამშაბათი"
 
 msgid "Wednesday"
-msgstr "רביעי"
+msgstr "ოთხშაბათი"
 
 msgid "Thursday"
-msgstr "חמישי"
+msgstr "ხუთშაბათი"
 
 msgid "Friday"
-msgstr "שישי"
+msgstr "პარასკევი"
 
 msgid "Saturday"
-msgstr "שבת"
+msgstr "შაბათი"
 
 msgid "Sunday"
-msgstr "ראשון"
+msgstr "კვირა"
 
 msgid "Mon"
-msgstr "שני"
+msgstr "ორშ"
 
 msgid "Tue"
-msgstr "שלישי"
+msgstr "სამ"
 
 msgid "Wed"
-msgstr "רביעי"
+msgstr "ოთხ"
 
 msgid "Thu"
-msgstr "חמישי"
+msgstr "ხუთ"
 
 msgid "Fri"
-msgstr "שישי"
+msgstr "პარ"
 
 msgid "Sat"
-msgstr "שבת"
+msgstr "შაბ"
 
 msgid "Sun"
-msgstr "ראשון"
+msgstr "კვრ"
 
 msgid "January"
-msgstr "ינואר"
+msgstr "იანვარი"
 
 msgid "February"
-msgstr "פברואר"
+msgstr "თებერვალი"
 
 msgid "March"
-msgstr "מרץ"
+msgstr "მარტი"
 
 msgid "April"
-msgstr "אפריל"
+msgstr "აპრილი"
 
 msgid "May"
-msgstr "מאי"
+msgstr "მაისი"
 
 msgid "June"
-msgstr "יוני"
+msgstr "ივნისი"
 
 msgid "July"
-msgstr "יולי"
+msgstr "ივლისი"
 
 msgid "August"
-msgstr "אוגוסט"
+msgstr "აგვისტო"
 
 msgid "September"
-msgstr "ספטמבר"
+msgstr "სექტემბერი"
 
 msgid "October"
-msgstr "אוקטובר"
+msgstr "ოქტომბერი"
 
 msgid "November"
-msgstr "נובמבר"
+msgstr "ნოემბერი"
 
 msgid "December"
-msgstr "דצמבר"
+msgstr "დეკემბერი"
 
 msgid "jan"
-msgstr "ינו"
+msgstr "იან"
 
 msgid "feb"
-msgstr "פבר"
+msgstr "თებ"
 
 msgid "mar"
-msgstr "מרץ"
+msgstr "მარ"
 
 msgid "apr"
-msgstr "אפר"
+msgstr "აპრ"
 
 msgid "may"
-msgstr "מאי"
+msgstr "მაი"
 
 msgid "jun"
-msgstr "יונ"
+msgstr "ივნ"
 
 msgid "jul"
-msgstr "יול"
+msgstr "ივლ"
 
 msgid "aug"
-msgstr "אוג"
+msgstr "აგვ"
 
 msgid "sep"
-msgstr "ספט"
+msgstr "სექ"
 
 msgid "oct"
-msgstr "אוק"
+msgstr "ოქტ"
 
 msgid "nov"
-msgstr "נוב"
+msgstr "ნოე"
 
 msgid "dec"
-msgstr "דצמ"
+msgstr "დეკ"
 
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "יאנ'"
+msgstr "იან."
 
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr "פבר'"
+msgstr "თებ."
 
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "מרץ"
+msgstr "მარ."
 
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "אפריל"
+msgstr "აპრ."
 
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "מאי"
+msgstr "მაი"
 
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "יוני"
+msgstr "ივნ."
 
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "יולי"
+msgstr "ივლ."
 
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr "אוג'"
+msgstr "აგვ."
 
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr "ספט'"
+msgstr "სექტ."
 
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr "אוק'"
+msgstr "ოქტ."
 
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr "נוב'"
+msgstr "ნოემ."
 
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr "דצמ'"
+msgstr "დეკ."
 
 msgctxt "alt. month"
 msgid "January"
-msgstr "ינואר"
+msgstr "იანვარი"
 
 msgctxt "alt. month"
 msgid "February"
-msgstr "פברואר"
+msgstr "თებერვალი"
 
 msgctxt "alt. month"
 msgid "March"
-msgstr "מרץ"
+msgstr "მარტი"
 
 msgctxt "alt. month"
 msgid "April"
-msgstr "אפריל"
+msgstr "აპრილი"
 
 msgctxt "alt. month"
 msgid "May"
-msgstr "מאי"
+msgstr "მაისი"
 
 msgctxt "alt. month"
 msgid "June"
-msgstr "יוני"
+msgstr "ივნისი"
 
 msgctxt "alt. month"
 msgid "July"
-msgstr "יולי"
+msgstr "ივლისი"
 
 msgctxt "alt. month"
 msgid "August"
-msgstr "אוגוסט"
+msgstr "აგვისტო"
 
 msgctxt "alt. month"
 msgid "September"
-msgstr "ספטמבר"
+msgstr "სექტემბერი"
 
 msgctxt "alt. month"
 msgid "October"
-msgstr "אוקטובר"
+msgstr "ოქტომბერი"
 
 msgctxt "alt. month"
 msgid "November"
-msgstr "נובמבר"
+msgstr "ნოემბერი"
 
 msgctxt "alt. month"
 msgid "December"
-msgstr "דצמבר"
+msgstr "დეკემბერი"
 
 msgid "This is not a valid IPv6 address."
-msgstr "זו אינה כתובת IPv6 חוקית."
+msgstr "ეს არ არის სწორი IPv6 მისამართი."
 
 #, python-format
 msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s…"
-msgstr "%(truncated_text)s‮…"
+msgstr ""
 
 msgid "or"
-msgstr "או"
+msgstr "ან"
 
 #. Translators: This string is used as a separator between list elements
 msgid ", "
@@ -1076,59 +1066,47 @@ msgstr ", "
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] "שנה %d"
-msgstr[1] "%d שנים"
-msgstr[2] "%d שנים"
-msgstr[3] "%d שנים"
+msgstr[0] "%d წელი"
+msgstr[1] "%d წელი"
 
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "חודש %d"
-msgstr[1] "%d חודשים"
-msgstr[2] "%d חודשים"
-msgstr[3] "%d חודשים"
+msgstr[0] "%d თვე"
+msgstr[1] "%d თვე"
 
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] "שבוע %d"
-msgstr[1] "%d שבועות"
-msgstr[2] "%d שבועות"
-msgstr[3] "%d שבועות"
+msgstr[0] "%d კვირა"
+msgstr[1] "%d კვირა"
 
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "יום %d"
-msgstr[1] "%d ימים"
-msgstr[2] "%d ימים"
-msgstr[3] "%d ימים"
+msgstr[0] "%d დღე"
+msgstr[1] "%d დღე"
 
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "שעה %d"
-msgstr[1] "%d שעות"
-msgstr[2] "%d שעות"
-msgstr[3] "%d שעות"
+msgstr[0] "%d საათი"
+msgstr[1] "%d საათი"
 
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "דקה %d"
-msgstr[1] "%d דקות"
-msgstr[2] "%d דקות"
-msgstr[3] "%d דקות"
+msgstr[0] "%d წუთი"
+msgstr[1] "%d წუთი"
 
 msgid "0 minutes"
-msgstr "0 דקות"
+msgstr "0 წუთი"
 
 msgid "Forbidden"
-msgstr "אסור"
+msgstr "აკრძალული"
 
 msgid "CSRF verification failed. Request aborted."
-msgstr "אימות CSRF נכשל. הבקשה בוטלה."
+msgstr ""
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
@@ -1156,8 +1134,6 @@ msgid ""
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
-"הודעה זו מופיעה מאחר ואתר זה דורש עוגיית CSRF כאשר שולחים טפסים. עוגיה זו "
-"נדרשת מסיבות אבטחה, כדי לוודא שהדפדפן שלך לא נחטף על ידי אחרים."
 
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
@@ -1165,34 +1141,34 @@ msgid ""
 msgstr ""
 
 msgid "More information is available with DEBUG=True."
-msgstr "מידע נוסף זמין עם "
+msgstr "მეტი ინფორმაცია მისაწვდომია DEBUG=True-ს მეშვეობით."
 
 msgid "No year specified"
-msgstr "לא צויינה שנה"
+msgstr "არ არის მითითებული წელი"
 
 msgid "Date out of range"
-msgstr "תאריך מחוץ לטווח"
+msgstr ""
 
 msgid "No month specified"
-msgstr "לא צויין חודש"
+msgstr "არ არის მითითებული თვე"
 
 msgid "No day specified"
-msgstr "לא צויין יום"
+msgstr "არ არის მითითებული დღე"
 
 msgid "No week specified"
-msgstr "לא צויין שבוע"
+msgstr "არ არის მითითებული კვირა"
 
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "לא נמצאו %(verbose_name_plural)s"
+msgstr "%(verbose_name_plural)s არ არსებობს"
 
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"לא נמצאו %(verbose_name_plural)s בזמן עתיד מאחר ש-%(class_name)s."
-"allow_future מוגדר False."
+"მომავალი %(verbose_name_plural)s არ არსებობს იმიტომ, რომ %(class_name)s."
+"allow_future არის False."
 
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
@@ -1200,21 +1176,21 @@ msgstr ""
 
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "לא נמצא/ה %(verbose_name)s התואם/ת לשאילתה"
+msgstr "არ მოიძებნა არცერთი მოთხოვნის თანმხვედრი %(verbose_name)s"
 
 msgid "Page is not “last”, nor can it be converted to an int."
 msgstr ""
 
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr "עמוד לא חוקי (%(page_number)s): %(message)s"
+msgstr ""
 
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
 msgstr ""
 
 msgid "Directory indexes are not allowed here."
-msgstr "אינדקסים על תיקיה אסורים כאן."
+msgstr ""
 
 #, python-format
 msgid "“%(path)s” does not exist"
@@ -1222,21 +1198,19 @@ msgstr ""
 
 #, python-format
 msgid "Index of %(directory)s"
-msgstr "אינדקס של %(directory)s"
+msgstr "%(directory)s-ის იდექსი"
 
 msgid "Django: the Web framework for perfectionists with deadlines."
-msgstr "Django: תשתית הווב לפרפקציוניסטים עם תאריכי יעד."
+msgstr ""
 
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
-"ראו <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">הערות השחרור</a> עבור Django %(version)s"
 
 msgid "The install worked successfully! Congratulations!"
-msgstr "ההתקנה עברה בהצלחה! מזל טוב!"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -1245,24 +1219,21 @@ msgid ""
 "\">DEBUG=True</a> is in your settings file and you have not configured any "
 "URLs."
 msgstr ""
-"עמוד זה מופיע בעקבות המצאות <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
-"\">DEBUG=True</a> בקובץ ההגדרות שלך ולא הגדרת שום URLs."
 
 msgid "Django Documentation"
-msgstr "תיעוד Django"
+msgstr ""
 
 msgid "Topics, references, &amp; how-to’s"
 msgstr ""
 
 msgid "Tutorial: A Polling App"
-msgstr "מדריך ללומד: יישום לסקרים."
+msgstr ""
 
 msgid "Get started with Django"
-msgstr "התחילו לעבוד עם Django"
+msgstr ""
 
 msgid "Django Community"
-msgstr "קהילת Django"
+msgstr ""
 
 msgid "Connect, get help, or contribute"
-msgstr "יצירת קשר, קבלת עזרה או השתתפות"
+msgstr ""
