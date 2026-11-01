@@ -1,48 +1,42 @@
+#  SelfTest/Protocol/__init__.py: Self-tests for Cryptodome.Protocol
 #
-#  SelfTest/Math/__init__.py: Self-test for math module
+# Written in 2008 by Dwayne C. Litzenberger <dlitz@dlitz.net>
 #
 # ===================================================================
+# The contents of this file are dedicated to the public domain.  To
+# the extent that dedication to the public domain is not available,
+# everyone is granted a worldwide, perpetual, royalty-free,
+# non-exclusive license to exercise all rights associated with the
+# contents of this file for any purpose whatsoever.
+# No rights are reserved.
 #
-# Copyright (c) 2014, Legrandin <helderijs@gmail.com>
-# All rights reserved.
-#
-# Redistribution and use in source and binary forms, with or without
-# modification, are permitted provided that the following conditions
-# are met:
-#
-# 1. Redistributions of source code must retain the above copyright
-#    notice, this list of conditions and the following disclaimer.
-# 2. Redistributions in binary form must reproduce the above copyright
-#    notice, this list of conditions and the following disclaimer in
-#    the documentation and/or other materials provided with the
-#    distribution.
-#
-# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-# "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
-# FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
-# COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-# INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-# BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-# LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-# CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-# LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
-# ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-# POSSIBILITY OF SUCH DAMAGE.
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+# NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+# BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+# ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+# CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
 # ===================================================================
 
-"""Self-test for Math"""
+import sys
+
+"""Self-test for Cryptodome.Protocol"""
 
 def get_tests(config={}):
     tests = []
-    from Cryptodome.SelfTest.Math import test_Numbers
-    from Cryptodome.SelfTest.Math import test_Primality
-    from Cryptodome.SelfTest.Math import test_modexp
-    from Cryptodome.SelfTest.Math import test_modmult
-    tests += test_Numbers.get_tests(config=config)
-    tests += test_Primality.get_tests(config=config)
-    tests += test_modexp.get_tests(config=config)
-    tests += test_modmult.get_tests(config=config)
+    from Cryptodome.SelfTest.Protocol import test_rfc1751;  tests += test_rfc1751.get_tests(config=config)
+    from Cryptodome.SelfTest.Protocol import test_KDF;      tests += test_KDF.get_tests(config=config)
+    from Cryptodome.SelfTest.Protocol import test_ecdh;     tests += test_ecdh.get_tests(config=config)
+
+    from Cryptodome.SelfTest.Protocol import test_SecretSharing
+    tests += test_SecretSharing.get_tests(config=config)
+
+    if sys.version_info >= (3, 9):
+        from Cryptodome.SelfTest.Protocol import test_HPKE
+        tests += test_HPKE.get_tests(config=config)
+
     return tests
 
 if __name__ == '__main__':
