@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-#  SelfTest/Cipher/__init__.py: Self-test for cipher modules
+#  SelfTest/Hash/__init__.py: Self-test for hash modules
 #
 # Written in 2008 by Dwayne C. Litzenberger <dlitz@dlitz.net>
 #
@@ -22,43 +22,41 @@
 # SOFTWARE.
 # ===================================================================
 
-"""Self-test for cipher modules"""
+"""Self-test for hash modules"""
 
-import sys
-
+__revision__ = "$Id$"
 
 def get_tests(config={}):
     tests = []
-    from Cryptodome.SelfTest.Cipher import test_AES;      tests += test_AES.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_ARC2;     tests += test_ARC2.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_ARC4;     tests += test_ARC4.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_Blowfish; tests += test_Blowfish.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_CAST;     tests += test_CAST.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_DES3;     tests += test_DES3.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_DES;      tests += test_DES.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_Salsa20; tests += test_Salsa20.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_ChaCha20; tests += test_ChaCha20.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_ChaCha20_Poly1305; tests += test_ChaCha20_Poly1305.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_pkcs1_15; tests += test_pkcs1_15.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_pkcs1_oaep; tests += test_pkcs1_oaep.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_OCB;        tests += test_OCB.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_CBC;        tests += test_CBC.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_CFB;        tests += test_CFB.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_OpenPGP;    tests += test_OpenPGP.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_OFB;        tests += test_OFB.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_CTR;        tests += test_CTR.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_CCM;        tests += test_CCM.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_EAX;        tests += test_EAX.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_GCM;        tests += test_GCM.get_tests(config=config)
-    from Cryptodome.SelfTest.Cipher import test_SIV;        tests += test_SIV.get_tests(config=config)
-
-    if sys.version_info >= (3, 9):
-        from Cryptodome.SelfTest.Cipher import test_KW
-        tests += test_KW.get_tests(config=config)
-
+    from Cryptodome.SelfTest.Hash import test_HMAC;       tests += test_HMAC.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_CMAC;       tests += test_CMAC.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_MD2;        tests += test_MD2.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_MD4;        tests += test_MD4.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_MD5;        tests += test_MD5.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_RIPEMD160;  tests += test_RIPEMD160.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_SHA1;       tests += test_SHA1.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_SHA224;     tests += test_SHA224.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_SHA256;     tests += test_SHA256.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_SHA384;     tests += test_SHA384.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_SHA512;     tests += test_SHA512.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_SHA3_224;   tests += test_SHA3_224.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_SHA3_256;   tests += test_SHA3_256.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_SHA3_384;   tests += test_SHA3_384.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_SHA3_512;   tests += test_SHA3_512.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_keccak;     tests += test_keccak.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_SHAKE;      tests += test_SHAKE.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_BLAKE2;     tests += test_BLAKE2.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_Poly1305;   tests += test_Poly1305.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_cSHAKE;     tests += test_cSHAKE.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_KMAC;       tests += test_KMAC.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_TupleHash;  tests += test_TupleHash.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_KangarooTwelve;  tests += test_KangarooTwelve.get_tests(config=config)
+    from Cryptodome.SelfTest.Hash import test_TurboSHAKE; tests += test_TurboSHAKE.get_tests(config=config)
     return tests
 
 if __name__ == '__main__':
     import unittest
     suite = lambda: unittest.TestSuite(get_tests())
     unittest.main(defaultTest='suite')
+
+# vim:set ts=4 sw=4 sts=4 expandtab:
