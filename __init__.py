@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 #
-#  Random/__init__.py : PyCryptodome random number generation
+#  SelfTest/Cipher/__init__.py: Self-test for cipher modules
+#
+# Written in 2008 by Dwayne C. Litzenberger <dlitz@dlitz.net>
 #
 # ===================================================================
 # The contents of this file are dedicated to the public domain.  To
@@ -20,38 +22,43 @@
 # SOFTWARE.
 # ===================================================================
 
-__all__ = ['new', 'get_random_bytes']
+"""Self-test for cipher modules"""
 
-from os import urandom
-
-class _UrandomRNG(object):
-
-    def read(self, n):
-        """Return a random byte string of the desired size."""
-        return urandom(n)
-
-    def flush(self):
-        """Method provided for backward compatibility only."""
-        pass
-
-    def reinit(self):
-        """Method provided for backward compatibility only."""
-        pass
-
-    def close(self):
-        """Method provided for backward compatibility only."""
-        pass
-        
-
-def new(*args, **kwargs):
-    """Return a file-like object that outputs cryptographically random bytes."""
-    return _UrandomRNG()
+import sys
 
 
-def atfork():
-    pass
+def get_tests(config={}):
+    tests = []
+    from Cryptodome.SelfTest.Cipher import test_AES;      tests += test_AES.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_ARC2;     tests += test_ARC2.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_ARC4;     tests += test_ARC4.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_Blowfish; tests += test_Blowfish.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_CAST;     tests += test_CAST.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_DES3;     tests += test_DES3.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_DES;      tests += test_DES.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_Salsa20; tests += test_Salsa20.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_ChaCha20; tests += test_ChaCha20.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_ChaCha20_Poly1305; tests += test_ChaCha20_Poly1305.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_pkcs1_15; tests += test_pkcs1_15.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_pkcs1_oaep; tests += test_pkcs1_oaep.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_OCB;        tests += test_OCB.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_CBC;        tests += test_CBC.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_CFB;        tests += test_CFB.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_OpenPGP;    tests += test_OpenPGP.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_OFB;        tests += test_OFB.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_CTR;        tests += test_CTR.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_CCM;        tests += test_CCM.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_EAX;        tests += test_EAX.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_GCM;        tests += test_GCM.get_tests(config=config)
+    from Cryptodome.SelfTest.Cipher import test_SIV;        tests += test_SIV.get_tests(config=config)
 
+    if sys.version_info >= (3, 9):
+        from Cryptodome.SelfTest.Cipher import test_KW
+        tests += test_KW.get_tests(config=config)
 
-#: Function that returns a random byte string of the desired size.
-get_random_bytes = urandom
+    return tests
 
+if __name__ == '__main__':
+    import unittest
+    suite = lambda: unittest.TestSuite(get_tests())
+    unittest.main(defaultTest='suite')
