@@ -1,139 +1,150 @@
+import json
+
+from django.conf import settings
+from django.contrib.admin.utils import quote
+from django.contrib.contenttypes.models import ContentType
 from django.db import models
+from django.urls import NoReverseMatch, reverse
+from django.utils import timezone
+from django.utils.text import get_text_list
+from django.utils.translation import gettext, gettext_lazy as _
+
+ADDITION = 1
+CHANGE = 2
+DELETION = 3
+
+ACTION_FLAG_CHOICES = (
+    (ADDITION, _('Addition')),
+    (CHANGE, _('Change')),
+    (DELETION, _('Deletion')),
+)
 
 
-# Create your models here.
-class OwnerRegistration(models.Model):
-    UserName = models.CharField(max_length=100)
-    Pwd = models.CharField(max_length=100)
-    Name = models.CharField(max_length=100)
-    Gender = models.CharField(max_length=50)
-    Dob = models.DateTimeField(blank=True, null=True)
-    Email = models.EmailField()
-    MobileNo = models.CharField(max_length=50)
-    Address = models.CharField(max_length=500)
-    PinCode = models.CharField(max_length=50)
-    OwnerType = models.CharField(max_length=100)
-    ProfileImg = models.CharField(max_length=500)
-    AuthorizeKey = models.CharField(max_length=100)
-    Status = models.CharField(max_length=50)
+class LogEntryManager(models.Manager):
+    use_in_migrations = True
 
-    class Meta:
-        db_table = "OwnerRegistration"
+    def log_action(self, user_id, content_type_id, object_id, object_repr, action_flag, change_message=''):
+        if isinstance(change_message, list):
+            change_message = json.dumps(change_message)
+        return self.model.objects.create(
+            user_id=user_id,
+            content_type_id=content_type_id,
+            object_id=str(object_id),
+            object_repr=object_repr[:200],
+            action_flag=action_flag,
+            change_message=change_message,
+        )
 
 
-class IoTDevices(models.Model):
-    UserName = models.CharField(max_length=100)
-    Pwd = models.CharField(max_length=100)
-    Name = models.CharField(max_length=100)
-    Email = models.EmailField()
-    Address = models.CharField(max_length=500)
-    PinCode = models.CharField(max_length=50)
-    DeviceType = models.CharField(max_length=100)
-    ProfileImg = models.CharField(max_length=500)
-    AuthorizeKey = models.CharField(max_length=100)
-    Status = models.CharField(max_length=50)
+class LogEntry(models.Model):
+    action_time = models.DateTimeField(
+        _('action time'),
+        default=timezone.now,
+        editable=False,
+    )
+    user = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        models.CASCADE,
+        verbose_name=_('user'),
+    )
+    content_type = models.ForeignKey(
+        ContentType,
+        models.SET_NULL,
+        verbose_name=_('content type'),
+        blank=True, null=True,
+    )
+    object_id = models.TextField(_('object id'), blank=True, null=True)
+    # Translators: 'repr' means representation (https://docs.python.org/library/functions.html#repr)
+    object_repr = models.CharField(_('object repr'), max_length=200)
+    action_flag = models.PositiveSmallIntegerField(_('action flag'), choices=ACTION_FLAG_CHOICES)
+    # change_message is either a string or a JSON structure
+    change_message = models.TextField(_('change message'), blank=True)
 
-    class Meta:
-        db_table = "IoTDevices"
-
-
-class Transaction(models.Model):
-    Owner = models.CharField(max_length=50)
-    FileName = models.CharField(max_length=100)
-    Task = models.CharField(max_length=100)
-    TDate = models.DateTimeField(blank=True, null=True)
-
-    class Meta:
-        db_table = "Transaction"
-
-
-class KGC(models.Model):
-    Name = models.CharField(max_length=100)
-    Pass = models.CharField(max_length=100)
-
-    class Meta:
-        db_table = "KGC"
-
-
-class CloudServer(models.Model):
-    Name = models.CharField(max_length=100)
-    Pass = models.CharField(max_length=100)
+    objects = LogEntryManager()
 
     class Meta:
-        db_table = "CloudServer"
+        verbose_name = _('log entry')
+        verbose_name_plural = _('log entries')
+        db_table = 'django_admin_log'
+        ordering = ('-action_time',)
 
+    def __repr__(self):
+        return str(self.action_time)
 
-class Search(models.Model):
-    Owner = models.CharField(max_length=100)
-    Keyword = models.CharField(max_length=100)
-    SDate = models.DateTimeField(blank=True, null=True)
+    def __str__(self):
+        if self.is_addition():
+            return gettext('Added “%(object)s”.') % {'object': self.object_repr}
+        elif self.is_change():
+            return gettext('Changed “%(object)s” — %(changes)s') % {
+                'object': self.object_repr,
+                'changes': self.get_change_message(),
+            }
+        elif self.is_deletion():
+            return gettext('Deleted “%(object)s.”') % {'object': self.object_repr}
 
-    class Meta:
-        db_table = "Search"
+        return gettext('LogEntry Object')
 
+    def is_addition(self):
+        return self.action_flag == ADDITION
 
-class KeyRequest(models.Model):
-    Owner = models.CharField(max_length=100)
-    IoTDevice = models.CharField(max_length=100)
-    FileName = models.CharField(max_length=100)
-    PrivateKey = models.CharField(max_length=100)
-    Trapdoor = models.CharField(max_length=100)
-    PublicKey = models.CharField(max_length=100, null=True)
+    def is_change(self):
+        return self.action_flag == CHANGE
 
-    class Meta:
-        db_table = "KeyRequest"
+    def is_deletion(self):
+        return self.action_flag == DELETION
 
+    def get_change_message(self):
+        """
+        If self.change_message is a JSON structure, interpret it as a change
+        string, properly translated.
+        """
+        if self.change_message and self.change_message[0] == '[':
+            try:
+                change_message = json.loads(self.change_message)
+            except json.JSONDecodeError:
+                return self.change_message
+            messages = []
+            for sub_message in change_message:
+                if 'added' in sub_message:
+                    if sub_message['added']:
+                        sub_message['added']['name'] = gettext(sub_message['added']['name'])
+                        messages.append(gettext('Added {name} “{object}”.').format(**sub_message['added']))
+                    else:
+                        messages.append(gettext('Added.'))
 
-class IoTDeviceFiles(models.Model):
-    FileName = models.CharField(max_length=100)
-    IoTDevice = models.CharField(max_length=100)
-    FileContent = models.CharField(max_length=5000)
-    Keyword = models.CharField(max_length=200)
-    PublicKey = models.CharField(max_length=100, null=True)
-    UDate = models.DateTimeField(blank=True, null=True)
+                elif 'changed' in sub_message:
+                    sub_message['changed']['fields'] = get_text_list(
+                        [gettext(field_name) for field_name in sub_message['changed']['fields']], gettext('and')
+                    )
+                    if 'name' in sub_message['changed']:
+                        sub_message['changed']['name'] = gettext(sub_message['changed']['name'])
+                        messages.append(gettext('Changed {fields} for {name} “{object}”.').format(
+                            **sub_message['changed']
+                        ))
+                    else:
+                        messages.append(gettext('Changed {fields}.').format(**sub_message['changed']))
 
-    class Meta:
-        db_table = "IoTDeviceFiles"
+                elif 'deleted' in sub_message:
+                    sub_message['deleted']['name'] = gettext(sub_message['deleted']['name'])
+                    messages.append(gettext('Deleted {name} “{object}”.').format(**sub_message['deleted']))
 
+            change_message = ' '.join(msg[0].upper() + msg[1:] for msg in messages)
+            return change_message or gettext('No fields changed.')
+        else:
+            return self.change_message
 
-class DataStorage(models.Model):
-    FileName = models.CharField(max_length=100)
-    FileContent = models.CharField(max_length=5000)
-    Keyword = models.CharField(max_length=200)
-    PublicKey = models.CharField(max_length=100, null=True)
-    Ranks = models.IntegerField(blank=True, null=True)
-    UDate = models.CharField(max_length=5000)
-    IoTDevice = models.CharField(max_length=100)
-    FStatus = models.CharField(max_length=50)
+    def get_edited_object(self):
+        """Return the edited object represented by this log entry."""
+        return self.content_type.get_object_for_this_type(pk=self.object_id)
 
-    class Meta:
-        db_table = "DataStorage"
-
-
-class IOTKeys(models.Model):
-    IoTDevice = models.CharField(max_length=100)
-    FileName = models.CharField(max_length=100)
-    D1PublicKey = models.CharField(max_length=100)
-    D1PrivateKey = models.CharField(max_length=100)
-    D1Trapdoor = models.CharField(max_length=100)
-    D1Keyword = models.CharField(max_length=500)
-    D2PublicKey = models.CharField(max_length=100)
-    D2PrivateKey = models.CharField(max_length=100)
-    D2Trapdoor = models.CharField(max_length=100)
-    D2Keyword = models.CharField(max_length=500)
-    KeyStatus = models.CharField(max_length=100)
-
-    class Meta:
-        db_table = "IOTKeys"
-
-
-class Attacker(models.Model):
-    Owner = models.CharField(max_length=100)
-    FileName = models.CharField(max_length=100)
-    AttackKey = models.CharField(max_length=100)
-    ADate = models.DateTimeField(blank=True, null=True)
-    AttackType = models.CharField(max_length=50)
-
-    class Meta:
-        db_table = "Attacker"
-
+    def get_admin_url(self):
+        """
+        Return the admin URL to edit the object represented by this log entry.
+        """
+        if self.content_type and self.object_id:
+            url_name = 'admin:%s_%s_change' % (self.content_type.app_label, self.content_type.model)
+            try:
+                return reverse(url_name, args=(quote(self.object_id),))
+            except NoReverseMatch:
+                pass
+        return None

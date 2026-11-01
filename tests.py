@@ -1,64 +1,184 @@
-from django.test import TestCase
-
-# Create your tests here.
-from base64 import b64encode, b64decode
-import hashlib
-from Cryptodome.Cipher import AES
-from Cryptodome.Random import get_random_bytes
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
+from django.test import modify_settings
+from django.test.selenium import SeleniumTestCase
+from django.utils.deprecation import MiddlewareMixin
+from django.utils.translation import gettext as _
 
 
-def encrypt(plain_text, password):
-    # generate a random salt
-    salt = get_random_bytes(AES.block_size)
-
-    # use the Scrypt KDF to get a private key from the password
-    private_key = hashlib.scrypt(
-        password.encode(), salt=salt, n=2 ** 14, r=8, p=1, dklen=32)
-
-    # create cipher config
-    cipher_config = AES.new(private_key, AES.MODE_GCM)
-
-    # return a dictionary with the encrypted text
-    cipher_text, tag = cipher_config.encrypt_and_digest(bytes(plain_text, 'utf-8'))
-    return {
-        'cipher_text': b64encode(cipher_text).decode('utf-8'),
-        'salt': b64encode(salt).decode('utf-8'),
-        'nonce': b64encode(cipher_config.nonce).decode('utf-8'),
-        'tag': b64encode(tag).decode('utf-8')
-    }
+class CSPMiddleware(MiddlewareMixin):
+    """The admin's JavaScript should be compatible with CSP."""
+    def process_response(self, request, response):
+        response['Content-Security-Policy'] = "default-src 'self'"
+        return response
 
 
-def decrypt(enc_dict, password):
-    # decode the dictionary entries from base64
-    salt = b64decode(enc_dict['salt'])
-    cipher_text = b64decode(enc_dict['cipher_text'])
-    nonce = b64decode(enc_dict['nonce'])
-    tag = b64decode(enc_dict['tag'])
+@modify_settings(MIDDLEWARE={'append': 'django.contrib.admin.tests.CSPMiddleware'})
+class AdminSeleniumTestCase(SeleniumTestCase, StaticLiveServerTestCase):
 
-    # generate the private key from the password and salt
-    private_key = hashlib.scrypt(
-        password.encode(), salt=salt, n=2 ** 14, r=8, p=1, dklen=32)
+    available_apps = [
+        'django.contrib.admin',
+        'django.contrib.auth',
+        'django.contrib.contenttypes',
+        'django.contrib.sessions',
+        'django.contrib.sites',
+    ]
 
-    # create the cipher config
-    cipher = AES.new(private_key, AES.MODE_GCM, nonce=nonce)
+    def wait_until(self, callback, timeout=10):
+        """
+        Block the execution of the tests until the specified callback returns a
+        value that is not falsy. This method can be called, for example, after
+        clicking a link or submitting a form. See the other public methods that
+        call this function for more details.
+        """
+        from selenium.webdriver.support.wait import WebDriverWait
+        WebDriverWait(self.selenium, timeout).until(callback)
 
-    # decrypt the cipher text
-    decrypted = cipher.decrypt_and_verify(cipher_text, tag)
+    def wait_for_popup(self, num_windows=2, timeout=10):
+        """
+        Block until `num_windows` are present (usually 2, but can be
+        overridden in the case of pop-ups opening other pop-ups).
+        """
+        self.wait_until(lambda d: len(d.window_handles) == num_windows, timeout)
 
-    return decrypted
+    def wait_for(self, css_selector, timeout=10):
+        """
+        Block until a CSS selector is found on the page.
+        """
+        from selenium.webdriver.common.by import By
+        from selenium.webdriver.support import expected_conditions as ec
+        self.wait_until(
+            ec.presence_of_element_located((By.CSS_SELECTOR, css_selector)),
+            timeout
+        )
 
+    def wait_for_text(self, css_selector, text, timeout=10):
+        """
+        Block until the text is found in the CSS selector.
+        """
+        from selenium.webdriver.common.by import By
+        from selenium.webdriver.support import expected_conditions as ec
+        self.wait_until(
+            ec.text_to_be_present_in_element(
+                (By.CSS_SELECTOR, css_selector), text),
+            timeout
+        )
 
-def main():
-    password = "abacs"
+    def wait_for_value(self, css_selector, text, timeout=10):
+        """
+        Block until the value is found in the CSS selector.
+        """
+        from selenium.webdriver.common.by import By
+        from selenium.webdriver.support import expected_conditions as ec
+        self.wait_until(
+            ec.text_to_be_present_in_element_value(
+                (By.CSS_SELECTOR, css_selector), text),
+            timeout
+        )
 
-    # First let us encrypt secret message
-    encrypted = encrypt("An aortic aneurysm is caused by the force of blood against a weakened spot in your artery wall.", password)
-    print("Encrypt :", encrypted)
+    def wait_until_visible(self, css_selector, timeout=10):
+        """
+        Block until the element described by the CSS selector is visible.
+        """
+        from selenium.webdriver.common.by import By
+        from selenium.webdriver.support import expected_conditions as ec
+        self.wait_until(
+            ec.visibility_of_element_located((By.CSS_SELECTOR, css_selector)),
+            timeout
+        )
 
-    # Let us decrypt using our original password
-    decrypted = decrypt(encrypted, password)
-    print("Decrypt :", bytes.decode(decrypted))
+    def wait_until_invisible(self, css_selector, timeout=10):
+        """
+        Block until the element described by the CSS selector is invisible.
+        """
+        from selenium.webdriver.common.by import By
+        from selenium.webdriver.support import expected_conditions as ec
+        self.wait_until(
+            ec.invisibility_of_element_located((By.CSS_SELECTOR, css_selector)),
+            timeout
+        )
 
+    def wait_page_loaded(self):
+        """
+        Block until page has started to load.
+        """
+        from selenium.common.exceptions import TimeoutException
+        try:
+            # Wait for the next page to be loaded
+            self.wait_for('body')
+        except TimeoutException:
+            # IE7 occasionally returns an error "Internet Explorer cannot
+            # display the webpage" and doesn't load the next page. We just
+            # ignore it.
+            pass
 
-main()
+    def admin_login(self, username, password, login_url='/admin/'):
+        """
+        Log in to the admin.
+        """
+        self.selenium.get('%s%s' % (self.live_server_url, login_url))
+        username_input = self.selenium.find_element_by_name('username')
+        username_input.send_keys(username)
+        password_input = self.selenium.find_element_by_name('password')
+        password_input.send_keys(password)
+        login_text = _('Log in')
+        self.selenium.find_element_by_xpath(
+            '//input[@value="%s"]' % login_text).click()
+        self.wait_page_loaded()
 
+    def get_css_value(self, selector, attribute):
+        """
+        Return the value for the CSS attribute of a DOM element specified by
+        the given selector. Uses the jQuery that ships with Django.
+        """
+        return self.selenium.execute_script(
+            'return django.jQuery("%s").css("%s")' % (selector, attribute))
+
+    def get_select_option(self, selector, value):
+        """
+        Return the <OPTION> with the value `value` inside the <SELECT> widget
+        identified by the CSS selector `selector`.
+        """
+        from selenium.common.exceptions import NoSuchElementException
+        options = self.selenium.find_elements_by_css_selector('%s > option' % selector)
+        for option in options:
+            if option.get_attribute('value') == value:
+                return option
+        raise NoSuchElementException('Option "%s" not found in "%s"' % (value, selector))
+
+    def _assertOptionsValues(self, options_selector, values):
+        if values:
+            options = self.selenium.find_elements_by_css_selector(options_selector)
+            actual_values = []
+            for option in options:
+                actual_values.append(option.get_attribute('value'))
+            self.assertEqual(values, actual_values)
+        else:
+            # Prevent the `find_elements_by_css_selector` call from blocking
+            # if the selector doesn't match any options as we expect it
+            # to be the case.
+            with self.disable_implicit_wait():
+                self.wait_until(
+                    lambda driver: not driver.find_elements_by_css_selector(options_selector)
+                )
+
+    def assertSelectOptions(self, selector, values):
+        """
+        Assert that the <SELECT> widget identified by `selector` has the
+        options with the given `values`.
+        """
+        self._assertOptionsValues("%s > option" % selector, values)
+
+    def assertSelectedOptions(self, selector, values):
+        """
+        Assert that the <SELECT> widget identified by `selector` has the
+        selected options with the given `values`.
+        """
+        self._assertOptionsValues("%s > option:checked" % selector, values)
+
+    def has_css_class(self, selector, klass):
+        """
+        Return True if the element identified by `selector` has the CSS class
+        `klass`.
+        """
+        return (self.selenium.find_element_by_css_selector(selector)
+                .get_attribute('class').find(klass) != -1)
