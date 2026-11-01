@@ -1,8 +1,16 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# Machaku, 2015
-# Machaku, 2014
+# Chen Chun-Chia <ccc.larc@gmail.com>, 2015
+# Eric Ho <eric913@gmail.com>, 2013
+# ilay <ilay@ilay.tw>, 2012
+# Jannis Leidel <jannis@leidel.info>, 2011
+# mail6543210 <mail6543210@yahoo.com.tw>, 2013
+# ming hsien tzang <tzangms@gmail.com>, 2011
+# tcc <tcchou@tcchou.org>, 2011
+# Tzu-ping Chung <uranusjr@gmail.com>, 2016-2017
+# Yeh-Yung <yyc1217@gmail.com>, 2013
+# Yeh-Yung <yyc1217@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
@@ -10,319 +18,319 @@ msgstr ""
 "POT-Creation-Date: 2019-09-27 22:40+0200\n"
 "PO-Revision-Date: 2019-11-05 00:38+0000\n"
 "Last-Translator: Ramiro Morales\n"
-"Language-Team: Swahili (http://www.transifex.com/django/django/language/"
-"sw/)\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/django/django/"
+"language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sw\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Afrikaans"
-msgstr "Kiafrikaani"
+msgstr "南非語"
 
 msgid "Arabic"
-msgstr "Kiarabu"
+msgstr "阿拉伯語"
 
 msgid "Asturian"
-msgstr ""
+msgstr "阿斯圖里亞斯語"
 
 msgid "Azerbaijani"
-msgstr "Kiazerbaijani"
+msgstr "亞塞拜然語"
 
 msgid "Bulgarian"
-msgstr "Kibulgaria"
+msgstr "保加利亞語"
 
 msgid "Belarusian"
-msgstr "Kibelarusi"
+msgstr "白俄羅斯語"
 
 msgid "Bengali"
-msgstr "Kibengali"
+msgstr "孟加拉語"
 
 msgid "Breton"
-msgstr "Kibretoni"
+msgstr "布列塔尼語"
 
 msgid "Bosnian"
-msgstr "Kibosnia"
+msgstr "波士尼亞語"
 
 msgid "Catalan"
-msgstr "Kikatalani"
+msgstr "加泰隆語"
 
 msgid "Czech"
-msgstr "Kicheki"
+msgstr "捷克語"
 
 msgid "Welsh"
-msgstr "Kiweli"
+msgstr "威爾斯語"
 
 msgid "Danish"
-msgstr "Kideni"
+msgstr "丹麥語"
 
 msgid "German"
-msgstr "Kijerumani"
+msgstr "德語"
 
 msgid "Lower Sorbian"
-msgstr ""
+msgstr "下索布語"
 
 msgid "Greek"
-msgstr "Kigiriki"
+msgstr "希臘語"
 
 msgid "English"
-msgstr "Kiingereza"
+msgstr "英語"
 
 msgid "Australian English"
-msgstr "Kiingereza cha Kiaustalia"
+msgstr "澳大利亞英語"
 
 msgid "British English"
-msgstr "Kiingereza cha Uingereza"
+msgstr "英國英語"
 
 msgid "Esperanto"
-msgstr "Kiesperanto"
+msgstr "世界語"
 
 msgid "Spanish"
-msgstr "Kihispania"
+msgstr "西班牙語"
 
 msgid "Argentinian Spanish"
-msgstr "Kihispania cha Argentina"
+msgstr "阿根廷西班牙語"
 
 msgid "Colombian Spanish"
-msgstr ""
+msgstr "哥倫比亞西班牙語"
 
 msgid "Mexican Spanish"
-msgstr "Kihispania cha Mexico"
+msgstr "墨西哥西班牙語"
 
 msgid "Nicaraguan Spanish"
-msgstr "Kihispania cha Nikaragua"
+msgstr "尼加拉瓜西班牙語"
 
 msgid "Venezuelan Spanish"
-msgstr "Kihispania cha Kivenezuela"
+msgstr "委內瑞拉西班牙語"
 
 msgid "Estonian"
-msgstr "Kiestonia"
+msgstr "愛沙尼亞語"
 
 msgid "Basque"
-msgstr "Kibaskyue"
+msgstr "巴斯克語"
 
 msgid "Persian"
-msgstr "Kipershia"
+msgstr "波斯語"
 
 msgid "Finnish"
-msgstr "Kifini"
+msgstr "芬蘭語"
 
 msgid "French"
-msgstr "Kifaransa"
+msgstr "法語"
 
 msgid "Frisian"
-msgstr "Kifrisi"
+msgstr "菲士蘭語"
 
 msgid "Irish"
-msgstr "Kiairishi"
+msgstr "愛爾蘭語"
 
 msgid "Scottish Gaelic"
-msgstr ""
+msgstr "蘇格蘭蓋爾語"
 
 msgid "Galician"
-msgstr "Kigalatia"
+msgstr "加利西亞語"
 
 msgid "Hebrew"
-msgstr "Kiyahudi"
+msgstr "希伯來語"
 
 msgid "Hindi"
-msgstr "Kihindi"
+msgstr "印地語"
 
 msgid "Croatian"
-msgstr "Kikroeshia"
+msgstr "克羅埃西亞語"
 
 msgid "Upper Sorbian"
-msgstr ""
+msgstr "上索布語"
 
 msgid "Hungarian"
-msgstr "Kihangaria"
+msgstr "匈牙利語"
 
 msgid "Armenian"
 msgstr ""
 
 msgid "Interlingua"
-msgstr ""
+msgstr "國際語"
 
 msgid "Indonesian"
-msgstr "Kiindonesia"
+msgstr "印尼語"
 
 msgid "Ido"
-msgstr ""
+msgstr "伊多語"
 
 msgid "Icelandic"
-msgstr "Kiaiselandi"
+msgstr "冰島語"
 
 msgid "Italian"
-msgstr "Kiitaliano"
+msgstr "義大利語"
 
 msgid "Japanese"
-msgstr "Kijapani"
+msgstr "日語"
 
 msgid "Georgian"
-msgstr "Kijiojia"
+msgstr "喬治亞語"
 
 msgid "Kabyle"
-msgstr ""
+msgstr "卡拜爾語"
 
 msgid "Kazakh"
-msgstr "Kizakhi"
+msgstr "哈薩克語"
 
 msgid "Khmer"
-msgstr "Kihema"
+msgstr "高棉語"
 
 msgid "Kannada"
-msgstr "Kikanada"
+msgstr "康納達語"
 
 msgid "Korean"
-msgstr "Kikorea"
+msgstr "韓語"
 
 msgid "Luxembourgish"
-msgstr ""
+msgstr "盧森堡語"
 
 msgid "Lithuanian"
-msgstr "Kilithuania"
+msgstr "立陶宛語"
 
 msgid "Latvian"
-msgstr "Kilatvia"
+msgstr "拉脫維亞語"
 
 msgid "Macedonian"
-msgstr "Kimacedonia"
+msgstr "馬其頓語"
 
 msgid "Malayalam"
-msgstr "Kimalayalam"
+msgstr "馬拉雅拉姆語"
 
 msgid "Mongolian"
-msgstr "Kimongolia"
+msgstr "蒙古語"
 
 msgid "Marathi"
-msgstr ""
+msgstr "馬拉提語"
 
 msgid "Burmese"
-msgstr ""
+msgstr "緬甸語"
 
 msgid "Norwegian Bokmål"
-msgstr ""
+msgstr "書面挪威語"
 
 msgid "Nepali"
-msgstr "Kinepali"
+msgstr "尼泊爾語"
 
 msgid "Dutch"
-msgstr "Kidachi"
+msgstr "荷蘭語"
 
 msgid "Norwegian Nynorsk"
-msgstr "Kinynorki cha Kinorwei"
+msgstr "新挪威語"
 
 msgid "Ossetic"
-msgstr ""
+msgstr "奧塞梯語"
 
 msgid "Punjabi"
-msgstr "Kipanjabi"
+msgstr "旁遮普語"
 
 msgid "Polish"
-msgstr "Kipolishi"
+msgstr "波蘭語"
 
 msgid "Portuguese"
-msgstr "Kireno"
+msgstr "葡萄牙語"
 
 msgid "Brazilian Portuguese"
-msgstr "Kireno cha Kibrazili"
+msgstr "巴西葡萄牙語"
 
 msgid "Romanian"
-msgstr "Kiromania"
+msgstr "羅馬尼亞語"
 
 msgid "Russian"
-msgstr "Kirusi"
+msgstr "俄語"
 
 msgid "Slovak"
-msgstr "Kislovakia"
+msgstr "斯洛伐克語"
 
 msgid "Slovenian"
-msgstr "Kislovenia"
+msgstr "斯洛維尼亞語"
 
 msgid "Albanian"
-msgstr "Kialbania"
+msgstr "阿爾巴尼亞語"
 
 msgid "Serbian"
-msgstr "Kiserbia"
+msgstr "塞爾維亞語"
 
 msgid "Serbian Latin"
-msgstr "Kilatini cha Kiserbia"
+msgstr "塞爾維亞拉丁語"
 
 msgid "Swedish"
-msgstr "Kiswidi"
+msgstr "瑞典語"
 
 msgid "Swahili"
-msgstr "Kiswahili"
+msgstr "斯瓦希里語"
 
 msgid "Tamil"
-msgstr "Kitamili"
+msgstr "坦米爾語"
 
 msgid "Telugu"
-msgstr "kitegulu"
+msgstr "泰盧固語"
 
 msgid "Thai"
-msgstr "Kithai"
+msgstr "泰語"
 
 msgid "Turkish"
-msgstr "Kituruki"
+msgstr "土耳其語"
 
 msgid "Tatar"
-msgstr "Kitatari"
+msgstr "韃靼語"
 
 msgid "Udmurt"
-msgstr ""
+msgstr "烏德穆爾特語"
 
 msgid "Ukrainian"
-msgstr "Kiukreni"
+msgstr "烏克蘭語"
 
 msgid "Urdu"
-msgstr "Kiurdu"
+msgstr "烏爾都語"
 
 msgid "Uzbek"
 msgstr ""
 
 msgid "Vietnamese"
-msgstr "Kivietinamu"
+msgstr "越南語"
 
 msgid "Simplified Chinese"
-msgstr "Kichina Kilichorahisishwa"
+msgstr "簡體中文"
 
 msgid "Traditional Chinese"
-msgstr "Kichina Asilia"
+msgstr "繁體中文"
 
 msgid "Messages"
-msgstr ""
+msgstr "訊息"
 
 msgid "Site Maps"
-msgstr ""
+msgstr "網站地圖"
 
 msgid "Static Files"
-msgstr ""
+msgstr "靜態文件"
 
 msgid "Syndication"
-msgstr ""
+msgstr "聯播"
 
 msgid "That page number is not an integer"
-msgstr ""
+msgstr "該頁碼並非整數"
 
 msgid "That page number is less than 1"
-msgstr ""
+msgstr "該頁碼小於 1"
 
 msgid "That page contains no results"
-msgstr ""
+msgstr "該頁未包含任何內容"
 
 msgid "Enter a valid value."
-msgstr "Ingiza thamani halali"
+msgstr "請輸入有效的值。"
 
 msgid "Enter a valid URL."
-msgstr "Ingiza URL halali."
+msgstr "請輸入有效的 URL。"
 
 msgid "Enter a valid integer."
-msgstr "Ingiza namba halali"
+msgstr "請輸入有效的整數。"
 
 msgid "Enter a valid email address."
-msgstr "Ingiza anuani halali ya barua pepe"
+msgstr "請輸入有效的電子郵件地址。"
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 msgid ""
@@ -335,28 +343,28 @@ msgid ""
 msgstr ""
 
 msgid "Enter a valid IPv4 address."
-msgstr "Ingiza anuani halali ya IPV4"
+msgstr "請輸入有效的 IPv4 位址。"
 
 msgid "Enter a valid IPv6 address."
-msgstr "Ingiza anuani halali ya IPV6"
+msgstr "請輸入有效的 IPv6 位址。"
 
 msgid "Enter a valid IPv4 or IPv6 address."
-msgstr "Ingiza anuani halali za IPV4 au IPV6"
+msgstr "請輸入有效的 IPv4 或 IPv6 位址。"
 
 msgid "Enter only digits separated by commas."
-msgstr "Ingiza tarakimu zilizotenganishwa kwa koma tu."
+msgstr "請輸入以逗號分隔的數字。"
 
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr "Hakikisha thamani hii ni %(limit_value)s (ni %(show_value)s)."
+msgstr "請確認這個值是否為 %(limit_value)s (目前是 %(show_value)s)。"
 
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr "Hakikisha thamani hii ni ndogo kuliko au sawa na %(limit_value)s."
+msgstr "請確認此數值是否小於或等於 %(limit_value)s。"
 
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr "Hakikisha thamani hii ni kubwa kuliko au sawa na %(limit_value)s."
+msgstr "請確認此數值是否大於或等於 %(limit_value)s。"
 
 #, python-format
 msgid ""
@@ -366,7 +374,7 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-msgstr[1] ""
+"請確認這個值至少包含 %(limit_value)d 個字 (目前為 %(show_value)d 個字)。"
 
 #, python-format
 msgid ""
@@ -376,30 +384,27 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-msgstr[1] ""
+"請確認這個值至多包含 %(limit_value)d 個字 (目前為 %(show_value)d 個字)。"
 
 msgid "Enter a number."
-msgstr "Ingiza namba"
+msgstr "輸入一個數字"
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "請確認數字全長不超過 %(max)s 位。"
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "請確認十進位數字不多於 %(max)s 位。"
 
 #, python-format
 msgid ""
 "Ensure that there are no more than %(max)s digit before the decimal point."
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "請確認小數點前不多於 %(max)s 位。"
 
 #, python-format
 msgid ""
@@ -408,39 +413,39 @@ msgid ""
 msgstr ""
 
 msgid "Null characters are not allowed."
-msgstr ""
+msgstr "不允許空（null）字元。"
 
 msgid "and"
-msgstr "na"
+msgstr "和"
 
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr ""
+msgstr "這個 %(field_labels)s 在 %(model_name)s 已經存在。"
 
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr ""
+msgstr "數值 %(value)r 不是有效的選擇。"
 
 msgid "This field cannot be null."
-msgstr "Uga huu hauwezi kuwa hauna kitu."
+msgstr "這個值不能是 null。"
 
 msgid "This field cannot be blank."
-msgstr "Uga huu hauwezi kuwa mtupu"
+msgstr "這個欄位不能留白。"
 
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr "Tayari kuna %(field_label)s kwa %(model_name)s nyingine."
+msgstr "這個 %(field_label)s 在 %(model_name)s 已經存在。"
 
 #. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
 #. Eg: "Title must be unique for pub_date year"
 #, python-format
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
-msgstr ""
+msgstr "%(field_label)s 在 %(date_field_label)s %(lookup_type)s 上必須唯一。"
 
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "Uga wa aina %(field_type)s"
+msgstr "欄位型態： %(field_type)s"
 
 #, python-format
 msgid "“%(value)s” value must be either True or False."
@@ -451,14 +456,14 @@ msgid "“%(value)s” value must be either True, False, or None."
 msgstr ""
 
 msgid "Boolean (Either True or False)"
-msgstr "Buleani (Aidha Kweli au Si kweli)"
+msgstr "布林值 (True 或 False)"
 
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "Tungo (hadi %(max_length)s)"
+msgstr "字串 (至多 %(max_length)s 個字)"
 
 msgid "Comma-separated integers"
-msgstr "Inteja zilizotengwa kwa koma"
+msgstr "逗號分隔的整數"
 
 #, python-format
 msgid ""
@@ -473,7 +478,7 @@ msgid ""
 msgstr ""
 
 msgid "Date (without time)"
-msgstr "Tarehe (bila ya muda)"
+msgstr "日期 (不包括時間)"
 
 #, python-format
 msgid ""
@@ -488,14 +493,14 @@ msgid ""
 msgstr ""
 
 msgid "Date (with time)"
-msgstr "Tarehe (pamoja na muda)"
+msgstr "日期 (包括時間)"
 
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
 msgstr ""
 
 msgid "Decimal number"
-msgstr "Namba ya desimali"
+msgstr "十進位數"
 
 #, python-format
 msgid ""
@@ -504,59 +509,59 @@ msgid ""
 msgstr ""
 
 msgid "Duration"
-msgstr ""
+msgstr "時間長"
 
 msgid "Email address"
-msgstr "Anuani ya baruapepe"
+msgstr "電子郵件地址"
 
 msgid "File path"
-msgstr "Njia ya faili"
+msgstr "檔案路徑"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
 msgstr ""
 
 msgid "Floating point number"
-msgstr "Namba ya `floating point`"
+msgstr "浮點數"
 
 #, python-format
 msgid "“%(value)s” value must be an integer."
 msgstr ""
 
 msgid "Integer"
-msgstr "Inteja"
+msgstr "整數"
 
 msgid "Big (8 byte) integer"
-msgstr "Inteja kubwa (baiti 8)"
+msgstr "大整數 (8 位元組)"
 
 msgid "IPv4 address"
-msgstr "anuani ya IPV4"
+msgstr "IPv4 地址"
 
 msgid "IP address"
-msgstr "anuani ya IP"
+msgstr "IP 位址"
 
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
 msgstr ""
 
 msgid "Boolean (Either True, False or None)"
-msgstr "Buleani (Aidha kweli, Si kweli au Hukuna)"
+msgstr "布林值 (True, False 或 None)"
 
 msgid "Positive integer"
-msgstr "Inteja chanya"
+msgstr "正整數"
 
 msgid "Positive small integer"
-msgstr "Inteja chanya ndogo"
+msgstr "正小整數"
 
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr "Slagi (hadi %(max_length)s)"
+msgstr "可讀網址 (長度最多 %(max_length)s)"
 
 msgid "Small integer"
-msgstr "Inteja ndogo"
+msgstr "小整數"
 
 msgid "Text"
-msgstr "Maandishi"
+msgstr "文字"
 
 #, python-format
 msgid ""
@@ -571,13 +576,13 @@ msgid ""
 msgstr ""
 
 msgid "Time"
-msgstr "Muda"
+msgstr "時間"
 
 msgid "URL"
 msgstr "URL"
 
 msgid "Raw binary data"
-msgstr ""
+msgstr "原始二進制數據"
 
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
@@ -587,31 +592,31 @@ msgid "Universally unique identifier"
 msgstr ""
 
 msgid "File"
-msgstr "Faili"
+msgstr "檔案"
 
 msgid "Image"
-msgstr "Picha"
+msgstr "影像"
 
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr ""
+msgstr "%(field)s 為 %(value)r 的 %(model)s 物件不存在。"
 
 msgid "Foreign Key (type determined by related field)"
-msgstr "'Foreign Key' (aina inapatikana kwa uga unaohusiana)"
+msgstr "外鍵 (型態由關連欄位決定)"
 
 msgid "One-to-one relationship"
-msgstr "Uhusiano wa moja-kwa-moja"
+msgstr "一對一關連"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr ""
+msgstr "%(from)s-%(to)s 關連"
 
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr ""
+msgstr "%(from)s-%(to)s 關連"
 
 msgid "Many-to-many relationship"
-msgstr "Uhusiano wa vingi-kwa-vingi"
+msgstr "多對多關連"
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the
@@ -620,121 +625,113 @@ msgid ":?.!"
 msgstr ":?.!"
 
 msgid "This field is required."
-msgstr "Sehemu hii inahitajika"
+msgstr "這個欄位是必須的。"
 
 msgid "Enter a whole number."
-msgstr "Ingiza namba kamili"
+msgstr "輸入整數"
 
 msgid "Enter a valid date."
-msgstr "Ingiza tarehe halali"
+msgstr "輸入有效的日期"
 
 msgid "Enter a valid time."
-msgstr "Ingiza muda halali"
+msgstr "輸入有效的時間"
 
 msgid "Enter a valid date/time."
-msgstr "Ingiza tarehe/muda halali"
+msgstr "輸入有效的日期/時間"
 
 msgid "Enter a valid duration."
-msgstr ""
+msgstr "輸入有效的時間長。"
 
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
 msgstr ""
 
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr "Hakuna faili lililokusanywa. Angalia aina ya msimbo kwenye fomu."
+msgstr "沒有檔案被送出。請檢查表單的編碼類型。"
 
 msgid "No file was submitted."
-msgstr "Hakuna faili lililokusanywa."
+msgstr "沒有檔案送出"
 
 msgid "The submitted file is empty."
-msgstr "Faili lililokusanywa ni tupu."
+msgstr "送出的檔案是空的。"
 
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "請確認這個檔名至多包含 %(max)d 個字 (目前為 %(length)d)。"
 
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr "Tafadhali aidha kusanya faili au tiki kisanduku kilicho wazi, si yote."
+msgstr "請提交一個檔案或確認清除核可項, 不能兩者都做。"
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
-msgstr ""
-"Pakia picha halali. Faili ulilopakia lilikua aidha si picha au ni picha "
-"iliyopotoshwa."
+msgstr "上傳一個有效的圖檔。你上傳的檔案為非圖片，不然就是損壞的圖檔。"
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr "Chagua chaguo halali. %(value)s si moja kati ya machaguo yaliyopo."
+msgstr "請選擇有效的項目, %(value)s 不是一個可用的選擇。"
 
 msgid "Enter a list of values."
-msgstr "Ingiza orodha ya thamani"
+msgstr "請輸入一個列表的值。"
 
 msgid "Enter a complete value."
-msgstr ""
+msgstr "請輸入完整的值。"
 
 msgid "Enter a valid UUID."
-msgstr ""
+msgstr "請輸入有效的 UUID。"
 
 #. Translators: This is the default suffix added to form field labels
 msgid ":"
-msgstr ":"
+msgstr "："
 
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr ""
+msgstr "(隱藏欄位 %(name)s) %(error)s"
 
 msgid "ManagementForm data is missing or has been tampered with"
-msgstr ""
+msgstr "ManagementForm 資料缺失或遭竄改"
 
 #, python-format
 msgid "Please submit %d or fewer forms."
 msgid_plural "Please submit %d or fewer forms."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "請送出不多於 %d 個表單。"
 
 #, python-format
 msgid "Please submit %d or more forms."
 msgid_plural "Please submit %d or more forms."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "請送出多於 %d 個表單。"
 
 msgid "Order"
-msgstr "Panga"
+msgstr "排序"
 
 msgid "Delete"
-msgstr "Futa"
+msgstr "刪除"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "Tafadhali rekebisha data zilizojirudia kwa %(field)s."
+msgstr "請修正 %(field)s 的重覆資料"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr ""
-"Tafadhali rekebisha data zilizojirudia kwa %(field)s, zinazotakiwa kuwa za "
-"kipekee."
+msgstr "請修正 %(field)s 的重覆資料, 必須為唯一值"
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
-"Tafadhali sahihisha data zilizojirudia kwa %(field_name)s ,uga huu ni lazima "
-"kuwa wa pekee kwa %(lookup)s katika %(date_field)s."
+"請修正 %(field_name)s 重複資料, %(date_field)s 的 %(lookup)s 必須是唯一值。"
 
 msgid "Please correct the duplicate values below."
-msgstr "Tafadhali sahihisha thamani zilizojirudia hapo chini."
+msgstr "請修正下方重覆的數值"
 
 msgid "The inline value did not match the parent instance."
-msgstr ""
+msgstr "內含的外鍵無法連接到對應的上層實體。"
 
 msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr "Chagua chaguo halali. Chaguo hilo si moja kati ya chaguzi halali"
+msgstr "選擇有效的選項： 此選擇不在可用的選項中。"
 
 #, python-format
 msgid "“%(pk)s” is not a valid value."
@@ -747,22 +744,22 @@ msgid ""
 msgstr ""
 
 msgid "Clear"
-msgstr "Safisha"
+msgstr "清除"
 
 msgid "Currently"
-msgstr "Kwa sasa"
+msgstr "目前"
 
 msgid "Change"
-msgstr "Badili"
+msgstr "變更"
 
 msgid "Unknown"
-msgstr "Haijulikani"
+msgstr "未知"
 
 msgid "Yes"
-msgstr "Ndiyo"
+msgstr "是"
 
 msgid "No"
-msgstr "Hapana"
+msgstr "否"
 
 msgid "Year"
 msgstr ""
@@ -774,39 +771,38 @@ msgid "Day"
 msgstr ""
 
 msgid "yes,no,maybe"
-msgstr "ndiyo,hapana,labda"
+msgstr "是、否、也許"
 
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] "baiti %(size)d"
-msgstr[1] "baiti %(size)d"
+msgstr[0] "%(size)d 位元組"
 
 #, python-format
 msgid "%s KB"
-msgstr "KB %s"
+msgstr "%s KB"
 
 #, python-format
 msgid "%s MB"
-msgstr "MB %s"
+msgstr "%s MB"
 
 #, python-format
 msgid "%s GB"
-msgstr "GB %s"
+msgstr "%s GB"
 
 #, python-format
 msgid "%s TB"
-msgstr "TB %s"
+msgstr "%s TB"
 
 #, python-format
 msgid "%s PB"
-msgstr "PB %s"
+msgstr "%s PB"
 
 msgid "p.m."
-msgstr "p.m"
+msgstr "p.m."
 
 msgid "a.m."
-msgstr "a.m"
+msgstr "a.m."
 
 msgid "PM"
 msgstr "PM"
@@ -815,223 +811,223 @@ msgid "AM"
 msgstr "AM"
 
 msgid "midnight"
-msgstr "usiku wa manane"
+msgstr "午夜"
 
 msgid "noon"
-msgstr "mchana"
+msgstr "中午"
 
 msgid "Monday"
-msgstr "Jumatatu"
+msgstr "星期一"
 
 msgid "Tuesday"
-msgstr "Jumanne"
+msgstr "星期二"
 
 msgid "Wednesday"
-msgstr "Jumatano"
+msgstr "星期三"
 
 msgid "Thursday"
-msgstr "Alhamisi"
+msgstr "星期四"
 
 msgid "Friday"
-msgstr "Ijumaa"
+msgstr "星期五"
 
 msgid "Saturday"
-msgstr "Jumamosi"
+msgstr "星期六"
 
 msgid "Sunday"
-msgstr "Jumapili"
+msgstr "星期日"
 
 msgid "Mon"
-msgstr "Jtatu"
+msgstr "星期一"
 
 msgid "Tue"
-msgstr "Jnne"
+msgstr "星期二"
 
 msgid "Wed"
-msgstr "jtano"
+msgstr "星期三"
 
 msgid "Thu"
-msgstr "Alh"
+msgstr "星期四"
 
 msgid "Fri"
-msgstr "Ijmaa"
+msgstr "星期五"
 
 msgid "Sat"
-msgstr "Jmosi"
+msgstr "星期六"
 
 msgid "Sun"
-msgstr "Jpili"
+msgstr "星期日"
 
 msgid "January"
-msgstr "Januari"
+msgstr "一月"
 
 msgid "February"
-msgstr "Februari"
+msgstr "二月"
 
 msgid "March"
-msgstr "Machi"
+msgstr "三月"
 
 msgid "April"
-msgstr "Aprili"
+msgstr "四月"
 
 msgid "May"
-msgstr "Mei"
+msgstr "五月"
 
 msgid "June"
-msgstr "Juni"
+msgstr "六月"
 
 msgid "July"
-msgstr "Julai"
+msgstr "七月"
 
 msgid "August"
-msgstr "Agosti"
+msgstr "八月"
 
 msgid "September"
-msgstr "Septemba"
+msgstr "九月"
 
 msgid "October"
-msgstr "Oktoba"
+msgstr "十月"
 
 msgid "November"
-msgstr "Novemba"
+msgstr "十一月"
 
 msgid "December"
-msgstr "Disemba"
+msgstr "十二月"
 
 msgid "jan"
-msgstr "jan"
+msgstr "一月"
 
 msgid "feb"
-msgstr "feb"
+msgstr "二月"
 
 msgid "mar"
-msgstr "machi"
+msgstr "三月"
 
 msgid "apr"
-msgstr "apr"
+msgstr "四月"
 
 msgid "may"
-msgstr "mei"
+msgstr "五月"
 
 msgid "jun"
-msgstr "Juni"
+msgstr "六月"
 
 msgid "jul"
-msgstr "jul"
+msgstr "七月"
 
 msgid "aug"
-msgstr "ago"
+msgstr "八月"
 
 msgid "sep"
-msgstr "sep"
+msgstr "九月"
 
 msgid "oct"
-msgstr "okt"
+msgstr "十月"
 
 msgid "nov"
-msgstr "nov"
+msgstr "十一月"
 
 msgid "dec"
-msgstr "dis"
+msgstr "十二月"
 
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "Jan."
+msgstr "一月"
 
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr "Feb."
+msgstr "二月"
 
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "Machi"
+msgstr "三月"
 
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "Aprili"
+msgstr "四月"
 
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "Mei"
+msgstr "五月"
 
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "Juni"
+msgstr "六月"
 
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "Julai"
+msgstr "七月"
 
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr "Ago."
+msgstr "八月"
 
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr "Sep."
+msgstr "九月"
 
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr "Okt."
+msgstr "十月"
 
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr "Nov."
+msgstr "十一月"
 
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr "Dis."
+msgstr "十二月"
 
 msgctxt "alt. month"
 msgid "January"
-msgstr "Januari"
+msgstr "一月"
 
 msgctxt "alt. month"
 msgid "February"
-msgstr "Februari"
+msgstr "二月"
 
 msgctxt "alt. month"
 msgid "March"
-msgstr "Machi"
+msgstr "三月"
 
 msgctxt "alt. month"
 msgid "April"
-msgstr "Aprili"
+msgstr "四月"
 
 msgctxt "alt. month"
 msgid "May"
-msgstr "Mei"
+msgstr "五月"
 
 msgctxt "alt. month"
 msgid "June"
-msgstr "Juni"
+msgstr "六月"
 
 msgctxt "alt. month"
 msgid "July"
-msgstr "Julai"
+msgstr "七月"
 
 msgctxt "alt. month"
 msgid "August"
-msgstr "Agosti"
+msgstr "八月"
 
 msgctxt "alt. month"
 msgid "September"
-msgstr "Septemba"
+msgstr "九月"
 
 msgctxt "alt. month"
 msgid "October"
-msgstr "Oktoba"
+msgstr "十月"
 
 msgctxt "alt. month"
 msgid "November"
-msgstr "Novemba"
+msgstr "十一月"
 
 msgctxt "alt. month"
 msgid "December"
-msgstr "Disemba"
+msgstr "十二月"
 
 msgid "This is not a valid IPv6 address."
-msgstr ""
+msgstr "這是無效的 IPv6 位址。"
 
 #, python-format
 msgctxt "String to return when truncating text"
@@ -1039,7 +1035,7 @@ msgid "%(truncated_text)s…"
 msgstr ""
 
 msgid "or"
-msgstr "au"
+msgstr "或"
 
 #. Translators: This string is used as a separator between list elements
 msgid ", "
@@ -1048,47 +1044,41 @@ msgstr ", "
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] "mwaka %d"
-msgstr[1] "miaka %d"
+msgstr[0] "%d 年"
 
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "mwezi %d"
-msgstr[1] "miezi %d"
+msgstr[0] "%d 月"
 
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] "wiki %d"
-msgstr[1] "wiki %d"
+msgstr[0] "%d 週"
 
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "siku %d"
-msgstr[1] "siku %d"
+msgstr[0] "%d 日"
 
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "saa %d"
-msgstr[1] "saa %d"
+msgstr[0] "%d 時"
 
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "dakika %d"
-msgstr[1] "dakika %d"
+msgstr[0] "%d 分"
 
 msgid "0 minutes"
-msgstr "dakika 0"
+msgstr "0 分"
 
 msgid "Forbidden"
-msgstr "Marufuku"
+msgstr "禁止"
 
 msgid "CSRF verification failed. Request aborted."
-msgstr ""
+msgstr "CSRF 驗證失敗。已中止請求。"
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
@@ -1116,6 +1106,8 @@ msgid ""
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
+"你看到這個訊息，是因為這個網站要求在送出表單包含一個 CSRF cookie。這個 "
+"cookie 是用於安全用途，保護你的瀏覽器不被第三方挾持。"
 
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
@@ -1123,34 +1115,34 @@ msgid ""
 msgstr ""
 
 msgid "More information is available with DEBUG=True."
-msgstr "Maelezo zaidi yanapatikana ikiwa DEBUG=True"
+msgstr "設定 DEBUG=True 以獲得更多資訊。"
 
 msgid "No year specified"
-msgstr "Hakuna mwaka maalum uliotajwa"
+msgstr "不指定年份"
 
 msgid "Date out of range"
-msgstr ""
+msgstr "日期超過範圍"
 
 msgid "No month specified"
-msgstr "Hakuna mwezi maalum uliotajwa"
+msgstr "不指定月份"
 
 msgid "No day specified"
-msgstr "Hakuna siku maalum iliyitajwa"
+msgstr "不指定日期"
 
 msgid "No week specified"
-msgstr "Hakuna wiki maalum iliyotajwa"
+msgstr "不指定週數"
 
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "Hakujapatikana %(verbose_name_plural)s"
+msgstr "%(verbose_name_plural)s 無法使用"
 
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"%(verbose_name_plural)s kutoka wakati ujao haiwezekani  kwani `"
-"%(class_name)s.allow_future` ni `False`."
+"未來的 %(verbose_name_plural)s 不可用，因 %(class_name)s.allow_future 為 "
+"False."
 
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
@@ -1158,21 +1150,21 @@ msgstr ""
 
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "hakuna %(verbose_name)s kulingana na ulizo"
+msgstr "無 %(verbose_name)s 符合本次搜尋"
 
 msgid "Page is not “last”, nor can it be converted to an int."
 msgstr ""
 
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr "Ukurasa batili (%(page_number)s): %(message)s"
+msgstr "無效的頁面 (%(page_number)s): %(message)s"
 
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
 msgstr ""
 
 msgid "Directory indexes are not allowed here."
-msgstr "Sahirisi za saraka haziruhusiwi hapa."
+msgstr "這裡不允許目錄索引。"
 
 #, python-format
 msgid "“%(path)s” does not exist"
@@ -1180,19 +1172,21 @@ msgstr ""
 
 #, python-format
 msgid "Index of %(directory)s"
-msgstr "Sahirisi ya %(directory)s"
+msgstr "%(directory)s 的索引"
 
 msgid "Django: the Web framework for perfectionists with deadlines."
-msgstr ""
+msgstr "Django：為有時間壓力的完美主義者設計的網站框架。"
 
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
+"查看 <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">Django %(version)s 的發行筆記</a>"
 
 msgid "The install worked successfully! Congratulations!"
-msgstr ""
+msgstr "安裝成功！恭喜！"
 
 #, python-format
 msgid ""
@@ -1201,21 +1195,24 @@ msgid ""
 "\">DEBUG=True</a> is in your settings file and you have not configured any "
 "URLs."
 msgstr ""
+"你看到這個訊息，是因為你在 Django 設定檔中包含 <a href=\"https://docs."
+"djangoproject.com/en/%(version)s/ref/settings/#debug\" target=\"_blank\" rel="
+"\"noopener\">DEBUG = True</a>，且尚未配置任何網址。開始工作吧！"
 
 msgid "Django Documentation"
-msgstr ""
+msgstr "Django 文件"
 
 msgid "Topics, references, &amp; how-to’s"
 msgstr ""
 
 msgid "Tutorial: A Polling App"
-msgstr ""
+msgstr "教學：投票應用"
 
 msgid "Get started with Django"
-msgstr ""
+msgstr "初學 Django"
 
 msgid "Django Community"
-msgstr ""
+msgstr "Django 社群"
 
 msgid "Connect, get help, or contribute"
-msgstr ""
+msgstr "聯繫、求助、貢獻"
