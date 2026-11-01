@@ -1,372 +1,364 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# eallik <eallik@gmail.com>, 2011
+# Alex Gaynor <inactive+Alex@transifex.com>, 2011-2012
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Janno Liivak <jannolii@gmail.com>, 2013-2015
-# madisvain <madisvain@gmail.com>, 2011
-# Martin Pajuste <martinpajuste@gmail.com>, 2014-2015
-# Martin Pajuste <martinpajuste@gmail.com>, 2016-2017,2019
-# Marti Raudsepp <marti@juffo.org>, 2014,2016
-# Ragnar Rebase <rrebase@gmail.com>, 2019
+# Meir Kriheli <mkriheli@gmail.com>, 2011-2015,2017,2019
+# אורי רודברג <uri@speedy.net>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-27 22:40+0200\n"
-"PO-Revision-Date: 2019-12-28 02:29+0000\n"
-"Last-Translator: Ragnar Rebase <rrebase@gmail.com>\n"
-"Language-Team: Estonian (http://www.transifex.com/django/django/language/"
-"et/)\n"
+"PO-Revision-Date: 2020-01-19 11:47+0000\n"
+"Last-Translator: אורי רודברג <uri@speedy.net>\n"
+"Language-Team: Hebrew (http://www.transifex.com/django/django/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: et\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: he\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % "
+"1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
 
 msgid "Afrikaans"
-msgstr "afrikaani"
+msgstr "אפריקאנס"
 
 msgid "Arabic"
-msgstr "araabia"
+msgstr "ערבית"
 
 msgid "Asturian"
-msgstr "astuuria"
+msgstr "אסטורית"
 
 msgid "Azerbaijani"
-msgstr "aserbaidžaani"
+msgstr "אזרית"
 
 msgid "Bulgarian"
-msgstr "bulgaaria"
+msgstr "בולגרית"
 
 msgid "Belarusian"
-msgstr "valgevene"
+msgstr "בֶּלָרוּסִית"
 
 msgid "Bengali"
-msgstr "bengali"
+msgstr "בנגאלית"
 
 msgid "Breton"
-msgstr "bretooni"
+msgstr "בְּרֶטוֹנִית"
 
 msgid "Bosnian"
-msgstr "bosnia"
+msgstr "בוסנית"
 
 msgid "Catalan"
-msgstr "katalaani"
+msgstr "קאטלונית"
 
 msgid "Czech"
-msgstr "tšehhi"
+msgstr "צ'כית"
 
 msgid "Welsh"
-msgstr "uelsi"
+msgstr "וולשית"
 
 msgid "Danish"
-msgstr "taani"
+msgstr "דנית"
 
 msgid "German"
-msgstr "saksa"
+msgstr "גרמנית"
 
 msgid "Lower Sorbian"
-msgstr " alamsorbi"
+msgstr "סורבית תחתונה"
 
 msgid "Greek"
-msgstr "kreeka"
+msgstr "יוונית"
 
 msgid "English"
-msgstr "inglise"
+msgstr "אנגלית"
 
 msgid "Australian English"
-msgstr "austraalia inglise"
+msgstr "אנגלית אוסטרלית"
 
 msgid "British English"
-msgstr "briti inglise"
+msgstr "אנגלית בריטית"
 
 msgid "Esperanto"
-msgstr "esperanto"
+msgstr "אספרנטו"
 
 msgid "Spanish"
-msgstr "hispaania"
+msgstr "ספרדית"
 
 msgid "Argentinian Spanish"
-msgstr "argentiina hispaani"
+msgstr "ספרדית ארגנטינית"
 
 msgid "Colombian Spanish"
-msgstr "kolumbia hispaania"
+msgstr "ספרדית קולומביאנית"
 
 msgid "Mexican Spanish"
-msgstr "mehhiko hispaania"
+msgstr "ספרדית מקסיקנית"
 
 msgid "Nicaraguan Spanish"
-msgstr "nikaraagua hispaania"
+msgstr "ספרדית ניקרגואה"
 
 msgid "Venezuelan Spanish"
-msgstr "venetsueela hispaania"
+msgstr "ספרדית ונצואלית"
 
 msgid "Estonian"
-msgstr "eesti"
+msgstr "אסטונית"
 
 msgid "Basque"
-msgstr "baski"
+msgstr "בסקית"
 
 msgid "Persian"
-msgstr "pärsia"
+msgstr "פרסית"
 
 msgid "Finnish"
-msgstr "soome"
+msgstr "פינית"
 
 msgid "French"
-msgstr "prantsuse"
+msgstr "צרפתית"
 
 msgid "Frisian"
-msgstr "friisi"
+msgstr "פריזית"
 
 msgid "Irish"
-msgstr "iiri"
+msgstr "אירית"
 
 msgid "Scottish Gaelic"
-msgstr "šoti gaeli"
+msgstr "גאלית סקוטית"
 
 msgid "Galician"
-msgstr "galiitsia"
+msgstr "גאליציאנית"
 
 msgid "Hebrew"
-msgstr "heebrea"
+msgstr "עברית"
 
 msgid "Hindi"
-msgstr "hindi"
+msgstr "הינדי"
 
 msgid "Croatian"
-msgstr "horvaatia"
+msgstr "קרואטית"
 
 msgid "Upper Sorbian"
-msgstr "ülemsorbi"
+msgstr "סורבית עילית"
 
 msgid "Hungarian"
-msgstr "ungari"
+msgstr "הונגרית"
 
 msgid "Armenian"
-msgstr "armeenia"
+msgstr "ארמנית"
 
 msgid "Interlingua"
-msgstr "interlingua"
+msgstr "אינטרלינגואה"
 
 msgid "Indonesian"
-msgstr "indoneesi"
+msgstr "אינדונזית"
 
 msgid "Ido"
-msgstr "ido"
+msgstr "אידו"
 
 msgid "Icelandic"
-msgstr "islandi"
+msgstr "איסלנדית"
 
 msgid "Italian"
-msgstr "itaalia"
+msgstr "איטלקית"
 
 msgid "Japanese"
-msgstr "jaapani"
+msgstr "יפנית"
 
 msgid "Georgian"
-msgstr "gruusia"
+msgstr "גיאורגית"
 
 msgid "Kabyle"
-msgstr "Kabiili"
+msgstr "קבילה"
 
 msgid "Kazakh"
-msgstr "kasahhi"
+msgstr "קזחית"
 
 msgid "Khmer"
-msgstr "khmeri"
+msgstr "חמר"
 
 msgid "Kannada"
-msgstr "kannada"
+msgstr "קאנאדה"
 
 msgid "Korean"
-msgstr "korea"
+msgstr "קוריאנית"
 
 msgid "Luxembourgish"
-msgstr "letseburgi"
+msgstr "לוקסמבורגית"
 
 msgid "Lithuanian"
-msgstr "leedu"
+msgstr "ליטאית"
 
 msgid "Latvian"
-msgstr "läti"
+msgstr "לטבית"
 
 msgid "Macedonian"
-msgstr "makedoonia"
+msgstr "מקדונית"
 
 msgid "Malayalam"
-msgstr "malaia"
+msgstr "מלאיאלאם"
 
 msgid "Mongolian"
-msgstr "mongoolia"
+msgstr "מונגולי"
 
 msgid "Marathi"
-msgstr "marathi"
+msgstr "מראטהי"
 
 msgid "Burmese"
-msgstr "birma"
+msgstr "בּוּרְמֶזִית"
 
 msgid "Norwegian Bokmål"
-msgstr "norra bokmål"
+msgstr "נורבגית ספרותית"
 
 msgid "Nepali"
-msgstr "nepali"
+msgstr "נפאלית"
 
 msgid "Dutch"
-msgstr "hollandi"
+msgstr "הולנדית"
 
 msgid "Norwegian Nynorsk"
-msgstr "norra (nynorsk)"
+msgstr "נורבגית חדשה"
 
 msgid "Ossetic"
-msgstr "osseetia"
+msgstr "אוסטית"
 
 msgid "Punjabi"
-msgstr "pandžab"
+msgstr "פנג'אבי"
 
 msgid "Polish"
-msgstr "poola"
+msgstr "פולנית"
 
 msgid "Portuguese"
-msgstr "portugali"
+msgstr "פורטוגזית"
 
 msgid "Brazilian Portuguese"
-msgstr "brasiilia portugali"
+msgstr "פורטוגזית ברזילאית"
 
 msgid "Romanian"
-msgstr "rumeenia"
+msgstr "רומנית"
 
 msgid "Russian"
-msgstr "vene"
+msgstr "רוסית"
 
 msgid "Slovak"
-msgstr "slovaki"
+msgstr "סלובקית"
 
 msgid "Slovenian"
-msgstr "sloveeni"
+msgstr "סלובנית"
 
 msgid "Albanian"
-msgstr "albaania"
+msgstr "אלבנית"
 
 msgid "Serbian"
-msgstr "serbia"
+msgstr "סרבית"
 
 msgid "Serbian Latin"
-msgstr "serbia (ladina)"
+msgstr "סרבית לטינית"
 
 msgid "Swedish"
-msgstr "rootsi"
+msgstr "שוודית"
 
 msgid "Swahili"
-msgstr "suahiili"
+msgstr "סווהילי"
 
 msgid "Tamil"
-msgstr "tamiili"
+msgstr "טמילית"
 
 msgid "Telugu"
-msgstr "telugu"
+msgstr "טלגו"
 
 msgid "Thai"
-msgstr "tai"
+msgstr "תאילנדית"
 
 msgid "Turkish"
-msgstr "türgi"
+msgstr "טורקית"
 
 msgid "Tatar"
-msgstr "tatari"
+msgstr "טטרית"
 
 msgid "Udmurt"
-msgstr "udmurdi"
+msgstr "אודמורטית"
 
 msgid "Ukrainian"
-msgstr "ukrania"
+msgstr "אוקראינית"
 
 msgid "Urdu"
-msgstr "urdu"
+msgstr "אורדו"
 
 msgid "Uzbek"
-msgstr "Usbeki"
+msgstr ""
 
 msgid "Vietnamese"
-msgstr "vietnami"
+msgstr "וייטנאמית"
 
 msgid "Simplified Chinese"
-msgstr "lihtsustatud hiina"
+msgstr "סינית פשוטה"
 
 msgid "Traditional Chinese"
-msgstr "traditsiooniline hiina"
+msgstr "סינית מסורתית"
 
 msgid "Messages"
-msgstr "Sõnumid"
+msgstr "הודעות"
 
 msgid "Site Maps"
-msgstr "Saidikaardid"
+msgstr "מפות אתר"
 
 msgid "Static Files"
-msgstr "Staatilised failid"
+msgstr "קבצים סטטיים"
 
 msgid "Syndication"
-msgstr "Sündikeerimine"
+msgstr "הפצת תכנים"
 
 msgid "That page number is not an integer"
-msgstr "See lehe number ei ole täisarv"
+msgstr "מספר העמוד אינו מספר שלם"
 
 msgid "That page number is less than 1"
-msgstr "See lehe number on väiksem kui 1"
+msgstr "מספר העמוד קטן מ־1"
 
 msgid "That page contains no results"
-msgstr "See leht ei sisalda tulemusi"
+msgstr "עמוד זה אינו מכיל תוצאות"
 
 msgid "Enter a valid value."
-msgstr "Sisestage korrektne väärtus."
+msgstr "יש להזין ערך חוקי."
 
 msgid "Enter a valid URL."
-msgstr "Sisestage korrektne URL."
+msgstr "יש להזין URL חוקי."
 
 msgid "Enter a valid integer."
-msgstr "Sisestage korrektne täisarv."
+msgstr "יש להזין מספר שלם חוקי."
 
 msgid "Enter a valid email address."
-msgstr "Sisestage korrektne e-posti aadress."
+msgstr "נא להזין כתובת דוא\"ל חוקית"
 
 #. Translators: "letters" means latin letters: a-z and A-Z.
 msgid ""
 "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
 msgstr ""
-"Sisestage korrektne “nälk”, mis koosneb tähtedest, numbritest, "
-"alakriipsudest või sidekriipsudest."
 
 msgid ""
 "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
 "hyphens."
 msgstr ""
-"Sisestage korrektne “nälk”, mis koosneb Unicode tähtedest, numbritest, ala- "
-"või sidekriipsudest."
 
 msgid "Enter a valid IPv4 address."
-msgstr "Sisestage korrektne IPv4 aadress."
+msgstr "יש להזין כתובת IPv4 חוקית."
 
 msgid "Enter a valid IPv6 address."
-msgstr "Sisestage korrektne IPv6 aadress."
+msgstr "יש להזין כתובת IPv6 חוקית."
 
 msgid "Enter a valid IPv4 or IPv6 address."
-msgstr "Sisestage korrektne IPv4 või IPv6 aadress."
+msgstr "יש להזין כתובת IPv4 או IPv6 חוקית."
 
 msgid "Enter only digits separated by commas."
-msgstr "Sisestage ainult komaga eraldatud numbreid."
+msgstr "יש להזין רק ספרות מופרדות בפסיקים."
 
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr "Veendu, et see väärtus on %(limit_value)s (hetkel on %(show_value)s)."
+msgstr "יש לוודא שערך זה הינו %(limit_value)s (כרגע %(show_value)s)."
 
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr "Veendu, et see väärtus on väiksem või võrdne kui %(limit_value)s."
+msgstr "יש לוודא שערך זה פחות מ או שווה ל־%(limit_value)s ."
 
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr "Veendu, et see väärtus on suurem või võrdne kui %(limit_value)s."
+msgstr "יש לוודא שהערך גדול מ או שווה ל־%(limit_value)s."
 
 #, python-format
 msgid ""
@@ -376,11 +368,13 @@ msgid_plural ""
 "Ensure this value has at least %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"Väärtuses peab olema vähemalt %(limit_value)d tähemärk (praegu on "
-"%(show_value)d)."
+"נא לוודא שערך זה מכיל תו %(limit_value)d לכל הפחות (מכיל %(show_value)d)."
 msgstr[1] ""
-"Väärtuses peab olema vähemalt %(limit_value)d tähemärki (praegu on "
-"%(show_value)d)."
+"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל הפחות (מכיל %(show_value)d)."
+msgstr[2] ""
+"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל הפחות (מכיל %(show_value)d)."
+msgstr[3] ""
+"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל הפחות (מכיל %(show_value)d)."
 
 #, python-format
 msgid ""
@@ -390,68 +384,72 @@ msgid_plural ""
 "Ensure this value has at most %(limit_value)d characters (it has "
 "%(show_value)d)."
 msgstr[0] ""
-"Väärtuses võib olla kõige rohkem %(limit_value)d tähemärk (praegu on "
-"%(show_value)d)."
+"נא לוודא שערך זה מכיל תו %(limit_value)d לכל היותר (מכיל %(show_value)d)."
 msgstr[1] ""
-"Väärtuses võib olla kõige rohkem %(limit_value)d tähemärki (praegu on "
-"%(show_value)d)."
+"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל היותר (מכיל %(show_value)d)."
+msgstr[2] ""
+"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל היותר (מכיל %(show_value)d)."
+msgstr[3] ""
+"נא לוודא שערך זה מכיל %(limit_value)d תווים לכל היותר (מכיל %(show_value)d)."
 
 msgid "Enter a number."
-msgstr "Sisestage arv."
+msgstr "נא להזין מספר."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] "Veenduge, et kogu numbrikohtade arv ei oleks suurem kui %(max)s."
-msgstr[1] "Veenduge, et kogu numbrikohtade arv ei oleks suurem kui %(max)s."
+msgstr[0] "נא לוודא שאין יותר מספרה %(max)s בסה\"כ."
+msgstr[1] "נא לוודא שאין יותר מ־%(max)s ספרות בסה\"כ."
+msgstr[2] "נא לוודא שאין יותר מ־%(max)s ספרות בסה\"כ."
+msgstr[3] "נא לוודא שאין יותר מ־%(max)s ספרות בסה\"כ."
 
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] "Veenduge, et komakohtade arv ei oleks suurem kui %(max)s."
-msgstr[1] "Veenduge, et komakohtade arv ei oleks suurem kui %(max)s."
+msgstr[0] "נא לוודא שאין יותר מספרה %(max)s אחרי הנקודה."
+msgstr[1] "נא לוודא שאין יותר מ־%(max)s ספרות אחרי הנקודה."
+msgstr[2] "נא לוודא שאין יותר מ־%(max)s ספרות אחרי הנקודה."
+msgstr[3] "נא לוודא שאין יותר מ־%(max)s ספרות אחרי הנקודה."
 
 #, python-format
 msgid ""
 "Ensure that there are no more than %(max)s digit before the decimal point."
 msgid_plural ""
 "Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] ""
-"Veenduge, et komast vasakul olevaid numbreid ei oleks rohkem kui %(max)s."
-msgstr[1] ""
-"Veenduge, et komast vasakul olevaid numbreid ei oleks rohkem kui %(max)s."
+msgstr[0] "נא לוודא שאין יותר מספרה %(max)s לפני הנקודה העשרונית"
+msgstr[1] "נא לוודא שאין יותר מ־%(max)s ספרות לפני הנקודה העשרונית"
+msgstr[2] "נא לוודא שאין יותר מ־%(max)s ספרות לפני הנקודה העשרונית"
+msgstr[3] "נא לוודא שאין יותר מ־%(max)s ספרות לפני הנקודה העשרונית"
 
 #, python-format
 msgid ""
 "File extension “%(extension)s” is not allowed. Allowed extensions are: "
 "%(allowed_extensions)s."
 msgstr ""
-"Faililaiend “%(extension)s” pole lubatud. Lubatud laiendid on: "
-"%(allowed_extensions)s."
 
 msgid "Null characters are not allowed."
-msgstr "Tühjad tähemärgid ei ole lubatud."
+msgstr "תווי NULL אינם מותרים. "
 
 msgid "and"
-msgstr "ja"
+msgstr "ו"
 
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr "%(model_name)s väljaga %(field_labels)s on juba olemas."
+msgstr "%(model_name)s·עם·%(field_labels)s·אלו קיימים כבר."
 
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr "Väärtus %(value)r ei ole kehtiv valik."
+msgstr "ערך %(value)r אינו אפשרות חוקית."
 
 msgid "This field cannot be null."
-msgstr "See lahter ei tohi olla tühi."
+msgstr "שדה זה אינו יכול להיות ריק."
 
 msgid "This field cannot be blank."
-msgstr "See väli ei saa olla tühi."
+msgstr "שדה זה אינו יכול להיות ריק."
 
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr "Sellise %(field_label)s-väljaga %(model_name)s on juba olemas."
+msgstr "%(model_name)s·עם·%(field_label)s·זה קיימת כבר."
 
 #. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
 #. Eg: "Title must be unique for pub_date year"
@@ -459,196 +457,182 @@ msgstr "Sellise %(field_label)s-väljaga %(model_name)s on juba olemas."
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
 msgstr ""
-"%(field_label)s peab olema unikaalne %(date_field_label)s %(lookup_type)s "
-"suhtes."
+"%(field_label)s חייב להיות ייחודי עבור %(date_field_label)s %(lookup_type)s."
 
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr "Lahter tüüpi: %(field_type)s"
+msgstr "שדה מסוג: %(field_type)s"
 
 #, python-format
 msgid "“%(value)s” value must be either True or False."
-msgstr "“%(value)s” väärtus peab olema Tõene või Väär."
+msgstr ""
 
 #, python-format
 msgid "“%(value)s” value must be either True, False, or None."
-msgstr "“%(value)s” väärtus peab olema Tõene, Väär või Tühi."
+msgstr ""
 
 msgid "Boolean (Either True or False)"
-msgstr "Tõeväärtus (Kas tõene või väär)"
+msgstr "בוליאני (אמת או שקר)"
 
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr "String (kuni %(max_length)s märki)"
+msgstr "מחרוזת (עד %(max_length)s תווים)"
 
 msgid "Comma-separated integers"
-msgstr "Komaga eraldatud täisarvud"
+msgstr "מספרים שלמים מופרדים בפסיקים"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
 msgstr ""
-"“%(value)s” väärtusel on vale kuupäevaformaat. See peab olema kujul AAAA-KK-"
-"PP."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
 msgstr ""
-"“%(value)s” väärtusel on õige formaat (AAAA-KK-PP), kuid kuupäev on vale."
 
 msgid "Date (without time)"
-msgstr "Kuupäev (kellaajata)"
+msgstr "תאריך (ללא שעה)"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
 "uuuuuu]][TZ] format."
 msgstr ""
-"“%(value)s” väärtusel on vale formaat. Peab olema formaadis AAAA-KK-PP HH:"
-"MM[:ss[.uuuuuu]][TZ]."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
 msgstr ""
-"“%(value)s” väärtusel on õige formaat (AAAA-KK-PP HH:MM[:ss[.uuuuuu]][TZ]), "
-"kuid kuupäev/kellaaeg on vale."
 
 msgid "Date (with time)"
-msgstr "Kuupäev (kellaajaga)"
+msgstr "תאריך (כולל שעה)"
 
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
-msgstr "“%(value)s” väärtus peab olema kümnendarv."
+msgstr ""
 
 msgid "Decimal number"
-msgstr "Kümnendmurd"
+msgstr "מספר עשרוני"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
 "uuuuuu] format."
 msgstr ""
-"“%(value)s” väärtusel on vale formaat. Peab olema formaadis [DD] "
-"[[HH:]MM:]ss[.uuuuuu]."
 
 msgid "Duration"
-msgstr "Kestus"
+msgstr "משך"
 
 msgid "Email address"
-msgstr "E-posti aadress"
+msgstr "כתובת דוא\"ל"
 
 msgid "File path"
-msgstr "Faili asukoht"
+msgstr "נתיב קובץ"
 
 #, python-format
 msgid "“%(value)s” value must be a float."
-msgstr "“%(value)s” väärtus peab olema ujukomaarv."
+msgstr ""
 
 msgid "Floating point number"
-msgstr "Ujukomaarv"
+msgstr "מספר עשרוני"
 
 #, python-format
 msgid "“%(value)s” value must be an integer."
-msgstr "“%(value)s” väärtus peab olema täisarv."
+msgstr "הערך '%(value)s' חייב להיות מספר שלם."
 
 msgid "Integer"
-msgstr "Täisarv"
+msgstr "מספר שלם"
 
 msgid "Big (8 byte) integer"
-msgstr "Suur (8 baiti) täisarv"
+msgstr "מספר שלם גדול (8 בתים)"
 
 msgid "IPv4 address"
-msgstr "IPv4 aadress"
+msgstr "כתובת IPv4"
 
 msgid "IP address"
-msgstr "IP aadress"
+msgstr "כתובת IP"
 
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
-msgstr "“%(value)s” väärtus peab olema kas Tühi, Tõene või Väär."
+msgstr ""
 
 msgid "Boolean (Either True, False or None)"
-msgstr "Tõeväärtus (Kas tõene, väär või tühi)"
+msgstr "בוליאני (אמת, שקר או כלום)"
 
 msgid "Positive integer"
-msgstr "Positiivne täisarv"
+msgstr "מספר שלם חיובי"
 
 msgid "Positive small integer"
-msgstr "Positiivne väikene täisarv"
+msgstr "מספר שלם חיובי קטן"
 
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr "Nälk (kuni %(max_length)s märki)"
+msgstr "Slug (עד %(max_length)s תווים)"
 
 msgid "Small integer"
-msgstr "Väike täisarv"
+msgstr "מספר שלם קטן"
 
 msgid "Text"
-msgstr "Tekst"
+msgstr "טקסט"
 
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
 msgstr ""
-"“%(value)s” väärtusel on vale formaat. Peab olema formaadis HH:MM[:ss[."
-"uuuuuu]]."
 
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
 msgstr ""
-"“%(value)s” väärtusel on õige formaat (HH:MM[:ss[.uuuuuu]]), kuid kellaaeg "
-"on vale."
 
 msgid "Time"
-msgstr "Aeg"
+msgstr "זמן"
 
 msgid "URL"
 msgstr "URL"
 
 msgid "Raw binary data"
-msgstr "Töötlemata binaarandmed"
+msgstr "מידע בינארי גולמי"
 
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
-msgstr "“%(value)s” ei ole korrektne UUID."
+msgstr ""
 
 msgid "Universally unique identifier"
-msgstr "Universaalne unikaalne identifikaator"
+msgstr "מזהה ייחודי אוניברסלי"
 
 msgid "File"
-msgstr "Fail"
+msgstr "קובץ"
 
 msgid "Image"
-msgstr "Pilt"
+msgstr "תמונה"
 
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr "%(model)s isendit %(field)s %(value)r ei leidu."
+msgstr "פריט %(model)s עם %(field)s %(value)r אינו קיים."
 
 msgid "Foreign Key (type determined by related field)"
-msgstr "Välisvõti (tüübi määrab seotud väli) "
+msgstr "Foreign Key (הסוג נקבע לפי השדה המקושר)"
 
 msgid "One-to-one relationship"
-msgstr "Üks-ühele seos"
+msgstr "יחס של אחד לאחד"
 
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr "%(from)s-%(to)s seos"
+msgstr "קשר %(from)s-%(to)s"
 
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr "%(from)s-%(to)s seosed"
+msgstr "קשרי %(from)s-%(to)s"
 
 msgid "Many-to-many relationship"
-msgstr "Mitu-mitmele seos"
+msgstr "יחס של רבים לרבים"
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the
@@ -657,69 +641,68 @@ msgid ":?.!"
 msgstr ":?.!"
 
 msgid "This field is required."
-msgstr "See lahter on nõutav."
+msgstr "יש להזין תוכן בשדה זה."
 
 msgid "Enter a whole number."
-msgstr "Sisestage täisarv."
+msgstr "נא להזין מספר שלם."
 
 msgid "Enter a valid date."
-msgstr "Sisestage korrektne kuupäev."
+msgstr "יש להזין תאריך חוקי."
 
 msgid "Enter a valid time."
-msgstr "Sisestage korrektne kellaaeg."
+msgstr "יש להזין שעה חוקית."
 
 msgid "Enter a valid date/time."
-msgstr "Sisestage korrektne kuupäev ja kellaaeg."
+msgstr "יש להזין תאריך ושעה חוקיים."
 
 msgid "Enter a valid duration."
-msgstr "Sisestage korrektne kestus."
+msgstr "יש להזין משך חוקי."
 
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
-msgstr "Päevade arv peab jääma vahemikku {min_days} kuni {max_days}."
+msgstr "מספר הימים חייב להיות בין {min_days} ל־{max_days}."
 
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr "Ühtegi faili ei saadetud. Kontrollige vormi kodeeringutüüpi."
+msgstr "לא נשלח שום קובץ. נא לבדוק את סוג הקידוד של הטופס."
 
 msgid "No file was submitted."
-msgstr "Ühtegi faili ei saadetud."
+msgstr "לא נשלח שום קובץ"
 
 msgid "The submitted file is empty."
-msgstr "Saadetud fail on tühi."
+msgstr "הקובץ שנשלח ריק."
 
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
-msgstr[0] ""
-"Veenduge, et faili nimes poleks rohkem kui %(max)d märk (praegu on "
-"%(length)d)."
+msgstr[0] "נא לוודא ששם קובץ זה מכיל תו %(max)d לכל היותר (מכיל %(length)d)."
 msgstr[1] ""
-"Veenduge, et faili nimes poleks rohkem kui %(max)d märki (praegu on "
-"%(length)d)."
+"נא לוודא ששם קובץ זה מכיל %(max)d תווים לכל היותר (מכיל %(length)d)."
+msgstr[2] ""
+"נא לוודא ששם קובץ זה מכיל %(max)d תווים לכל היותר (מכיל %(length)d)."
+msgstr[3] ""
+"נא לוודא ששם קובץ זה מכיל %(max)d תווים לכל היותר (מכיל %(length)d)."
 
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr "Palun laadige fail või märgistage 'tühjenda' kast, mitte mõlemat."
+msgstr "נא לשים קובץ או סימן את התיבה לניקוי, לא שניהם."
 
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
-msgstr ""
-"Laadige korrektne pilt. Fail, mille laadisite, ei olnud kas pilt või oli "
-"fail vigane."
+msgstr "נא להעלות תמונה חוקית. הקובץ שהעלת אינו תמונה או מכיל תמונה מקולקלת."
 
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr "Valige korrektne väärtus. %(value)s ei ole valitav."
+msgstr "יש לבחור אפשרות חוקית. %(value)s אינו בין האפשרויות הזמינות."
 
 msgid "Enter a list of values."
-msgstr "Sisestage väärtuste nimekiri."
+msgstr "יש להזין רשימת ערכים"
 
 msgid "Enter a complete value."
-msgstr "Sisestage täielik väärtus."
+msgstr "יש להזין ערך שלם."
 
 msgid "Enter a valid UUID."
-msgstr "Sisestage korrektne UUID."
+msgstr "יש להזין UUID חוקי."
 
 #. Translators: This is the default suffix added to form field labels
 msgid ":"
@@ -727,361 +710,364 @@ msgstr ":"
 
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr "(Peidetud väli %(name)s) %(error)s"
+msgstr "(שדה מוסתר %(name)s) %(error)s"
 
 msgid "ManagementForm data is missing or has been tampered with"
-msgstr "ManagementForm andmed on kadunud või nendega on keegi midagi teinud"
+msgstr "מידע ManagementForm חסר או התעסקו איתו."
 
 #, python-format
 msgid "Please submit %d or fewer forms."
 msgid_plural "Please submit %d or fewer forms."
-msgstr[0] "Palun kinnitage %d või vähem vormi."
-msgstr[1] "Palun kinnitage %d või vähem vormi."
+msgstr[0] "נא לשלוח טופס %d לכל היותר."
+msgstr[1] "נא לשלוח %d טפסים לכל היותר."
+msgstr[2] "נא לשלוח %d טפסים לכל היותר."
+msgstr[3] "נא לשלוח %d טפסים לכל היותר."
 
 #, python-format
 msgid "Please submit %d or more forms."
 msgid_plural "Please submit %d or more forms."
-msgstr[0] "Palun kinnitage %d või rohkem vormi."
-msgstr[1] "Palun kinnitage %d või rohkem vormi."
+msgstr[0] "נא לשלוח טופס %d או יותר."
+msgstr[1] "נא לשלוח %d טפסים או יותר."
+msgstr[2] "נא לשלוח %d טפסים או יותר."
+msgstr[3] "נא לשלוח %d טפסים או יותר."
 
 msgid "Order"
-msgstr "Järjestus"
+msgstr "מיון"
 
 msgid "Delete"
-msgstr "Kustuta"
+msgstr "מחיקה"
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr "Palun parandage duplikaat-andmed lahtris %(field)s."
+msgstr "נא לתקן את הערכים הכפולים ל%(field)s."
 
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr ""
-"Palun parandage duplikaat-andmed lahtris %(field)s, mis peab olema unikaalne."
+msgstr "נא לתקן את הערכים הכפולים ל%(field)s, שערכים בו חייבים להיות ייחודיים."
 
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
 msgstr ""
-"Please correct the duplicate data for %(field_name)s which must be unique "
-"for the %(lookup)s in %(date_field)s."
+"נא לתקן את הערכים הכפולים %(field_name)s, שחייבים להיות ייחודיים ל%(lookup)s "
+"של %(date_field)s."
 
 msgid "Please correct the duplicate values below."
-msgstr "Palun parandage allolevad duplikaat-väärtused"
+msgstr "נא לתקן את הערכים הכפולים למטה."
 
 msgid "The inline value did not match the parent instance."
-msgstr "Pesastatud väärtus ei sobi ülemobjektiga."
+msgstr "הערך הפנימי אינו תואם לאב."
 
 msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr "Valige korrektne väärtus. Valitud väärtus ei ole valitav."
+msgstr "יש לבחור אפשרות חוקית; אפשרות זו אינה אחת מהזמינות."
 
 #, python-format
 msgid "“%(pk)s” is not a valid value."
-msgstr "“%(pk)s” ei ole korrektne väärtus."
+msgstr "\"%(pk)s\" אינו ערך חוקי."
 
 #, python-format
 msgid ""
 "%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
 "may be ambiguous or it may not exist."
 msgstr ""
-"%(datetime)s ei saanud tõlgendada ajavööndis %(current_timezone)s; see on "
-"kas mitmetähenduslik või seda ei eksisteeri."
 
 msgid "Clear"
-msgstr "Tühjenda"
+msgstr "לסלק"
 
 msgid "Currently"
-msgstr "Hetkel"
+msgstr "עכשיו"
 
 msgid "Change"
-msgstr "Muuda"
+msgstr "שינוי"
 
 msgid "Unknown"
-msgstr "Tundmatu"
+msgstr "לא ידוע"
 
 msgid "Yes"
-msgstr "Jah"
+msgstr "כן"
 
 msgid "No"
-msgstr "Ei"
+msgstr "לא"
 
 msgid "Year"
-msgstr "Aasta"
+msgstr ""
 
 msgid "Month"
-msgstr "Kuu"
+msgstr ""
 
 msgid "Day"
-msgstr "Päev"
+msgstr ""
 
 msgid "yes,no,maybe"
-msgstr "jah,ei,võib-olla"
+msgstr "כן,לא,אולי"
 
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] "%(size)d bait"
-msgstr[1] "%(size)d baiti"
+msgstr[0] "בית %(size)d "
+msgstr[1] "%(size)d בתים"
+msgstr[2] "%(size)d בתים"
+msgstr[3] "%(size)d בתים"
 
 #, python-format
 msgid "%s KB"
-msgstr "%s kB"
+msgstr "%s ק\"ב"
 
 #, python-format
 msgid "%s MB"
-msgstr "%s MB"
+msgstr "%s מ\"ב"
 
 #, python-format
 msgid "%s GB"
-msgstr "%s GB"
+msgstr "%s ג\"ב"
 
 #, python-format
 msgid "%s TB"
-msgstr "%s TB"
+msgstr "%s ט\"ב"
 
 #, python-format
 msgid "%s PB"
-msgstr "%s PB"
+msgstr "%s פ\"ב"
 
 msgid "p.m."
-msgstr "p.l."
+msgstr "אחר הצהריים"
 
 msgid "a.m."
-msgstr "e.l."
+msgstr "בבוקר"
 
 msgid "PM"
-msgstr "PL"
+msgstr "אחר הצהריים"
 
 msgid "AM"
-msgstr "EL"
+msgstr "בבוקר"
 
 msgid "midnight"
-msgstr "südaöö"
+msgstr "חצות"
 
 msgid "noon"
-msgstr "keskpäev"
+msgstr "12 בצהריים"
 
 msgid "Monday"
-msgstr "esmaspäev"
+msgstr "שני"
 
 msgid "Tuesday"
-msgstr "teisipäev"
+msgstr "שלישי"
 
 msgid "Wednesday"
-msgstr "kolmapäev"
+msgstr "רביעי"
 
 msgid "Thursday"
-msgstr "neljapäev"
+msgstr "חמישי"
 
 msgid "Friday"
-msgstr "reede"
+msgstr "שישי"
 
 msgid "Saturday"
-msgstr "laupäev"
+msgstr "שבת"
 
 msgid "Sunday"
-msgstr "pühapäev"
+msgstr "ראשון"
 
 msgid "Mon"
-msgstr "esmasp."
+msgstr "שני"
 
 msgid "Tue"
-msgstr "teisip."
+msgstr "שלישי"
 
 msgid "Wed"
-msgstr "kolmap."
+msgstr "רביעי"
 
 msgid "Thu"
-msgstr "neljap."
+msgstr "חמישי"
 
 msgid "Fri"
-msgstr "reede"
+msgstr "שישי"
 
 msgid "Sat"
-msgstr "laup."
+msgstr "שבת"
 
 msgid "Sun"
-msgstr "pühap."
+msgstr "ראשון"
 
 msgid "January"
-msgstr "jaanuar"
+msgstr "ינואר"
 
 msgid "February"
-msgstr "veebruar"
+msgstr "פברואר"
 
 msgid "March"
-msgstr "märts"
+msgstr "מרץ"
 
 msgid "April"
-msgstr "aprill"
+msgstr "אפריל"
 
 msgid "May"
-msgstr "mai"
+msgstr "מאי"
 
 msgid "June"
-msgstr "juuni"
+msgstr "יוני"
 
 msgid "July"
-msgstr "juuli"
+msgstr "יולי"
 
 msgid "August"
-msgstr "august"
+msgstr "אוגוסט"
 
 msgid "September"
-msgstr "september"
+msgstr "ספטמבר"
 
 msgid "October"
-msgstr "oktoober"
+msgstr "אוקטובר"
 
 msgid "November"
-msgstr "november"
+msgstr "נובמבר"
 
 msgid "December"
-msgstr "detsember"
+msgstr "דצמבר"
 
 msgid "jan"
-msgstr "jaan"
+msgstr "ינו"
 
 msgid "feb"
-msgstr "veeb"
+msgstr "פבר"
 
 msgid "mar"
-msgstr "märts"
+msgstr "מרץ"
 
 msgid "apr"
-msgstr "apr"
+msgstr "אפר"
 
 msgid "may"
-msgstr "mai"
+msgstr "מאי"
 
 msgid "jun"
-msgstr "jun"
+msgstr "יונ"
 
 msgid "jul"
-msgstr "jul"
+msgstr "יול"
 
 msgid "aug"
-msgstr "aug"
+msgstr "אוג"
 
 msgid "sep"
-msgstr "sept"
+msgstr "ספט"
 
 msgid "oct"
-msgstr "okt"
+msgstr "אוק"
 
 msgid "nov"
-msgstr "nov"
+msgstr "נוב"
 
 msgid "dec"
-msgstr "dets"
+msgstr "דצמ"
 
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr "jaan."
+msgstr "יאנ'"
 
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr "veeb."
+msgstr "פבר'"
 
 msgctxt "abbrev. month"
 msgid "March"
-msgstr "mär."
+msgstr "מרץ"
 
 msgctxt "abbrev. month"
 msgid "April"
-msgstr "apr."
+msgstr "אפריל"
 
 msgctxt "abbrev. month"
 msgid "May"
-msgstr "mai"
+msgstr "מאי"
 
 msgctxt "abbrev. month"
 msgid "June"
-msgstr "juuni"
+msgstr "יוני"
 
 msgctxt "abbrev. month"
 msgid "July"
-msgstr "juuli"
+msgstr "יולי"
 
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr "aug."
+msgstr "אוג'"
 
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr "sept."
+msgstr "ספט'"
 
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr "okt."
+msgstr "אוק'"
 
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr "nov."
+msgstr "נוב'"
 
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr "dets."
+msgstr "דצמ'"
 
 msgctxt "alt. month"
 msgid "January"
-msgstr "jaanuar"
+msgstr "ינואר"
 
 msgctxt "alt. month"
 msgid "February"
-msgstr "veebruar"
+msgstr "פברואר"
 
 msgctxt "alt. month"
 msgid "March"
-msgstr "märts"
+msgstr "מרץ"
 
 msgctxt "alt. month"
 msgid "April"
-msgstr "aprill"
+msgstr "אפריל"
 
 msgctxt "alt. month"
 msgid "May"
-msgstr "mai"
+msgstr "מאי"
 
 msgctxt "alt. month"
 msgid "June"
-msgstr "juuni"
+msgstr "יוני"
 
 msgctxt "alt. month"
 msgid "July"
-msgstr "juuli"
+msgstr "יולי"
 
 msgctxt "alt. month"
 msgid "August"
-msgstr "august"
+msgstr "אוגוסט"
 
 msgctxt "alt. month"
 msgid "September"
-msgstr "september"
+msgstr "ספטמבר"
 
 msgctxt "alt. month"
 msgid "October"
-msgstr "oktoober"
+msgstr "אוקטובר"
 
 msgctxt "alt. month"
 msgid "November"
-msgstr "november"
+msgstr "נובמבר"
 
 msgctxt "alt. month"
 msgid "December"
-msgstr "detsember"
+msgstr "דצמבר"
 
 msgid "This is not a valid IPv6 address."
-msgstr "See ei ole korrektne IPv6 aadress."
+msgstr "זו אינה כתובת IPv6 חוקית."
 
 #, python-format
 msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s…"
-msgstr "%(truncated_text)s…"
+msgstr "%(truncated_text)s‮…"
 
 msgid "or"
-msgstr "või"
+msgstr "או"
 
 #. Translators: This string is used as a separator between list elements
 msgid ", "
@@ -1090,47 +1076,59 @@ msgstr ", "
 #, python-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] "%d aasta"
-msgstr[1] "%d aastat"
+msgstr[0] "שנה %d"
+msgstr[1] "%d שנים"
+msgstr[2] "%d שנים"
+msgstr[3] "%d שנים"
 
 #, python-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "%d kuu"
-msgstr[1] "%d kuud"
+msgstr[0] "חודש %d"
+msgstr[1] "%d חודשים"
+msgstr[2] "%d חודשים"
+msgstr[3] "%d חודשים"
 
 #, python-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] "%d nädal"
-msgstr[1] "%d nädalat"
+msgstr[0] "שבוע %d"
+msgstr[1] "%d שבועות"
+msgstr[2] "%d שבועות"
+msgstr[3] "%d שבועות"
 
 #, python-format
 msgid "%d day"
 msgid_plural "%d days"
-msgstr[0] "%d päev"
-msgstr[1] "%d päeva"
+msgstr[0] "יום %d"
+msgstr[1] "%d ימים"
+msgstr[2] "%d ימים"
+msgstr[3] "%d ימים"
 
 #, python-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d tund"
-msgstr[1] "%d tundi"
+msgstr[0] "שעה %d"
+msgstr[1] "%d שעות"
+msgstr[2] "%d שעות"
+msgstr[3] "%d שעות"
 
 #, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d minut"
-msgstr[1] "%d minutit"
+msgstr[0] "דקה %d"
+msgstr[1] "%d דקות"
+msgstr[2] "%d דקות"
+msgstr[3] "%d דקות"
 
 msgid "0 minutes"
-msgstr "0 minutit"
+msgstr "0 דקות"
 
 msgid "Forbidden"
-msgstr "Keelatud"
+msgstr "אסור"
 
 msgid "CSRF verification failed. Request aborted."
-msgstr "CSRF verifitseerimine ebaõnnestus. Päring katkestati."
+msgstr "אימות CSRF נכשל. הבקשה בוטלה."
 
 msgid ""
 "You are seeing this message because this HTTPS site requires a “Referer "
@@ -1138,19 +1136,12 @@ msgid ""
 "required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
-"Näete seda sõnumit, kuna käesolev HTTPS leht nõuab “Viitaja päise” saatmist "
-"teie brauserile, kuid seda ei saadetud. Seda päist on vaja "
-"turvakaalutlustel, kindlustamaks et teie brauserit ei ole kolmandate "
-"osapoolte poolt üle võetud."
 
 msgid ""
 "If you have configured your browser to disable “Referer” headers, please re-"
 "enable them, at least for this site, or for HTTPS connections, or for “same-"
 "origin” requests."
 msgstr ""
-"Kui olete oma brauseri seadistustes välja lülitanud “Viitaja” päised siis "
-"lülitage need taas sisse vähemalt antud lehe jaoks või HTTPS üheduste jaoks "
-"või “sama-allika” päringute jaoks."
 
 msgid ""
 "If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
@@ -1159,101 +1150,93 @@ msgid ""
 "If you’re concerned about privacy, use alternatives like <a rel=\"noreferrer"
 "\" …> for links to third-party sites."
 msgstr ""
-"Kui kasutate <meta name=\"referrer\" content=\"no-referrer\"> silti või "
-"saadate päist “Referrer-Policy: no-referrer”, siis palun eemaldage need. "
-"CSRF kaitse vajab range viitaja kontrolliks päist “Referer”. Kui privaatsus "
-"on probleemiks, kasutage alternatiive nagu <a rel=\"noreferrer\" …> "
-"linkidele, mis viivad kolmandate poolte lehtedele."
 
 msgid ""
 "You are seeing this message because this site requires a CSRF cookie when "
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
-"Näete seda teadet, kuna see leht vajab CSRF küpsist vormide postitamiseks. "
-"Seda küpsist on vaja turvakaalutlustel, kindlustamaks et teie brauserit ei "
-"ole kolmandate osapoolte poolt üle võetud."
+"הודעה זו מופיעה מאחר ואתר זה דורש עוגיית CSRF כאשר שולחים טפסים. עוגיה זו "
+"נדרשת מסיבות אבטחה, כדי לוודא שהדפדפן שלך לא נחטף על ידי אחרים."
 
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for “same-origin” requests."
 msgstr ""
-"Kui olete oma brauseris küpsised keelanud, siis palun lubage need vähemalt "
-"selle lehe jaoks või “sama-allika” päringute jaoks."
 
 msgid "More information is available with DEBUG=True."
-msgstr "Saadaval on rohkem infot kasutades DEBUG=True"
+msgstr "מידע נוסף זמין עם "
 
 msgid "No year specified"
-msgstr "Aasta on valimata"
+msgstr "לא צויינה שנה"
 
 msgid "Date out of range"
-msgstr "Kuupäev vahemikust väljas"
+msgstr "תאריך מחוץ לטווח"
 
 msgid "No month specified"
-msgstr "Kuu on valimata"
+msgstr "לא צויין חודש"
 
 msgid "No day specified"
-msgstr "Päev on valimata"
+msgstr "לא צויין יום"
 
 msgid "No week specified"
-msgstr "Nädal on valimata"
+msgstr "לא צויין שבוע"
 
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr "Ei leitud %(verbose_name_plural)s"
+msgstr "לא נמצאו %(verbose_name_plural)s"
 
 #, python-format
 msgid ""
 "Future %(verbose_name_plural)s not available because %(class_name)s."
 "allow_future is False."
 msgstr ""
-"Tulevane %(verbose_name_plural)s pole saadaval, sest %(class_name)s."
-"allow_future on False."
+"לא נמצאו %(verbose_name_plural)s בזמן עתיד מאחר ש-%(class_name)s."
+"allow_future מוגדר False."
 
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
-msgstr "Vigane kuupäeva sõne “%(datestr)s” lähtudes formaadist “%(format)s”"
+msgstr ""
 
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr "Päringule vastavat %(verbose_name)s ei leitud"
+msgstr "לא נמצא/ה %(verbose_name)s התואם/ת לשאילתה"
 
 msgid "Page is not “last”, nor can it be converted to an int."
-msgstr "Lehekülg pole “viimane” ja ei saa teda konvertida täisarvuks."
+msgstr ""
 
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr "Vigane leht (%(page_number)s): %(message)s"
+msgstr "עמוד לא חוקי (%(page_number)s): %(message)s"
 
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
-msgstr "Tühi list ja “%(class_name)s.allow_empty” on Väär."
+msgstr ""
 
 msgid "Directory indexes are not allowed here."
-msgstr "Kausta sisuloendid ei ole siin lubatud."
+msgstr "אינדקסים על תיקיה אסורים כאן."
 
 #, python-format
 msgid "“%(path)s” does not exist"
-msgstr "“%(path)s” ei eksisteeri"
+msgstr ""
 
 #, python-format
 msgid "Index of %(directory)s"
-msgstr "%(directory)s sisuloend"
+msgstr "אינדקס של %(directory)s"
 
 msgid "Django: the Web framework for perfectionists with deadlines."
-msgstr "Django: Veebiraamistik tähtaegadega perfektsionistidele."
+msgstr "Django: תשתית הווב לפרפקציוניסטים עם תאריכי יעד."
 
 #, python-format
 msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
-"Vaata <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">release notes</a> Djangole %(version)s"
+"ראו <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">הערות השחרור</a> עבור Django %(version)s"
 
 msgid "The install worked successfully! Congratulations!"
-msgstr "Paigaldamine õnnestus! Palju õnne!"
+msgstr "ההתקנה עברה בהצלחה! מזל טוב!"
 
 #, python-format
 msgid ""
@@ -1262,24 +1245,24 @@ msgid ""
 "\">DEBUG=True</a> is in your settings file and you have not configured any "
 "URLs."
 msgstr ""
-"Näete seda lehte, kuna teil on määratud <a href=\"https://docs.djangoproject."
-"com/en/%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
-"\">DEBUG=True</a> Django seadete failis ja te ei ole ühtki URLi seadistanud."
+"עמוד זה מופיע בעקבות המצאות <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> בקובץ ההגדרות שלך ולא הגדרת שום URLs."
 
 msgid "Django Documentation"
-msgstr "Django dokumentatsioon"
+msgstr "תיעוד Django"
 
 msgid "Topics, references, &amp; how-to’s"
-msgstr "Teemad, viited, &amp; õpetused"
+msgstr ""
 
 msgid "Tutorial: A Polling App"
-msgstr "Õpetus: Küsitlusrakendus"
+msgstr "מדריך ללומד: יישום לסקרים."
 
 msgid "Get started with Django"
-msgstr "Alusta Djangoga"
+msgstr "התחילו לעבוד עם Django"
 
 msgid "Django Community"
-msgstr "Django Kogukond"
+msgstr "קהילת Django"
 
 msgid "Connect, get help, or contribute"
-msgstr "Suhelge, küsige abi või panustage"
+msgstr "יצירת קשר, קבלת עזרה או השתתפות"
