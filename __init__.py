@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-#  SelfTest/PublicKey/__init__.py: Self-test for public key crypto
-#
-# Written in 2008 by Dwayne C. Litzenberger <dlitz@dlitz.net>
+#  SelfTest/Signature/__init__.py: Self-test for signature modules
 #
 # ===================================================================
 # The contents of this file are dedicated to the public domain.  To
@@ -22,38 +20,18 @@
 # SOFTWARE.
 # ===================================================================
 
-"""Self-test for public-key crypto"""
+"""Self-test for signature modules"""
 
 import unittest
-from Cryptodome.SelfTest.PublicKey import (test_DSA, test_RSA,
-                                       test_ECC_NIST,
-                                       test_ECC_Ed25519,
-                                       test_ECC_Curve25519,
-                                       test_ECC_Ed448,
-                                       test_ECC_Curve448,
-                                       test_import_DSA, test_import_RSA,
-                                       test_import_ECC, test_ElGamal,
-                                       test_import_Curve25519,
-                                       test_import_Curve448)
+from . import test_pkcs1_15, test_pss, test_dss, test_eddsa
 
 
 def get_tests(config={}):
     tests = []
-    tests += test_DSA.get_tests(config=config)
-    tests += test_RSA.get_tests(config=config)
-    tests += test_ECC_NIST.get_tests(config=config)
-    tests += test_ECC_Ed25519.get_tests(config=config)
-    tests += test_ECC_Curve25519.get_tests(config=config)
-    tests += test_ECC_Ed448.get_tests(config=config)
-    tests += test_ECC_Curve448.get_tests(config=config)
-
-    tests += test_import_DSA.get_tests(config=config)
-    tests += test_import_RSA.get_tests(config=config)
-    tests += test_import_ECC.get_tests(config=config)
-    tests += test_import_Curve25519.get_tests(config=config)
-    tests += test_import_Curve448.get_tests(config=config)
-
-    tests += test_ElGamal.get_tests(config=config)
+    tests += test_pkcs1_15.get_tests(config=config)
+    tests += test_pss.get_tests(config=config)
+    tests += test_dss.get_tests(config=config)
+    tests += test_eddsa.get_tests(config=config)
     return tests
 
 
