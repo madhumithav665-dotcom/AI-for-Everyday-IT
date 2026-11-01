@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-#  SelfTest/Util/__init__.py: Self-test for utility modules
+#  SelfTest/__init__.py: Self-test for PyCrypto
 #
 # Written in 2008 by Dwayne C. Litzenberger <dlitz@dlitz.net>
 #
@@ -22,25 +22,81 @@
 # SOFTWARE.
 # ===================================================================
 
-"""Self-test for utility modules"""
+"""Self tests
 
-__revision__ = "$Id$"
+These tests should perform quickly and can ideally be used every time an
+application runs.
+"""
 
-import os
+import sys
+import unittest
+from importlib import import_module
+from Cryptodome.Util.py3compat import StringIO
+
+
+class SelfTestError(Exception):
+    def __init__(self, message, result):
+        Exception.__init__(self, message, result)
+        self.message = message
+        self.result = result
+
+
+def run(module=None, verbosity=0, stream=None, tests=None, config=None, **kwargs):
+    """Execute self-tests.
+
+    This raises SelfTestError if any test is unsuccessful.
+
+    You may optionally pass in a sub-module of SelfTest if you only want to
+    perform some of the tests.  For example, the following would test only the
+    hash modules:
+
+        Cryptodome.SelfTest.run(Cryptodome.SelfTest.Hash)
+
+    """
+
+    if config is None:
+        config = {}
+    suite = unittest.TestSuite()
+    if module is None:
+        if tests is None:
+            tests = get_tests(config=config)
+        suite.addTests(tests)
+    else:
+        if tests is None:
+            suite.addTests(module.get_tests(config=config))
+        else:
+            raise ValueError("'module' and 'tests' arguments are mutually exclusive")
+    if stream is None:
+        kwargs['stream'] = StringIO()
+    else:
+        kwargs['stream'] = stream
+    runner = unittest.TextTestRunner(verbosity=verbosity, **kwargs)
+    result = runner.run(suite)
+    if not result.wasSuccessful():
+        if stream is None:
+            sys.stderr.write(kwargs['stream'].getvalue())
+        raise SelfTestError("Self-test failed", result)
+    return result
+
 
 def get_tests(config={}):
     tests = []
-    from Cryptodome.SelfTest.Util import test_number; tests += test_number.get_tests(config=config)
-    from Cryptodome.SelfTest.Util import test_Counter; tests += test_Counter.get_tests(config=config)
-    from Cryptodome.SelfTest.Util import test_Padding; tests += test_Padding.get_tests(config=config)
-    from Cryptodome.SelfTest.Util import test_strxor; tests += test_strxor.get_tests(config=config)
-    from Cryptodome.SelfTest.Util import test_asn1; tests += test_asn1.get_tests(config=config)
-    from Cryptodome.SelfTest.Util import test_rfc1751; tests += test_rfc1751.get_tests(config=config)
+
+    module_names = [
+        "Cipher", "Hash", "Protocol", "PublicKey", "Random",
+        "Util", "Signature", "IO", "Math",
+        ]
+
+    for name in module_names:
+        module = import_module("Cryptodome.SelfTest." + name)
+        tests += module.get_tests(config=config)
+
     return tests
 
+
 if __name__ == '__main__':
-    import unittest
-    suite = lambda: unittest.TestSuite(get_tests())
+    def suite():
+        return unittest.TestSuite(get_tests())
     unittest.main(defaultTest='suite')
 
 # vim:set ts=4 sw=4 sts=4 expandtab:
