@@ -1,91 +1,69 @@
+# -*- coding: utf-8 -*-
 #
-# A block cipher is instantiated as a combination of:
-# 1. A base cipher (such as AES)
-# 2. A mode of operation (such as CBC)
+# ===================================================================
+# The contents of this file are dedicated to the public domain.  To
+# the extent that dedication to the public domain is not available,
+# everyone is granted a worldwide, perpetual, royalty-free,
+# non-exclusive license to exercise all rights associated with the
+# contents of this file for any purpose whatsoever.
+# No rights are reserved.
 #
-# Both items are implemented as C modules.
-#
-# The API of #1 is (replace "AES" with the name of the actual cipher):
-# - AES_start_operaion(key) --> base_cipher_state
-# - AES_encrypt(base_cipher_state, in, out, length)
-# - AES_decrypt(base_cipher_state, in, out, length)
-# - AES_stop_operation(base_cipher_state)
-#
-# Where base_cipher_state is AES_State, a struct with BlockBase (set of
-# pointers to encrypt/decrypt/stop) followed by cipher-specific data.
-#
-# The API of #2 is (replace "CBC" with the name of the actual mode):
-# - CBC_start_operation(base_cipher_state) --> mode_state
-# - CBC_encrypt(mode_state, in, out, length)
-# - CBC_decrypt(mode_state, in, out, length)
-# - CBC_stop_operation(mode_state)
-#
-# where mode_state is a a pointer to base_cipher_state plus mode-specific data.
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+# EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+# MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+# NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+# BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+# ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+# CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+# ===================================================================
 
-def _create_cipher(factory, key, mode, *args, **kwargs):
+__all__ = ['HMAC', 'MD2', 'MD4', 'MD5', 'RIPEMD160', 'SHA1',
+           'SHA224', 'SHA256', 'SHA384', 'SHA512',
+           'SHA3_224', 'SHA3_256', 'SHA3_384', 'SHA3_512',
+           'CMAC', 'Poly1305',
+           'cSHAKE128', 'cSHAKE256', 'KMAC128', 'KMAC256',
+           'TupleHash128', 'TupleHash256', 'KangarooTwelve',
+           'TurboSHAKE128', 'TurboSHAKE256']
 
-    kwargs["key"] = key
+def new(name):
+    """Return a new hash instance, based on its name or
+    on its ASN.1 Object ID"""
 
-    if args:
-        if mode in (8, 9, 10, 11, 12):
-            if len(args) > 1:
-                raise TypeError("Too many arguments for this mode")
-            kwargs["nonce"] = args[0]
-        elif mode in (2, 3, 5, 7):
-            if len(args) > 1:
-                raise TypeError("Too many arguments for this mode")
-            kwargs["IV"] = args[0]
-        elif mode == 6:
-            if len(args) > 0:
-                raise TypeError("Too many arguments for this mode")
-        elif mode == 1:
-            raise TypeError("IV is not meaningful for the ECB mode")
+    name = name.upper()
+    if name in ("1.3.14.3.2.26", "SHA1", "SHA-1"):
+        from . import SHA1
+        return SHA1.new()
+    if name in ("2.16.840.1.101.3.4.2.4", "SHA224", "SHA-224"):
+        from . import SHA224
+        return SHA224.new()
+    if name in ("2.16.840.1.101.3.4.2.1", "SHA256", "SHA-256"):
+        from . import SHA256
+        return SHA256.new()
+    if name in ("2.16.840.1.101.3.4.2.2", "SHA384", "SHA-384"):
+        from . import SHA384
+        return SHA384.new()
+    if name in ("2.16.840.1.101.3.4.2.3", "SHA512", "SHA-512"):
+        from . import SHA512
+        return SHA512.new()
+    if name in ("2.16.840.1.101.3.4.2.5", "SHA512-224", "SHA-512-224"):
+        from . import SHA512
+        return SHA512.new(truncate='224')
+    if name in ("2.16.840.1.101.3.4.2.6", "SHA512-256", "SHA-512-256"):
+        from . import SHA512
+        return SHA512.new(truncate='256')
+    if name in ("2.16.840.1.101.3.4.2.7", "SHA3-224", "SHA-3-224"):
+        from . import SHA3_224
+        return SHA3_224.new()
+    if name in ("2.16.840.1.101.3.4.2.8", "SHA3-256", "SHA-3-256"):
+        from . import SHA3_256
+        return SHA3_256.new()
+    if name in ("2.16.840.1.101.3.4.2.9", "SHA3-384", "SHA-3-384"):
+        from . import SHA3_384
+        return SHA3_384.new()
+    if name in ("2.16.840.1.101.3.4.2.10", "SHA3-512", "SHA-3-512"):
+        from . import SHA3_512
+        return SHA3_512.new()
+    else:
+        raise ValueError("Unknown hash %s" % str(name))
 
-    res = None
-    extra_modes = kwargs.pop("add_aes_modes", False)
-
-    if mode == 1:
-        from Cryptodome.Cipher._mode_ecb import _create_ecb_cipher
-        res = _create_ecb_cipher(factory, **kwargs)
-    elif mode == 2:
-        from Cryptodome.Cipher._mode_cbc import _create_cbc_cipher
-        res = _create_cbc_cipher(factory, **kwargs)
-    elif mode == 3:
-        from Cryptodome.Cipher._mode_cfb import _create_cfb_cipher
-        res = _create_cfb_cipher(factory, **kwargs)
-    elif mode == 5:
-        from Cryptodome.Cipher._mode_ofb import _create_ofb_cipher
-        res = _create_ofb_cipher(factory, **kwargs)
-    elif mode == 6:
-        from Cryptodome.Cipher._mode_ctr import _create_ctr_cipher
-        res = _create_ctr_cipher(factory, **kwargs)
-    elif mode == 7:
-        from Cryptodome.Cipher._mode_openpgp import _create_openpgp_cipher
-        res = _create_openpgp_cipher(factory, **kwargs)
-    elif mode == 9:
-        from Cryptodome.Cipher._mode_eax import _create_eax_cipher
-        res = _create_eax_cipher(factory, **kwargs)
-    elif extra_modes:
-        if mode == 8:
-            from Cryptodome.Cipher._mode_ccm import _create_ccm_cipher
-            res = _create_ccm_cipher(factory, **kwargs)
-        elif mode == 10:
-            from Cryptodome.Cipher._mode_siv import _create_siv_cipher
-            res = _create_siv_cipher(factory, **kwargs)
-        elif mode == 11:
-            from Cryptodome.Cipher._mode_gcm import _create_gcm_cipher
-            res = _create_gcm_cipher(factory, **kwargs)
-        elif mode == 12:
-            from Cryptodome.Cipher._mode_ocb import _create_ocb_cipher
-            res = _create_ocb_cipher(factory, **kwargs)
-        elif mode == 13:
-            from Cryptodome.Cipher._mode_kw import _create_kw_cipher
-            res = _create_kw_cipher(factory, **kwargs)
-        elif mode == 14:
-            from Cryptodome.Cipher._mode_kwp import _create_kwp_cipher
-            res = _create_kwp_cipher(factory, **kwargs)
-
-    if res is None:
-        raise ValueError("Mode not supported")
-
-    return res
