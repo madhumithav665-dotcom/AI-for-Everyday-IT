@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 #
-#  SelfTest/Signature/__init__.py: Self-test for signature modules
+#  SelfTest/Util/__init__.py: Self-test for utility modules
+#
+# Written in 2008 by Dwayne C. Litzenberger <dlitz@dlitz.net>
 #
 # ===================================================================
 # The contents of this file are dedicated to the public domain.  To
@@ -20,22 +22,25 @@
 # SOFTWARE.
 # ===================================================================
 
-"""Self-test for signature modules"""
+"""Self-test for utility modules"""
 
-import unittest
-from . import test_pkcs1_15, test_pss, test_dss, test_eddsa
+__revision__ = "$Id$"
 
+import os
 
 def get_tests(config={}):
     tests = []
-    tests += test_pkcs1_15.get_tests(config=config)
-    tests += test_pss.get_tests(config=config)
-    tests += test_dss.get_tests(config=config)
-    tests += test_eddsa.get_tests(config=config)
+    from Cryptodome.SelfTest.Util import test_number; tests += test_number.get_tests(config=config)
+    from Cryptodome.SelfTest.Util import test_Counter; tests += test_Counter.get_tests(config=config)
+    from Cryptodome.SelfTest.Util import test_Padding; tests += test_Padding.get_tests(config=config)
+    from Cryptodome.SelfTest.Util import test_strxor; tests += test_strxor.get_tests(config=config)
+    from Cryptodome.SelfTest.Util import test_asn1; tests += test_asn1.get_tests(config=config)
+    from Cryptodome.SelfTest.Util import test_rfc1751; tests += test_rfc1751.get_tests(config=config)
     return tests
 
-
 if __name__ == '__main__':
-    def suite():
-        return unittest.TestSuite(get_tests())
+    import unittest
+    suite = lambda: unittest.TestSuite(get_tests())
     unittest.main(defaultTest='suite')
+
+# vim:set ts=4 sw=4 sts=4 expandtab:
