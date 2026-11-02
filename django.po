@@ -1,246 +1,277 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
-# alkuma <alok.kumar@gmail.com>, 2013
-# Chandan kumar <chandankumar.093047@gmail.com>, 2012
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Pratik <kpratik217@gmail.com>, 2013
-# Sandeep Satavlekar <sandysat@gmail.com>, 2011
+# lauris <lauris@runbox.com>, 2011
+# Matas Dailyda <matas@dailyda.com>, 2015-2019
+# Nikolajus Krauklis <nikolajus@gmail.com>, 2013
+# Simonas Kazlauskas <simonas@kazlauskas.me>, 2012-2013
+# sirex <sirexas@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-19 16:49+0100\n"
-"PO-Revision-Date: 2017-09-19 16:40+0000\n"
-"Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
-"Language-Team: Hindi (http://www.transifex.com/django/django/language/hi/)\n"
+"POT-Creation-Date: 2019-01-16 20:42+0100\n"
+"PO-Revision-Date: 2019-01-18 10:32+0000\n"
+"Last-Translator: Matas Dailyda <matas@dailyda.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/django/django/language/"
+"lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < "
+"11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? "
+"1 : n % 1 != 0 ? 2: 3);\n"
 
 #, python-format
 msgid "Successfully deleted %(count)d %(items)s."
-msgstr "%(count)d %(items)s सफलतापूर्वक हटा दिया गया है| |"
+msgstr "Sėkmingai ištrinta %(count)d %(items)s."
 
 #, python-format
 msgid "Cannot delete %(name)s"
-msgstr "%(name)s नहीं हटा सकते"
+msgstr "Ištrinti %(name)s negalima"
 
 msgid "Are you sure?"
-msgstr "क्या आप निश्चित हैं?"
+msgstr "Ar esate tikras?"
 
 #, python-format
 msgid "Delete selected %(verbose_name_plural)s"
-msgstr "चुने हुए %(verbose_name_plural)s  हटा दीजिये "
+msgstr "Ištrinti pasirinktus %(verbose_name_plural)s "
 
 msgid "Administration"
-msgstr ""
+msgstr "Administravimas"
 
 msgid "All"
-msgstr "सभी"
+msgstr "Visi"
 
 msgid "Yes"
-msgstr "हाँ"
+msgstr "Taip"
 
 msgid "No"
-msgstr "नहीं"
+msgstr "Ne"
 
 msgid "Unknown"
-msgstr "अनजान"
+msgstr "Nežinomas"
 
 msgid "Any date"
-msgstr "कोई भी तारीख"
+msgstr "Betkokia data"
 
 msgid "Today"
-msgstr "आज"
+msgstr "Šiandien"
 
 msgid "Past 7 days"
-msgstr "पिछले 7 दिन"
+msgstr "Paskutinės 7 dienos"
 
 msgid "This month"
-msgstr "इस महीने"
+msgstr "Šį mėnesį"
 
 msgid "This year"
-msgstr "इस साल"
+msgstr "Šiais metais"
 
 msgid "No date"
-msgstr ""
+msgstr "Nėra datos"
 
 msgid "Has date"
-msgstr ""
+msgstr "Turi datą"
 
 #, python-format
 msgid ""
 "Please enter the correct %(username)s and password for a staff account. Note "
 "that both fields may be case-sensitive."
 msgstr ""
-"कृपया कर्मचारी खाते का सही %(username)s व कूटशब्द भरें। भरते समय दीर्घाक्षर और लघु अक्षर "
-"का खयाल रखें।"
+"Prašome įvesti tinkamą personalo paskyros %(username)s ir slaptažodį. "
+"Atminkite, kad abu laukeliai yra jautrūs raidžių dydžiui."
 
 msgid "Action:"
-msgstr " क्रिया:"
+msgstr "Veiksmas:"
 
 #, python-format
 msgid "Add another %(verbose_name)s"
-msgstr "एक और %(verbose_name)s जोड़ें "
+msgstr "Pridėti dar viena %(verbose_name)s"
 
 msgid "Remove"
-msgstr "निकालें"
+msgstr "Pašalinti"
+
+msgid "Addition"
+msgstr "Pridėjimas"
+
+msgid "Change"
+msgstr "Pakeisti"
+
+msgid "Deletion"
+msgstr "Pašalinimas"
 
 msgid "action time"
-msgstr "कार्य समय"
+msgstr "veiksmo laikas"
 
 msgid "user"
-msgstr ""
+msgstr "vartotojas"
 
 msgid "content type"
-msgstr ""
+msgstr "turinio tipas"
 
 msgid "object id"
-msgstr "वस्तु आई डी "
+msgstr "objekto id"
 
 #. Translators: 'repr' means representation
-#. (https://docs.python.org/3/library/functions.html#repr)
+#. (https://docs.python.org/library/functions.html#repr)
 msgid "object repr"
-msgstr "वस्तु प्रतिनिधित्व"
+msgstr "objekto repr"
 
 msgid "action flag"
-msgstr "कार्य ध्वज"
+msgstr "veiksmo žymė"
 
 msgid "change message"
-msgstr "परिवर्तन सन्देश"
+msgstr "pakeisti žinutę"
 
 msgid "log entry"
-msgstr "लॉग प्रविष्टि"
+msgstr "log įrašas"
 
 msgid "log entries"
-msgstr "लॉग प्रविष्टियाँ"
+msgstr "log įrašai"
 
 #, python-format
 msgid "Added \"%(object)s\"."
-msgstr "\"%(object)s\" को जोड़ा गया."
+msgstr "„%(object)s“ pridėti."
 
 #, python-format
 msgid "Changed \"%(object)s\" - %(changes)s"
-msgstr "परिवर्तित \"%(object)s\" - %(changes)s "
+msgstr "Pakeisti „%(object)s“ - %(changes)s"
 
 #, python-format
 msgid "Deleted \"%(object)s.\""
-msgstr "\"%(object)s\" को नष्ट कर दिया है."
+msgstr "„%(object)s“ ištrinti."
 
 msgid "LogEntry Object"
-msgstr "LogEntry ऑब्जेक्ट"
+msgstr "LogEntry objektas"
 
 #, python-brace-format
 msgid "Added {name} \"{object}\"."
-msgstr ""
+msgstr "Pridėtas {name} \"{object}\"."
 
 msgid "Added."
-msgstr ""
+msgstr "Pridėta."
 
 msgid "and"
-msgstr "और"
+msgstr "ir"
 
 #, python-brace-format
 msgid "Changed {fields} for {name} \"{object}\"."
-msgstr ""
+msgstr "Pakeisti {fields} arba {name} \"{object}\"."
 
 #, python-brace-format
 msgid "Changed {fields}."
-msgstr ""
+msgstr "Pakeisti {fields}."
 
 #, python-brace-format
 msgid "Deleted {name} \"{object}\"."
-msgstr ""
+msgstr "Pašalintas {name} \"{object}\"."
 
 msgid "No fields changed."
-msgstr "कोई क्षेत्र नहीं बदला"
+msgstr "Nei vienas laukas nepakeistas"
 
 msgid "None"
-msgstr "कोई नहीं"
+msgstr "None"
 
 msgid ""
 "Hold down \"Control\", or \"Command\" on a Mac, to select more than one."
 msgstr ""
+"Nuspauskite \"Control\", arba \"Command\" Mac kompiuteriuose, kad pasirinkti "
+"daugiau nei vieną."
 
 #, python-brace-format
-msgid ""
-"The {name} \"{obj}\" was added successfully. You may edit it again below."
-msgstr ""
+msgid "The {name} \"{obj}\" was added successfully."
+msgstr "{name} \"{obj}\" buvo sėkmingai pridėtas."
+
+msgid "You may edit it again below."
+msgstr "Galite tai dar kartą redaguoti žemiau."
 
 #, python-brace-format
 msgid ""
 "The {name} \"{obj}\" was added successfully. You may add another {name} "
 "below."
 msgstr ""
-
-#, python-brace-format
-msgid "The {name} \"{obj}\" was added successfully."
-msgstr ""
+"{name} \"{obj}\" buvo sėkmingai pridėtas. Galite pridėti kitą {name} žemiau."
 
 #, python-brace-format
 msgid ""
 "The {name} \"{obj}\" was changed successfully. You may edit it again below."
+msgstr "{name} \"{obj}\" buvo sėkmingai pakeistas. Galite jį koreguoti žemiau."
+
+#, python-brace-format
+msgid ""
+"The {name} \"{obj}\" was added successfully. You may edit it again below."
 msgstr ""
+"{name} \"{obj}\" buvo sėkmingai pridėtas. Galite jį vėl redaguoti žemiau."
 
 #, python-brace-format
 msgid ""
 "The {name} \"{obj}\" was changed successfully. You may add another {name} "
 "below."
 msgstr ""
+"{name} \"{obj}\" buvo sėkmingai pakeistas. Galite pridėti kitą {name} žemiau."
 
 #, python-brace-format
 msgid "The {name} \"{obj}\" was changed successfully."
-msgstr ""
+msgstr "{name} \"{obj}\" buvo sėkmingai pakeistas."
 
 msgid ""
 "Items must be selected in order to perform actions on them. No items have "
 "been changed."
-msgstr "कार्रवाई हेतु आयटम सही अनुक्रम में चुने जाने चाहिए | कोई आइटम नहीं बदले गये हैं."
+msgstr ""
+"Įrašai turi būti pasirinkti, kad būtų galima atlikti veiksmus. Įrašai "
+"pakeisti nebuvo."
 
 msgid "No action selected."
-msgstr "कोई कार्रवाई नहीं चुनी है |"
+msgstr "Veiksmai atlikti nebuvo."
 
 #, python-format
 msgid "The %(name)s \"%(obj)s\" was deleted successfully."
-msgstr "%(name)s \"%(obj)s\" को कामयाबी से निकाला गया है"
+msgstr "%(name)s \"%(obj)s\" sėkmingai ištrintas."
 
 #, python-format
 msgid "%(name)s with ID \"%(key)s\" doesn't exist. Perhaps it was deleted?"
-msgstr ""
+msgstr "%(name)s su ID \"%(key)s\" neegzistuoja. Gal tai buvo ištrinta?"
 
 #, python-format
 msgid "Add %s"
-msgstr "%s बढाएं"
+msgstr "Pridėti %s"
 
 #, python-format
 msgid "Change %s"
-msgstr "%s बदलो"
+msgstr "Pakeisti %s"
+
+#, python-format
+msgid "View %s"
+msgstr "Peržiūrėti %s"
 
 msgid "Database error"
-msgstr "डेटाबेस त्रुटि"
+msgstr "Duomenų bazės klaida"
 
 #, python-format
 msgid "%(count)s %(name)s was changed successfully."
 msgid_plural "%(count)s %(name)s were changed successfully."
-msgstr[0] "%(count)s %(name)s का परिवर्तन कामयाब हुआ |"
-msgstr[1] "%(count)s %(name)s का परिवर्तन कामयाब हुआ |"
+msgstr[0] "%(count)s %(name)s sėkmingai pakeistas."
+msgstr[1] "%(count)s %(name)s sėkmingai pakeisti."
+msgstr[2] "%(count)s %(name)s "
+msgstr[3] "%(count)s %(name)s "
 
 #, python-format
 msgid "%(total_count)s selected"
 msgid_plural "All %(total_count)s selected"
-msgstr[0] "%(total_count)s चुने"
-msgstr[1] "सभी %(total_count)s चुने "
+msgstr[0] "%(total_count)s pasirinktas"
+msgstr[1] "%(total_count)s pasirinkti"
+msgstr[2] "Visi %(total_count)s pasirinkti"
+msgstr[3] "Visi %(total_count)s pasirinkti"
 
 #, python-format
 msgid "0 of %(cnt)s selected"
-msgstr "%(cnt)s में से 0 चुने"
+msgstr "0 iš %(cnt)s pasirinkta"
 
 #, python-format
 msgid "Change history: %s"
-msgstr "इतिहास बदलो: %s"
+msgstr "Pakeitimų istorija: %s"
 
 #. Translators: Model verbose name and instance representation,
 #. suitable to be an item in a list.
@@ -253,124 +284,126 @@ msgid ""
 "Deleting %(class_name)s %(instance)s would require deleting the following "
 "protected related objects: %(related_objects)s"
 msgstr ""
+"%(class_name)s %(instance)s šalinimas reikalautų pašalinti apsaugotus "
+"susijusius objektus: %(related_objects)s"
 
 msgid "Django site admin"
-msgstr "ज्याँगो साइट प्रशासन"
+msgstr "Django tinklalapio administravimas"
 
 msgid "Django administration"
-msgstr "ज्याँगो प्रशासन"
+msgstr "Django administravimas"
 
 msgid "Site administration"
-msgstr "साइट प्रशासन"
+msgstr "Tinklalapio administravimas"
 
 msgid "Log in"
-msgstr "लॉगिन"
+msgstr "Prisijungti"
 
 #, python-format
 msgid "%(app)s administration"
-msgstr ""
+msgstr "%(app)s administravimas"
 
 msgid "Page not found"
-msgstr "पृष्ठ लापता"
+msgstr "Puslapis nerastas"
 
 msgid "We're sorry, but the requested page could not be found."
-msgstr "क्षमा कीजिए पर निवेदित पृष्ठ लापता है ।"
+msgstr "Atsiprašome, bet prašytas puslapis nerastas."
 
 msgid "Home"
-msgstr "गृह"
+msgstr "Pradinis"
 
 msgid "Server error"
-msgstr "सर्वर त्रुटि"
+msgstr "Serverio klaida"
 
 msgid "Server error (500)"
-msgstr "सर्वर त्रुटि (500)"
+msgstr "Serverio klaida (500)"
 
 msgid "Server Error <em>(500)</em>"
-msgstr "सर्वर त्रुटि <em>(500)</em>"
+msgstr "Serverio klaida <em>(500)</em>"
 
 msgid ""
 "There's been an error. It's been reported to the site administrators via "
 "email and should be fixed shortly. Thanks for your patience."
 msgstr ""
-"एक त्रुटि मिली है। इसकी जानकारी स्थल के संचालकों को डाक द्वारा दे दी गई है, और यह जल्द "
-"ठीक हो जानी चाहिए। धीरज रखने के लिए शुक्रिया।"
+"Netikėta klaida. Apie ją buvo pranešta administratoriams el. paštu ir ji "
+"turėtų būti greitai sutvarkyta. Dėkui už kantrybę."
 
 msgid "Run the selected action"
-msgstr "चयनित कार्रवाई चलाइये"
+msgstr "Vykdyti pasirinktus veiksmus"
 
 msgid "Go"
-msgstr "आगे बढ़े"
+msgstr "Vykdyti"
 
 msgid "Click here to select the objects across all pages"
-msgstr "सभी पृष्ठों पर मौजूद वस्तुओं को चुनने के लिए यहाँ क्लिक करें "
+msgstr "Spauskite čia norėdami pasirinkti visus įrašus"
 
 #, python-format
 msgid "Select all %(total_count)s %(module_name)s"
-msgstr "तमाम %(total_count)s %(module_name)s चुनें"
+msgstr "Pasirinkti visus %(total_count)s %(module_name)s"
 
 msgid "Clear selection"
-msgstr "चयन खालिज किया जाये "
+msgstr "Atstatyti į pradinę būseną"
 
 msgid ""
 "First, enter a username and password. Then, you'll be able to edit more user "
 "options."
 msgstr ""
-"पहले प्रदवोक्ता नाम और कूटशब्द दर्ज करें । उसके पश्चात ही आप अधिक प्रवोक्ता विकल्प बदल "
-"सकते हैं ।"
+"Pirmiausia įveskite naudotojo vardą ir slaptažodį. Tada galėsite keisti "
+"daugiau naudotojo nustatymų."
 
 msgid "Enter a username and password."
-msgstr "उपयोगकर्ता का नाम और कूटशब्द दर्ज करें."
+msgstr "Įveskite naudotojo vardą ir slaptažodį."
 
 msgid "Change password"
-msgstr "कूटशब्द बदलें"
+msgstr "Keisti slaptažodį"
 
 msgid "Please correct the error below."
-msgstr "कृपया नीचे पायी गयी गलतियाँ ठीक करें ।"
+msgstr "Prašome ištaisyti žemiau esančią klaidą."
 
 msgid "Please correct the errors below."
-msgstr ""
+msgstr "Ištaisykite žemiau esančias klaidas."
 
 #, python-format
 msgid "Enter a new password for the user <strong>%(username)s</strong>."
-msgstr "<strong>%(username)s</strong> प्रवोक्ता के लिए नयी कूटशब्द दर्ज करें ।"
+msgstr "Įveskite naują slaptažodį naudotojui <strong>%(username)s</strong>."
 
 msgid "Welcome,"
-msgstr "आपका स्वागत है,"
+msgstr "Sveiki,"
 
 msgid "View site"
-msgstr ""
+msgstr "Peržiūrėti tinklalapį"
 
 msgid "Documentation"
-msgstr "दस्तावेज़ीकरण"
+msgstr "Dokumentacija"
 
 msgid "Log out"
-msgstr "लॉग आउट"
+msgstr "Atsijungti"
 
 #, python-format
 msgid "Add %(name)s"
-msgstr "%(name)s बढाएं"
+msgstr "Naujas %(name)s"
 
 msgid "History"
-msgstr "इतिहास"
+msgstr "Istorija"
 
 msgid "View on site"
-msgstr "साइट पे देखें"
+msgstr "Matyti tinklalapyje"
 
 msgid "Filter"
-msgstr "छन्नी"
+msgstr "Filtras"
 
 msgid "Remove from sorting"
-msgstr "श्रेणीकरण से हटाये "
+msgstr "Pašalinti iš rikiavimo"
 
 #, python-format
 msgid "Sorting priority: %(priority_number)s"
-msgstr "श्रेणीकरण प्राथमिकता : %(priority_number)s"
+msgstr "Rikiavimo prioritetas: %(priority_number)s"
 
 msgid "Toggle sorting"
-msgstr "टॉगल श्रेणीकरण"
+msgstr "Perjungti rikiavimą"
 
 msgid "Delete"
-msgstr "मिटाएँ"
+msgstr "Ištrinti"
 
 #, python-format
 msgid ""
@@ -378,36 +411,36 @@ msgid ""
 "related objects, but your account doesn't have permission to delete the "
 "following types of objects:"
 msgstr ""
-"%(object_name)s '%(escaped_object)s' को मिटाने पर सम्बंधित वस्तुएँ भी मिटा दी "
-"जाएगी, परन्तु आप के खाते में निम्नलिखित प्रकार की वस्तुओं को मिटाने की अनुमति नहीं हैं |"
+"Trinant %(object_name)s '%(escaped_object)s' turi būti ištrinti ir susiję "
+"objektai, bet tavo vartotojas neturi teisių ištrinti šių objektų:"
 
 #, python-format
 msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
 "following protected related objects:"
 msgstr ""
-"%(object_name)s '%(escaped_object)s' को  हटाने के लिए उनसे संबंधित निम्नलिखित "
-"संरक्षित वस्तुओं को हटाने की आवश्यकता होगी:"
+"Ištrinant %(object_name)s '%(escaped_object)s' būtų ištrinti šie apsaugoti "
+"ir susiję objektai:"
 
 #, python-format
 msgid ""
 "Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
 "All of the following related items will be deleted:"
 msgstr ""
-"क्या आप %(object_name)s \"%(escaped_object)s\" हटाना चाहते हैं? निम्नलिखित सभी "
-"संबंधित वस्तुएँ नष्ट की जाएगी"
+"Ar este tikri, kad norite ištrinti %(object_name)s \"%(escaped_object)s\"? "
+"Visi susiję objektai bus ištrinti:"
 
 msgid "Objects"
-msgstr ""
+msgstr "Objektai"
 
 msgid "Yes, I'm sure"
-msgstr "हाँ, मैंने पक्का तय किया हैं "
+msgstr "Taip, esu tikras"
 
 msgid "No, take me back"
-msgstr ""
+msgstr "Ne, grįžti atgal"
 
 msgid "Delete multiple objects"
-msgstr "अनेक वस्तुएं हटाएँ"
+msgstr "Ištrinti kelis objektus"
 
 #, python-format
 msgid ""
@@ -415,252 +448,273 @@ msgid ""
 "objects, but your account doesn't have permission to delete the following "
 "types of objects:"
 msgstr ""
-"चयनित %(objects_name)s हटाने पर उस से सम्बंधित वस्तुएं भी हट जाएगी, परन्तु आपके खाते में "
-"वस्तुओं के निम्नलिखित प्रकार हटाने की अनुमति नहीं है:"
+"Ištrinant pasirinktą %(objects_name)s būtų ištrinti susiję objektai, tačiau "
+"jūsų vartotojas neturi reikalingų teisių ištrinti šiuos objektų tipus:"
 
 #, python-format
 msgid ""
 "Deleting the selected %(objects_name)s would require deleting the following "
 "protected related objects:"
 msgstr ""
-"चयनित %(objects_name)s को हटाने के पश्चात् निम्नलिखित संरक्षित संबंधित वस्तुओं को हटाने "
-"की आवश्यकता होगी |"
+"Ištrinant pasirinktus %(objects_name)s būtų ištrinti šie apsaugoti ir susiję "
+"objektai:"
 
 #, python-format
 msgid ""
 "Are you sure you want to delete the selected %(objects_name)s? All of the "
 "following objects and their related items will be deleted:"
 msgstr ""
-"क्या आप ने पक्का तय किया हैं की चयनित %(objects_name)s  को नष्ट किया जाये ? "
-"निम्नलिखित सभी वस्तुएं और उनसे सम्बंधित वस्तुए भी नष्ट की जाएगी:"
+"Ar esate tikri, kad norite ištrinti pasirinktus %(objects_name)s? Sekantys "
+"pasirinkti bei susiję objektai bus ištrinti:"
 
-msgid "Change"
-msgstr "बदलें"
+msgid "View"
+msgstr "Peržiūrėti"
 
 msgid "Delete?"
-msgstr "मिटाएँ ?"
+msgstr "Ištrinti?"
 
 #, python-format
 msgid " By %(filter_title)s "
-msgstr "%(filter_title)s द्वारा"
+msgstr " Pagal %(filter_title)s "
 
 msgid "Summary"
-msgstr ""
+msgstr "Santrauka"
 
 #, python-format
 msgid "Models in the %(name)s application"
-msgstr "%(name)s अनुप्रयोग के प्रतिरूप"
+msgstr "%(name)s aplikacijos modeliai"
 
 msgid "Add"
-msgstr "बढाएं"
+msgstr "Pridėti"
 
-msgid "You don't have permission to edit anything."
-msgstr "आपके पास कुछ भी संपादन करने के लिये अनुमति नहीं है ।"
+msgid "You don't have permission to view or edit anything."
+msgstr "Jūs neturite teisių peržiūrai ir redagavimui."
 
 msgid "Recent actions"
-msgstr ""
+msgstr "Paskutiniai veiksmai"
 
 msgid "My actions"
-msgstr ""
+msgstr "Mano veiksmai"
 
 msgid "None available"
-msgstr " कोई भी उपलब्ध नहीं"
+msgstr "Nėra prieinamų"
 
 msgid "Unknown content"
-msgstr "अज्ञात सामग्री"
+msgstr "Nežinomas turinys"
 
 msgid ""
 "Something's wrong with your database installation. Make sure the appropriate "
 "database tables have been created, and make sure the database is readable by "
 "the appropriate user."
 msgstr ""
-"अपने डेटाबेस स्थापना के साथ कुछ गलत तो है | सुनिश्चित करें कि उचित डेटाबेस तालिका बनायीं "
-"गयी है, और सुनिश्चित करें कि डेटाबेस उपयुक्त उपयोक्ता के द्वारा पठनीय है |"
+"Kažkas yra negerai su jūsų duomenų bazės instaliacija. Įsitikink, kad visos "
+"reikalingos lentelės sukurtos ir vartotojas turi teises skaityti duomenų "
+"bazę."
 
 #, python-format
 msgid ""
 "You are authenticated as %(username)s, but are not authorized to access this "
 "page. Would you like to login to a different account?"
 msgstr ""
+"Jūs esate prisijungęs kaip %(username)s, bet neturite teisių patekti į šį "
+"puslapį. Ar norėtumete prisijungti su kitu vartotoju?"
 
 msgid "Forgotten your password or username?"
-msgstr "अपना पासवर्ड या उपयोगकर्ता नाम भूल गये हैं?"
+msgstr "Pamiršote slaptažodį ar vartotojo vardą?"
 
 msgid "Date/time"
-msgstr "तिथि / समय"
+msgstr "Data/laikas"
 
 msgid "User"
-msgstr "उपभोक्ता"
+msgstr "Naudotojas"
 
 msgid "Action"
-msgstr "कार्य"
+msgstr "Veiksmas"
 
 msgid ""
 "This object doesn't have a change history. It probably wasn't added via this "
 "admin site."
 msgstr ""
-"इस वस्तु का बदलाव इतिहास नहीं है. शायद वह इस साइट व्यवस्थापक के माध्यम से नहीं जोड़ा "
-"गया है."
+"Šis objektas neturi pakeitimų istorijos. Tikriausiai jis buvo pridėtas ne "
+"per administravimo puslapį."
 
 msgid "Show all"
-msgstr "सभी दिखाएँ"
+msgstr "Rodyti visus"
 
 msgid "Save"
-msgstr "सुरक्षित कीजिये"
+msgstr "Išsaugoti"
 
-msgid "Popup closing..."
-msgstr ""
-
-#, python-format
-msgid "Change selected %(model)s"
-msgstr ""
-
-#, python-format
-msgid "Add another %(model)s"
-msgstr ""
-
-#, python-format
-msgid "Delete selected %(model)s"
-msgstr ""
+msgid "Popup closing…"
+msgstr "Iškylantysis langas užsidaro..."
 
 msgid "Search"
-msgstr "खोज"
+msgstr "Ieškoti"
 
 #, python-format
 msgid "%(counter)s result"
 msgid_plural "%(counter)s results"
-msgstr[0] "%(counter)s परिणाम"
-msgstr[1] "%(counter)s परिणाम"
+msgstr[0] "%(counter)s rezultatas"
+msgstr[1] "%(counter)s rezultatai"
+msgstr[2] "%(counter)s rezultatai"
+msgstr[3] "%(counter)s rezultatai"
 
 #, python-format
 msgid "%(full_result_count)s total"
-msgstr "%(full_result_count)s कुल परिणाम"
+msgstr "%(full_result_count)s iš viso"
 
 msgid "Save as new"
-msgstr "नये सा सहेजें"
+msgstr "Išsaugoti kaip naują"
 
 msgid "Save and add another"
-msgstr "सहेजें और एक और जोडें"
+msgstr "Išsaugoti ir pridėti naują"
 
 msgid "Save and continue editing"
-msgstr "सहेजें और संपादन करें"
+msgstr "Išsaugoti ir tęsti redagavimą"
+
+msgid "Save and view"
+msgstr "Išsaugoti ir peržiūrėti"
+
+msgid "Close"
+msgstr "Uždaryti"
+
+#, python-format
+msgid "Change selected %(model)s"
+msgstr "Keisti pasirinktus %(model)s"
+
+#, python-format
+msgid "Add another %(model)s"
+msgstr "Pridėti dar vieną %(model)s"
+
+#, python-format
+msgid "Delete selected %(model)s"
+msgstr "Pašalinti pasirinktus %(model)s"
 
 msgid "Thanks for spending some quality time with the Web site today."
-msgstr "आज हमारे वेब साइट पर आने के लिए धन्यवाद ।"
+msgstr "Dėkui už šiandien tinklalapyje turiningai praleistą laiką."
 
 msgid "Log in again"
-msgstr "फिर से लॉगिन कीजिए"
+msgstr "Prisijungti dar kartą"
 
 msgid "Password change"
-msgstr "कूटशब्द बदलें"
+msgstr "Slaptažodžio keitimas"
 
 msgid "Your password was changed."
-msgstr "आपके कूटशब्द को बदला गया है"
+msgstr "Jūsų slaptažodis buvo pakeistas."
 
 msgid ""
 "Please enter your old password, for security's sake, and then enter your new "
 "password twice so we can verify you typed it in correctly."
 msgstr ""
-"सुरक्षा कारणों के लिए कृपया पुराना कूटशब्द दर्ज करें । उसके पश्चात नए कूटशब्द को दो बार दर्ज "
-"करें ताकि हम उसे सत्यापित कर सकें ।"
+"Saugumo sumetimais įveskite seną slaptažodį ir tada du kartus naują, kad "
+"įsitikinti, jog nesuklydote rašydamas"
 
 msgid "Change my password"
-msgstr "कूटशब्द बदलें"
+msgstr "Keisti mano slaptažodį"
 
 msgid "Password reset"
-msgstr "कूटशब्द पुनस्थाप"
+msgstr "Slaptažodžio atstatymas"
 
 msgid "Your password has been set.  You may go ahead and log in now."
-msgstr "आपके कूटशब्द को स्थापित किया गया है । अब आप लॉगिन कर सकते है ।"
+msgstr "Jūsų slaptažodis buvo išsaugotas. Dabas galite prisijungti."
 
 msgid "Password reset confirmation"
-msgstr "कूटशब्द पुष्टि"
+msgstr "Slaptažodžio atstatymo patvirtinimas"
 
 msgid ""
 "Please enter your new password twice so we can verify you typed it in "
 "correctly."
-msgstr "कृपया आपके नये कूटशब्द को दो बार दर्ज करें ताकि हम उसकी सत्याप्ती कर सकते है ।"
+msgstr ""
+"Įveskite naująjį slaptažodį du kartus, taip užtikrinant, jog nesuklydote "
+"rašydami."
 
 msgid "New password:"
-msgstr "नया कूटशब्द "
+msgstr "Naujasis slaptažodis:"
 
 msgid "Confirm password:"
-msgstr "कूटशब्द पुष्टि कीजिए"
+msgstr "Slaptažodžio patvirtinimas:"
 
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
 msgstr ""
-"कूटशब्द पुनस्थाप संपर्क अमान्य है, संभावना है कि उसे उपयोग किया गया है। कृपया फिर से कूटशब्द "
-"पुनस्थाप की आवेदन करें ।"
+"Slaptažodžio atstatymo nuoroda buvo negaliojanti, nes ji tikriausiai jau "
+"buvo panaudota. Prašykite naujo slaptažodžio pakeitimo."
 
 msgid ""
 "We've emailed you instructions for setting your password, if an account "
 "exists with the email you entered. You should receive them shortly."
 msgstr ""
+"Jei egzistuoja vartotojas su jūsų įvestu elektroninio pašto adresu, "
+"išsiųsime jums slaptažodžio nustatymo instrukcijas . Instrukcijas turėtumėte "
+"gauti netrukus."
 
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with, and check your spam folder."
 msgstr ""
-"अगर आपको कोई ईमेल प्राप्त नई होता है,यह ध्यान रखे की आपने सही पता रजिस्ट्रीकृत किया है "
-"और आपने स्पॅम फोल्डर को जाचे|"
+"Jei el. laiško negavote, prašome įsitikinti ar įvedėte tą el. pašto adresą "
+"kuriuo registravotės ir patikrinkite savo šlamšto aplanką."
 
 #, python-format
 msgid ""
 "You're receiving this email because you requested a password reset for your "
 "user account at %(site_name)s."
 msgstr ""
-"आपको यह डाक इसलिए आई है क्योंकि आप ने %(site_name)s पर अपने खाते का कूटशब्द बदलने का "
-"अनुरोध किया था |"
+"Jūs gaunate šį laišką nes prašėte paskyros slaptažodžio atkūrimo "
+"%(site_name)s svetainėje."
 
 msgid "Please go to the following page and choose a new password:"
-msgstr "कृपया निम्नलिखित पृष्ठ पर नया कूटशब्द चुनिये :"
+msgstr "Prašome eiti į šį puslapį ir pasirinkti naują slaptažodį:"
 
 msgid "Your username, in case you've forgotten:"
-msgstr "आपका प्रवोक्ता नाम, यदि भूल गये हों :"
+msgstr "Jūsų naudotojo vardas, jei netyčia jį užmiršote:"
 
 msgid "Thanks for using our site!"
-msgstr "हमारे साइट को उपयोग करने के लिए धन्यवाद ।"
+msgstr "Dėkui, kad naudojatės mūsų tinklalapiu!"
 
 #, python-format
 msgid "The %(site_name)s team"
-msgstr "%(site_name)s दल"
+msgstr "%(site_name)s komanda"
 
 msgid ""
 "Forgotten your password? Enter your email address below, and we'll email "
 "instructions for setting a new one."
 msgstr ""
-"कूटशब्द भूल गए? नीचे अपना डाक पता भरें, वहाँ पर हम आपको नया कूटशब्द रखने के निर्देश भेजेंगे।"
+"Pamiršote slaptažodį? Įveskite savo el. pašto adresą ir mes išsiųsime laišką "
+"su instrukcijomis kaip nustatyti naują slaptažodį."
 
 msgid "Email address:"
-msgstr "डाक पता -"
+msgstr "El. pašto adresas:"
 
 msgid "Reset my password"
-msgstr " मेरे कूटशब्द की पुनःस्थापना"
+msgstr "Atstatyti slaptažodį"
 
 msgid "All dates"
-msgstr "सभी तिथियों"
+msgstr "Visos datos"
 
 #, python-format
 msgid "Select %s"
-msgstr "%s चुनें"
+msgstr "Pasirinkti %s"
 
 #, python-format
 msgid "Select %s to change"
-msgstr "%s के बदली के लिए चयन करें"
+msgstr "Pasirinkite %s kurį norite keisti"
+
+#, python-format
+msgid "Select %s to view"
+msgstr "Pasirinkti %s peržiūrai"
 
 msgid "Date:"
-msgstr "तिथि:"
+msgstr "Data:"
 
 msgid "Time:"
-msgstr "समय:"
+msgstr "Laikas:"
 
 msgid "Lookup"
-msgstr "लुक अप"
+msgstr "Paieška"
 
 msgid "Currently:"
-msgstr "फ़िलहाल - "
+msgstr "Šiuo metu:"
 
 msgid "Change:"
-msgstr "बदलाव -"
+msgstr "Pakeisti:"
