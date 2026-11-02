@@ -1,409 +1,376 @@
 # This file is distributed under the same license as the Django package.
 #
 # Translators:
+# alkuma <alok.kumar@gmail.com>, 2013
+# Chandan kumar <chandankumar.093047@gmail.com>, 2012
 # Jannis Leidel <jannis@leidel.info>, 2011
-# Jirka Vejrazka <Jirka.Vejrazka@gmail.com>, 2011
-# Tomáš Ehrlich <tomas.ehrlich@gmail.com>, 2015
-# Vláďa Macek <macek@sandbox.cz>, 2013-2014
-# Vláďa Macek <macek@sandbox.cz>, 2015-2019
-# yedpodtrzitko <yed@vanyli.net>, 2016
+# Pratik <kpratik217@gmail.com>, 2013
+# Sandeep Satavlekar <sandysat@gmail.com>, 2011
 msgid ""
 msgstr ""
 "Project-Id-Version: django\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-08 17:27+0200\n"
-"PO-Revision-Date: 2019-09-19 09:23+0000\n"
-"Last-Translator: Vláďa Macek <macek@sandbox.cz>\n"
-"Language-Team: Czech (http://www.transifex.com/django/django/language/cs/)\n"
+"POT-Creation-Date: 2017-01-19 16:49+0100\n"
+"PO-Revision-Date: 2017-09-19 16:40+0000\n"
+"Last-Translator: Jannis Leidel <jannis@leidel.info>\n"
+"Language-Team: Hindi (http://www.transifex.com/django/django/language/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
-"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #, python-format
 msgid "Successfully deleted %(count)d %(items)s."
-msgstr "Úspěšně odstraněno: %(count)d %(items)s."
+msgstr "%(count)d %(items)s सफलतापूर्वक हटा दिया गया है| |"
 
 #, python-format
 msgid "Cannot delete %(name)s"
-msgstr "Nelze smazat %(name)s"
+msgstr "%(name)s नहीं हटा सकते"
 
 msgid "Are you sure?"
-msgstr "Jste si jisti?"
+msgstr "क्या आप निश्चित हैं?"
 
 #, python-format
 msgid "Delete selected %(verbose_name_plural)s"
-msgstr "Odstranit vybrané položky typu %(verbose_name_plural)s"
+msgstr "चुने हुए %(verbose_name_plural)s  हटा दीजिये "
 
 msgid "Administration"
-msgstr "Správa"
+msgstr ""
 
 msgid "All"
-msgstr "Vše"
+msgstr "सभी"
 
 msgid "Yes"
-msgstr "Ano"
+msgstr "हाँ"
 
 msgid "No"
-msgstr "Ne"
+msgstr "नहीं"
 
 msgid "Unknown"
-msgstr "Neznámé"
+msgstr "अनजान"
 
 msgid "Any date"
-msgstr "Libovolné datum"
+msgstr "कोई भी तारीख"
 
 msgid "Today"
-msgstr "Dnes"
+msgstr "आज"
 
 msgid "Past 7 days"
-msgstr "Posledních 7 dní"
+msgstr "पिछले 7 दिन"
 
 msgid "This month"
-msgstr "Tento měsíc"
+msgstr "इस महीने"
 
 msgid "This year"
-msgstr "Tento rok"
+msgstr "इस साल"
 
 msgid "No date"
-msgstr "Bez data"
+msgstr ""
 
 msgid "Has date"
-msgstr "Má datum"
+msgstr ""
 
 #, python-format
 msgid ""
 "Please enter the correct %(username)s and password for a staff account. Note "
 "that both fields may be case-sensitive."
 msgstr ""
-"Zadejte správné %(username)s a heslo pro personál. Obě pole mohou rozlišovat "
-"velká a malá písmena."
+"कृपया कर्मचारी खाते का सही %(username)s व कूटशब्द भरें। भरते समय दीर्घाक्षर और लघु अक्षर "
+"का खयाल रखें।"
 
 msgid "Action:"
-msgstr "Operace:"
+msgstr " क्रिया:"
 
 #, python-format
 msgid "Add another %(verbose_name)s"
-msgstr "Přidat %(verbose_name)s"
+msgstr "एक और %(verbose_name)s जोड़ें "
 
 msgid "Remove"
-msgstr "Odebrat"
-
-msgid "Addition"
-msgstr "Přidání"
-
-msgid "Change"
-msgstr "Změnit"
-
-msgid "Deletion"
-msgstr "Odstranění"
+msgstr "निकालें"
 
 msgid "action time"
-msgstr "čas operace"
+msgstr "कार्य समय"
 
 msgid "user"
-msgstr "uživatel"
+msgstr ""
 
 msgid "content type"
-msgstr "typ obsahu"
+msgstr ""
 
 msgid "object id"
-msgstr "id položky"
+msgstr "वस्तु आई डी "
 
 #. Translators: 'repr' means representation
-#. (https://docs.python.org/library/functions.html#repr)
+#. (https://docs.python.org/3/library/functions.html#repr)
 msgid "object repr"
-msgstr "reprez. položky"
+msgstr "वस्तु प्रतिनिधित्व"
 
 msgid "action flag"
-msgstr "příznak operace"
+msgstr "कार्य ध्वज"
 
 msgid "change message"
-msgstr "zpráva o změně"
+msgstr "परिवर्तन सन्देश"
 
 msgid "log entry"
-msgstr "položka protokolu"
+msgstr "लॉग प्रविष्टि"
 
 msgid "log entries"
-msgstr "položky protokolu"
+msgstr "लॉग प्रविष्टियाँ"
 
 #, python-format
-msgid "Added “%(object)s”."
-msgstr "Přidán objekt \"%(object)s\"."
+msgid "Added \"%(object)s\"."
+msgstr "\"%(object)s\" को जोड़ा गया."
 
 #, python-format
-msgid "Changed “%(object)s” — %(changes)s"
-msgstr "Změněn objekt \"%(object)s\" — %(changes)s"
+msgid "Changed \"%(object)s\" - %(changes)s"
+msgstr "परिवर्तित \"%(object)s\" - %(changes)s "
 
 #, python-format
-msgid "Deleted “%(object)s.”"
-msgstr "Odstraněna položka \"%(object)s\"."
+msgid "Deleted \"%(object)s.\""
+msgstr "\"%(object)s\" को नष्ट कर दिया है."
 
 msgid "LogEntry Object"
-msgstr "Objekt záznam v protokolu"
+msgstr "LogEntry ऑब्जेक्ट"
 
 #, python-brace-format
-msgid "Added {name} “{object}”."
-msgstr "Přidáno: {name} \"{object}\"."
+msgid "Added {name} \"{object}\"."
+msgstr ""
 
 msgid "Added."
-msgstr "Přidáno."
+msgstr ""
 
 msgid "and"
-msgstr "a"
+msgstr "और"
 
 #, python-brace-format
-msgid "Changed {fields} for {name} “{object}”."
-msgstr "Změněno: {fields} pro {name} \"{object}\"."
+msgid "Changed {fields} for {name} \"{object}\"."
+msgstr ""
 
 #, python-brace-format
 msgid "Changed {fields}."
-msgstr "Změněno: {fields}"
+msgstr ""
 
 #, python-brace-format
-msgid "Deleted {name} “{object}”."
-msgstr "Odstraněno: {name} \"{object}\"."
+msgid "Deleted {name} \"{object}\"."
+msgstr ""
 
 msgid "No fields changed."
-msgstr "Nebyla změněna žádná pole."
+msgstr "कोई क्षेत्र नहीं बदला"
 
 msgid "None"
-msgstr "Žádný"
+msgstr "कोई नहीं"
 
-msgid "Hold down “Control”, or “Command” on a Mac, to select more than one."
+msgid ""
+"Hold down \"Control\", or \"Command\" on a Mac, to select more than one."
 msgstr ""
-"Výběr více než jedné položky je možný přidržením klávesy \"Control\", na "
-"Macu \"Command\"."
-
-#, python-brace-format
-msgid "The {name} “{obj}” was added successfully."
-msgstr "Položka typu {name} \"{obj}\" byla úspěšně přidána."
-
-msgid "You may edit it again below."
-msgstr "Níže můžete údaje znovu upravovat."
 
 #, python-brace-format
 msgid ""
-"The {name} “{obj}” was added successfully. You may add another {name} below."
+"The {name} \"{obj}\" was added successfully. You may edit it again below."
 msgstr ""
-"Položka typu {name} \"{obj}\" byla úspěšně přidána. Níže můžete přidat další "
-"položku {name}."
 
 #, python-brace-format
 msgid ""
-"The {name} “{obj}” was changed successfully. You may edit it again below."
-msgstr ""
-"Položka typu {name} \"{obj}\" byla úspěšně změněna. Níže ji můžete dále "
-"upravovat."
-
-#, python-brace-format
-msgid "The {name} “{obj}” was added successfully. You may edit it again below."
-msgstr ""
-"Položka \"{obj}\" typu {name} byla úspěšně přidána. Níže ji můžete dále "
-"upravovat."
-
-#, python-brace-format
-msgid ""
-"The {name} “{obj}” was changed successfully. You may add another {name} "
+"The {name} \"{obj}\" was added successfully. You may add another {name} "
 "below."
 msgstr ""
-"Položka \"{obj}\" typu {name} byla úspěšně změněna. Níže můžete přidat další "
-"položku {name}."
 
 #, python-brace-format
-msgid "The {name} “{obj}” was changed successfully."
-msgstr "Položka \"{obj}\" typu {name} byla úspěšně změněna."
+msgid "The {name} \"{obj}\" was added successfully."
+msgstr ""
+
+#, python-brace-format
+msgid ""
+"The {name} \"{obj}\" was changed successfully. You may edit it again below."
+msgstr ""
+
+#, python-brace-format
+msgid ""
+"The {name} \"{obj}\" was changed successfully. You may add another {name} "
+"below."
+msgstr ""
+
+#, python-brace-format
+msgid "The {name} \"{obj}\" was changed successfully."
+msgstr ""
 
 msgid ""
 "Items must be selected in order to perform actions on them. No items have "
 "been changed."
-msgstr ""
-"K provedení hromadných operací je třeba vybrat nějaké položky. Nedošlo k "
-"žádným změnám."
+msgstr "कार्रवाई हेतु आयटम सही अनुक्रम में चुने जाने चाहिए | कोई आइटम नहीं बदले गये हैं."
 
 msgid "No action selected."
-msgstr "Nebyla vybrána žádná operace."
+msgstr "कोई कार्रवाई नहीं चुनी है |"
 
 #, python-format
-msgid "The %(name)s “%(obj)s” was deleted successfully."
-msgstr "Položka \"%(obj)s\" typu %(name)s byla úspěšně odstraněna."
+msgid "The %(name)s \"%(obj)s\" was deleted successfully."
+msgstr "%(name)s \"%(obj)s\" को कामयाबी से निकाला गया है"
 
 #, python-format
-msgid "%(name)s with ID “%(key)s” doesn’t exist. Perhaps it was deleted?"
-msgstr "Objekt %(name)s s klíčem \"%(key)s\" neexistuje. Možná byl odstraněn."
+msgid "%(name)s with ID \"%(key)s\" doesn't exist. Perhaps it was deleted?"
+msgstr ""
 
 #, python-format
 msgid "Add %s"
-msgstr "%s: přidat"
+msgstr "%s बढाएं"
 
 #, python-format
 msgid "Change %s"
-msgstr "%s: změnit"
-
-#, python-format
-msgid "View %s"
-msgstr "Zobrazit %s"
+msgstr "%s बदलो"
 
 msgid "Database error"
-msgstr "Chyba databáze"
+msgstr "डेटाबेस त्रुटि"
 
 #, python-format
 msgid "%(count)s %(name)s was changed successfully."
 msgid_plural "%(count)s %(name)s were changed successfully."
-msgstr[0] "Položka %(name)s byla úspěšně změněna."
-msgstr[1] "%(count)s položky %(name)s byly úspěšně změněny."
-msgstr[2] "%(count)s položek %(name)s bylo úspěšně změněno."
-msgstr[3] "%(count)s položek %(name)s bylo úspěšně změněno."
+msgstr[0] "%(count)s %(name)s का परिवर्तन कामयाब हुआ |"
+msgstr[1] "%(count)s %(name)s का परिवर्तन कामयाब हुआ |"
 
 #, python-format
 msgid "%(total_count)s selected"
 msgid_plural "All %(total_count)s selected"
-msgstr[0] "%(total_count)s položka vybrána."
-msgstr[1] "Všechny %(total_count)s položky vybrány."
-msgstr[2] "Vybráno všech %(total_count)s položek."
-msgstr[3] "Vybráno všech %(total_count)s položek."
+msgstr[0] "%(total_count)s चुने"
+msgstr[1] "सभी %(total_count)s चुने "
 
 #, python-format
 msgid "0 of %(cnt)s selected"
-msgstr "Vybraných je 0 položek z celkem %(cnt)s."
+msgstr "%(cnt)s में से 0 चुने"
 
 #, python-format
 msgid "Change history: %s"
-msgstr "Historie změn: %s"
+msgstr "इतिहास बदलो: %s"
 
 #. Translators: Model verbose name and instance representation,
 #. suitable to be an item in a list.
 #, python-format
 msgid "%(class_name)s %(instance)s"
-msgstr "%(class_name)s: %(instance)s"
+msgstr "%(class_name)s %(instance)s"
 
 #, python-format
 msgid ""
 "Deleting %(class_name)s %(instance)s would require deleting the following "
 "protected related objects: %(related_objects)s"
 msgstr ""
-"Odstranění položky \"%(instance)s\" typu %(class_name)s by vyžadovalo "
-"odstranění těchto souvisejících chráněných položek: %(related_objects)s"
 
 msgid "Django site admin"
-msgstr "Správa webu Django"
+msgstr "ज्याँगो साइट प्रशासन"
 
 msgid "Django administration"
-msgstr "Správa systému Django"
+msgstr "ज्याँगो प्रशासन"
 
 msgid "Site administration"
-msgstr "Správa webu"
+msgstr "साइट प्रशासन"
 
 msgid "Log in"
-msgstr "Přihlášení"
+msgstr "लॉगिन"
 
 #, python-format
 msgid "%(app)s administration"
-msgstr "Správa aplikace %(app)s"
+msgstr ""
 
 msgid "Page not found"
-msgstr "Stránka nenalezena"
+msgstr "पृष्ठ लापता"
 
-msgid "We’re sorry, but the requested page could not be found."
-msgstr "Požadovaná stránka nebyla bohužel nalezena."
+msgid "We're sorry, but the requested page could not be found."
+msgstr "क्षमा कीजिए पर निवेदित पृष्ठ लापता है ।"
 
 msgid "Home"
-msgstr "Domů"
+msgstr "गृह"
 
 msgid "Server error"
-msgstr "Chyba serveru"
+msgstr "सर्वर त्रुटि"
 
 msgid "Server error (500)"
-msgstr "Chyba serveru (500)"
+msgstr "सर्वर त्रुटि (500)"
 
 msgid "Server Error <em>(500)</em>"
-msgstr "Chyba serveru <em>(500)</em>"
+msgstr "सर्वर त्रुटि <em>(500)</em>"
 
 msgid ""
-"There’s been an error. It’s been reported to the site administrators via "
+"There's been an error. It's been reported to the site administrators via "
 "email and should be fixed shortly. Thanks for your patience."
 msgstr ""
-"V systému došlo k chybě. Byla e-mailem nahlášena správcům, kteří by ji měli "
-"v krátké době opravit. Děkujeme za trpělivost."
+"एक त्रुटि मिली है। इसकी जानकारी स्थल के संचालकों को डाक द्वारा दे दी गई है, और यह जल्द "
+"ठीक हो जानी चाहिए। धीरज रखने के लिए शुक्रिया।"
 
 msgid "Run the selected action"
-msgstr "Provést vybranou operaci"
+msgstr "चयनित कार्रवाई चलाइये"
 
 msgid "Go"
-msgstr "Provést"
+msgstr "आगे बढ़े"
 
 msgid "Click here to select the objects across all pages"
-msgstr "Klepnutím zde vyberete položky ze všech stránek."
+msgstr "सभी पृष्ठों पर मौजूद वस्तुओं को चुनने के लिए यहाँ क्लिक करें "
 
 #, python-format
 msgid "Select all %(total_count)s %(module_name)s"
-msgstr "Vybrat všechny položky typu %(module_name)s, celkem %(total_count)s."
+msgstr "तमाम %(total_count)s %(module_name)s चुनें"
 
 msgid "Clear selection"
-msgstr "Zrušit výběr"
+msgstr "चयन खालिज किया जाये "
 
 msgid ""
-"First, enter a username and password. Then, you’ll be able to edit more user "
+"First, enter a username and password. Then, you'll be able to edit more user "
 "options."
 msgstr ""
-"Nejdříve zadejte uživatelské jméno a heslo. Poté budete moci upravovat více "
-"uživatelských nastavení."
+"पहले प्रदवोक्ता नाम और कूटशब्द दर्ज करें । उसके पश्चात ही आप अधिक प्रवोक्ता विकल्प बदल "
+"सकते हैं ।"
 
 msgid "Enter a username and password."
-msgstr "Zadejte uživatelské jméno a heslo."
+msgstr "उपयोगकर्ता का नाम और कूटशब्द दर्ज करें."
 
 msgid "Change password"
-msgstr "Změnit heslo"
+msgstr "कूटशब्द बदलें"
 
 msgid "Please correct the error below."
-msgstr "Opravte níže uvedenou chybu."
+msgstr "कृपया नीचे पायी गयी गलतियाँ ठीक करें ।"
 
 msgid "Please correct the errors below."
-msgstr "Opravte níže uvedené chyby."
+msgstr ""
 
 #, python-format
 msgid "Enter a new password for the user <strong>%(username)s</strong>."
-msgstr "Zadejte nové heslo pro uživatele <strong>%(username)s</strong>."
+msgstr "<strong>%(username)s</strong> प्रवोक्ता के लिए नयी कूटशब्द दर्ज करें ।"
 
 msgid "Welcome,"
-msgstr "Vítejte, uživateli"
+msgstr "आपका स्वागत है,"
 
 msgid "View site"
-msgstr "Zobrazení webu"
+msgstr ""
 
 msgid "Documentation"
-msgstr "Dokumentace"
+msgstr "दस्तावेज़ीकरण"
 
 msgid "Log out"
-msgstr "Odhlásit se"
+msgstr "लॉग आउट"
 
 #, python-format
 msgid "Add %(name)s"
-msgstr "%(name)s: přidat"
+msgstr "%(name)s बढाएं"
 
 msgid "History"
-msgstr "Historie"
+msgstr "इतिहास"
 
 msgid "View on site"
-msgstr "Zobrazení na webu"
+msgstr "साइट पे देखें"
 
 msgid "Filter"
-msgstr "Filtr"
+msgstr "छन्नी"
 
 msgid "Remove from sorting"
-msgstr "Přestat řadit"
+msgstr "श्रेणीकरण से हटाये "
 
 #, python-format
 msgid "Sorting priority: %(priority_number)s"
-msgstr "Priorita řazení: %(priority_number)s"
+msgstr "श्रेणीकरण प्राथमिकता : %(priority_number)s"
 
 msgid "Toggle sorting"
-msgstr "Přehodit řazení"
+msgstr "टॉगल श्रेणीकरण"
 
 msgid "Delete"
-msgstr "Odstranit"
+msgstr "मिटाएँ"
 
 #, python-format
 msgid ""
@@ -411,37 +378,36 @@ msgid ""
 "related objects, but your account doesn't have permission to delete the "
 "following types of objects:"
 msgstr ""
-"Odstranění položky \"%(escaped_object)s\" typu %(object_name)s by vyústilo v "
-"odstranění souvisejících položek. Nemáte však oprávnění k odstranění položek "
-"následujících typů:"
+"%(object_name)s '%(escaped_object)s' को मिटाने पर सम्बंधित वस्तुएँ भी मिटा दी "
+"जाएगी, परन्तु आप के खाते में निम्नलिखित प्रकार की वस्तुओं को मिटाने की अनुमति नहीं हैं |"
 
 #, python-format
 msgid ""
 "Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
 "following protected related objects:"
 msgstr ""
-"Odstranění položky '%(escaped_object)s' typu %(object_name)s by vyžadovalo "
-"odstranění souvisejících chráněných položek:"
+"%(object_name)s '%(escaped_object)s' को  हटाने के लिए उनसे संबंधित निम्नलिखित "
+"संरक्षित वस्तुओं को हटाने की आवश्यकता होगी:"
 
 #, python-format
 msgid ""
 "Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
 "All of the following related items will be deleted:"
 msgstr ""
-"Opravdu má být odstraněna položka \"%(escaped_object)s\" typu "
-"%(object_name)s? Následující související položky budou všechny odstraněny:"
+"क्या आप %(object_name)s \"%(escaped_object)s\" हटाना चाहते हैं? निम्नलिखित सभी "
+"संबंधित वस्तुएँ नष्ट की जाएगी"
 
 msgid "Objects"
-msgstr "Objekty"
+msgstr ""
 
-msgid "Yes, I’m sure"
-msgstr "Ano, jsem si jist(a)"
+msgid "Yes, I'm sure"
+msgstr "हाँ, मैंने पक्का तय किया हैं "
 
 msgid "No, take me back"
-msgstr "Ne, beru zpět"
+msgstr ""
 
 msgid "Delete multiple objects"
-msgstr "Odstranit vybrané položky"
+msgstr "अनेक वस्तुएं हटाएँ"
 
 #, python-format
 msgid ""
@@ -449,272 +415,252 @@ msgid ""
 "objects, but your account doesn't have permission to delete the following "
 "types of objects:"
 msgstr ""
-"Odstranění položky typu %(objects_name)s by vyústilo v odstranění "
-"souvisejících položek. Nemáte však oprávnění k odstranění položek "
-"následujících typů:"
+"चयनित %(objects_name)s हटाने पर उस से सम्बंधित वस्तुएं भी हट जाएगी, परन्तु आपके खाते में "
+"वस्तुओं के निम्नलिखित प्रकार हटाने की अनुमति नहीं है:"
 
 #, python-format
 msgid ""
 "Deleting the selected %(objects_name)s would require deleting the following "
 "protected related objects:"
 msgstr ""
-"Odstranění vybrané položky typu %(objects_name)s by vyžadovalo odstranění "
-"následujících souvisejících chráněných položek:"
+"चयनित %(objects_name)s को हटाने के पश्चात् निम्नलिखित संरक्षित संबंधित वस्तुओं को हटाने "
+"की आवश्यकता होगी |"
 
 #, python-format
 msgid ""
 "Are you sure you want to delete the selected %(objects_name)s? All of the "
 "following objects and their related items will be deleted:"
 msgstr ""
-"Opravdu má být odstraněny vybrané položky typu %(objects_name)s? Všechny "
-"vybrané a s nimi související položky budou odstraněny:"
+"क्या आप ने पक्का तय किया हैं की चयनित %(objects_name)s  को नष्ट किया जाये ? "
+"निम्नलिखित सभी वस्तुएं और उनसे सम्बंधित वस्तुए भी नष्ट की जाएगी:"
 
-msgid "View"
-msgstr "Zobrazit"
+msgid "Change"
+msgstr "बदलें"
 
 msgid "Delete?"
-msgstr "Odstranit?"
+msgstr "मिटाएँ ?"
 
 #, python-format
 msgid " By %(filter_title)s "
-msgstr " Dle: %(filter_title)s "
+msgstr "%(filter_title)s द्वारा"
 
 msgid "Summary"
-msgstr "Shrnutí"
+msgstr ""
 
 #, python-format
 msgid "Models in the %(name)s application"
-msgstr "Modely v aplikaci %(name)s"
+msgstr "%(name)s अनुप्रयोग के प्रतिरूप"
 
 msgid "Add"
-msgstr "Přidat"
+msgstr "बढाएं"
 
-msgid "You don’t have permission to view or edit anything."
-msgstr "Nemáte oprávnění k zobrazení ani úpravám."
+msgid "You don't have permission to edit anything."
+msgstr "आपके पास कुछ भी संपादन करने के लिये अनुमति नहीं है ।"
 
 msgid "Recent actions"
-msgstr "Nedávné akce"
+msgstr ""
 
 msgid "My actions"
-msgstr "Moje akce"
+msgstr ""
 
 msgid "None available"
-msgstr "Nic"
+msgstr " कोई भी उपलब्ध नहीं"
 
 msgid "Unknown content"
-msgstr "Neznámý obsah"
+msgstr "अज्ञात सामग्री"
 
 msgid ""
-"Something’s wrong with your database installation. Make sure the appropriate "
+"Something's wrong with your database installation. Make sure the appropriate "
 "database tables have been created, and make sure the database is readable by "
 "the appropriate user."
 msgstr ""
-"Potíže s nainstalovanou databází. Ujistěte se, že byly vytvořeny "
-"odpovídající tabulky a že databáze je přístupná pro čtení příslušným "
-"uživatelem."
+"अपने डेटाबेस स्थापना के साथ कुछ गलत तो है | सुनिश्चित करें कि उचित डेटाबेस तालिका बनायीं "
+"गयी है, और सुनिश्चित करें कि डेटाबेस उपयुक्त उपयोक्ता के द्वारा पठनीय है |"
 
 #, python-format
 msgid ""
 "You are authenticated as %(username)s, but are not authorized to access this "
 "page. Would you like to login to a different account?"
 msgstr ""
-"Jste přihlášeni jako uživatel %(username)s, ale k této stránce nemáte "
-"oprávnění. Chcete se přihlásit k jinému účtu?"
 
 msgid "Forgotten your password or username?"
-msgstr "Zapomněli jste heslo nebo uživatelské jméno?"
+msgstr "अपना पासवर्ड या उपयोगकर्ता नाम भूल गये हैं?"
 
 msgid "Date/time"
-msgstr "Datum a čas"
+msgstr "तिथि / समय"
 
 msgid "User"
-msgstr "Uživatel"
+msgstr "उपभोक्ता"
 
 msgid "Action"
-msgstr "Operace"
+msgstr "कार्य"
 
 msgid ""
-"This object doesn’t have a change history. It probably wasn’t added via this "
+"This object doesn't have a change history. It probably wasn't added via this "
 "admin site."
 msgstr ""
-"Tato položka nemá historii změn. Pravděpodobně nebyla přidána tímto "
-"administračním rozhraním."
+"इस वस्तु का बदलाव इतिहास नहीं है. शायद वह इस साइट व्यवस्थापक के माध्यम से नहीं जोड़ा "
+"गया है."
 
 msgid "Show all"
-msgstr "Zobrazit vše"
+msgstr "सभी दिखाएँ"
 
 msgid "Save"
-msgstr "Uložit"
+msgstr "सुरक्षित कीजिये"
 
-msgid "Popup closing…"
-msgstr "Vyskakovací okno se zavírá..."
+msgid "Popup closing..."
+msgstr ""
+
+#, python-format
+msgid "Change selected %(model)s"
+msgstr ""
+
+#, python-format
+msgid "Add another %(model)s"
+msgstr ""
+
+#, python-format
+msgid "Delete selected %(model)s"
+msgstr ""
 
 msgid "Search"
-msgstr "Hledat"
+msgstr "खोज"
 
 #, python-format
 msgid "%(counter)s result"
 msgid_plural "%(counter)s results"
-msgstr[0] "%(counter)s výsledek"
-msgstr[1] "%(counter)s výsledky"
-msgstr[2] "%(counter)s výsledků"
-msgstr[3] "%(counter)s výsledků"
+msgstr[0] "%(counter)s परिणाम"
+msgstr[1] "%(counter)s परिणाम"
 
 #, python-format
 msgid "%(full_result_count)s total"
-msgstr "Celkem %(full_result_count)s"
+msgstr "%(full_result_count)s कुल परिणाम"
 
 msgid "Save as new"
-msgstr "Uložit jako novou položku"
+msgstr "नये सा सहेजें"
 
 msgid "Save and add another"
-msgstr "Uložit a přidat další položku"
+msgstr "सहेजें और एक और जोडें"
 
 msgid "Save and continue editing"
-msgstr "Uložit a pokračovat v úpravách"
-
-msgid "Save and view"
-msgstr "Uložit a zobrazit"
-
-msgid "Close"
-msgstr "Zavřít"
-
-#, python-format
-msgid "Change selected %(model)s"
-msgstr "Změnit vybrané položky typu %(model)s"
-
-#, python-format
-msgid "Add another %(model)s"
-msgstr "Přidat další %(model)s"
-
-#, python-format
-msgid "Delete selected %(model)s"
-msgstr "Odstranit vybrané položky typu %(model)s"
+msgstr "सहेजें और संपादन करें"
 
 msgid "Thanks for spending some quality time with the Web site today."
-msgstr "Děkujeme za čas strávený s tímto webem."
+msgstr "आज हमारे वेब साइट पर आने के लिए धन्यवाद ।"
 
 msgid "Log in again"
-msgstr "Přihlaste se znovu"
+msgstr "फिर से लॉगिन कीजिए"
 
 msgid "Password change"
-msgstr "Změna hesla"
+msgstr "कूटशब्द बदलें"
 
 msgid "Your password was changed."
-msgstr "Vaše heslo bylo změněno."
+msgstr "आपके कूटशब्द को बदला गया है"
 
 msgid ""
-"Please enter your old password, for security’s sake, and then enter your new "
+"Please enter your old password, for security's sake, and then enter your new "
 "password twice so we can verify you typed it in correctly."
 msgstr ""
-"Zadejte svoje současné heslo a poté dvakrát heslo nové. Omezíme tak možnost "
-"překlepu."
+"सुरक्षा कारणों के लिए कृपया पुराना कूटशब्द दर्ज करें । उसके पश्चात नए कूटशब्द को दो बार दर्ज "
+"करें ताकि हम उसे सत्यापित कर सकें ।"
 
 msgid "Change my password"
-msgstr "Změnit heslo"
+msgstr "कूटशब्द बदलें"
 
 msgid "Password reset"
-msgstr "Obnovení hesla"
+msgstr "कूटशब्द पुनस्थाप"
 
 msgid "Your password has been set.  You may go ahead and log in now."
-msgstr "Vaše heslo bylo nastaveno. Nyní se můžete přihlásit."
+msgstr "आपके कूटशब्द को स्थापित किया गया है । अब आप लॉगिन कर सकते है ।"
 
 msgid "Password reset confirmation"
-msgstr "Potvrzení obnovy hesla"
+msgstr "कूटशब्द पुष्टि"
 
 msgid ""
 "Please enter your new password twice so we can verify you typed it in "
 "correctly."
-msgstr "Zadejte dvakrát nové heslo. Tak ověříme, že bylo zadáno správně."
+msgstr "कृपया आपके नये कूटशब्द को दो बार दर्ज करें ताकि हम उसकी सत्याप्ती कर सकते है ।"
 
 msgid "New password:"
-msgstr "Nové heslo:"
+msgstr "नया कूटशब्द "
 
 msgid "Confirm password:"
-msgstr "Potvrdit heslo:"
+msgstr "कूटशब्द पुष्टि कीजिए"
 
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
 msgstr ""
-"Odkaz pro obnovení hesla byl neplatný, možná již byl použit. Požádejte o "
-"obnovení hesla znovu."
+"कूटशब्द पुनस्थाप संपर्क अमान्य है, संभावना है कि उसे उपयोग किया गया है। कृपया फिर से कूटशब्द "
+"पुनस्थाप की आवेदन करें ।"
 
 msgid ""
-"We’ve emailed you instructions for setting your password, if an account "
+"We've emailed you instructions for setting your password, if an account "
 "exists with the email you entered. You should receive them shortly."
 msgstr ""
-"Návod na nastavení hesla byl odeslán na zadanou e-mailovou adresu, pokud "
-"účet s takovou adresou existuje. Měl by za okamžik dorazit."
 
 msgid ""
-"If you don’t receive an email, please make sure you’ve entered the address "
+"If you don't receive an email, please make sure you've entered the address "
 "you registered with, and check your spam folder."
 msgstr ""
-"Pokud e-mail neobdržíte, ujistěte se, že zadaná e-mailová adresa je stejná "
-"jako ta registrovaná u vašeho účtu a zkontrolujte složku nevyžádané pošty, "
-"tzv. spamu."
+"अगर आपको कोई ईमेल प्राप्त नई होता है,यह ध्यान रखे की आपने सही पता रजिस्ट्रीकृत किया है "
+"और आपने स्पॅम फोल्डर को जाचे|"
 
 #, python-format
 msgid ""
 "You're receiving this email because you requested a password reset for your "
 "user account at %(site_name)s."
 msgstr ""
-"Tento e-mail vám byl zaslán na základě vyžádání obnovy hesla vašeho "
-"uživatelskému účtu na systému %(site_name)s."
+"आपको यह डाक इसलिए आई है क्योंकि आप ने %(site_name)s पर अपने खाते का कूटशब्द बदलने का "
+"अनुरोध किया था |"
 
 msgid "Please go to the following page and choose a new password:"
-msgstr "Přejděte na následující stránku a zadejte nové heslo:"
+msgstr "कृपया निम्नलिखित पृष्ठ पर नया कूटशब्द चुनिये :"
 
-msgid "Your username, in case you’ve forgotten:"
-msgstr "Pro jistotu vaše uživatelské jméno:"
+msgid "Your username, in case you've forgotten:"
+msgstr "आपका प्रवोक्ता नाम, यदि भूल गये हों :"
 
 msgid "Thanks for using our site!"
-msgstr "Děkujeme za používání našeho webu!"
+msgstr "हमारे साइट को उपयोग करने के लिए धन्यवाद ।"
 
 #, python-format
 msgid "The %(site_name)s team"
-msgstr "Tým aplikace %(site_name)s"
+msgstr "%(site_name)s दल"
 
 msgid ""
-"Forgotten your password? Enter your email address below, and we’ll email "
+"Forgotten your password? Enter your email address below, and we'll email "
 "instructions for setting a new one."
 msgstr ""
-"Zapomněli jste heslo? Zadejte níže e-mailovou adresu a systém vám odešle "
-"postup k nastavení nového."
+"कूटशब्द भूल गए? नीचे अपना डाक पता भरें, वहाँ पर हम आपको नया कूटशब्द रखने के निर्देश भेजेंगे।"
 
 msgid "Email address:"
-msgstr "E-mailová adresa:"
+msgstr "डाक पता -"
 
 msgid "Reset my password"
-msgstr "Obnovit heslo"
+msgstr " मेरे कूटशब्द की पुनःस्थापना"
 
 msgid "All dates"
-msgstr "Všechna data"
+msgstr "सभी तिथियों"
 
 #, python-format
 msgid "Select %s"
-msgstr "%s: vybrat"
+msgstr "%s चुनें"
 
 #, python-format
 msgid "Select %s to change"
-msgstr "Vyberte položku %s ke změně"
-
-#, python-format
-msgid "Select %s to view"
-msgstr "Vyberte položku %s k zobrazení"
+msgstr "%s के बदली के लिए चयन करें"
 
 msgid "Date:"
-msgstr "Datum:"
+msgstr "तिथि:"
 
 msgid "Time:"
-msgstr "Čas:"
+msgstr "समय:"
 
 msgid "Lookup"
-msgstr "Hledat"
+msgstr "लुक अप"
 
 msgid "Currently:"
-msgstr "Aktuálně:"
+msgstr "फ़िलहाल - "
 
 msgid "Change:"
-msgstr "Změna:"
+msgstr "बदलाव -"
